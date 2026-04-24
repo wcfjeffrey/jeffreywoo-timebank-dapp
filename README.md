@@ -224,6 +224,8 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 ### 🔗 Blockchain Explanation by A Sample Ledger Entry
 
+<img src="assets/JeffreyWooTimeBank4a.png" alt="JeffreyWooTimeBank4a" width="1200" height="600" />
+
 Priya Iyer offers a 30‑minute portfolio + resume review for designers via video call.
 
 The previous transaction’s hash is:  
