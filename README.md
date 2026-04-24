@@ -530,16 +530,21 @@ The previous transaction’s hash is:
 |Created At	|2026-04-22T10:00:00Z|
 |PrevHash	|300cd5...d8ac|
 
-#### 🧮 Hash Payload Construction
+#### 1. Transaction A (prevHash: before Priya’s entry) (hash payload construction)
+
+- Its fields are concatenated into a payload string.  
+- SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.
 
 To compute the **entryHash**, I concatenate the fields into a single string:
 ```
 tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|30|Portfolio + resume review|svc456|30-min video call feedback|2026-04-22T10:00:00Z|300cd5...d8ac
 ```
 
-#### 🔐 Hash Computation
+#### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
 
-Using **SHA‑256**:
+- Includes `prevHash` = `entryHash_A`.  
+- Concatenates all fields **including that `prevHash` into a new payload**.  
+- Using **SHA‑256** to hash this payload produces `entryHash_B` = f31ab3...317e.
 ```
 import crypto from "crypto";
 
@@ -553,25 +558,12 @@ const entryHash = computeHash(payload);
 console.log(entryHash); // f31ab3...317e
 ```
 
-#### 📘 How Blockchain Works
-
-**1. Transaction A (prevHash: before Priya’s entry)**
-
-- Its fields are concatenated into a payload string.  
-- SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.
-
-**2. Transaction B (entryHash_B: Priya’s entry)**
-
-- Includes `prevHash` = `entryHash_A`.  
-- Concatenates all fields **including that `prevHash` into a new payload**.  
-- Hashing this payload produces `entryHash_B` = f31ab3...317e.
-
-**3. Dependency**
+#### 3. Dependency
 
 - Priya’s `entryHash_B` is valid only if the `prevHash` matches the actual hash of the previous transaction.  
 - If Transaction A were altered, its `entryHash_A` would change, breaking the link in Transaction B.
 
-#### ✅ Result
+#### 4. Result
 
 - **PrevHash:** 300cd5...d8ac  
 - **EntryHash:** f31ab3...317e
