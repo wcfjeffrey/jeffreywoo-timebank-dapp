@@ -87,53 +87,25 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time exchanges smarter, fairer, and more efficient. While the ledger ensures transparency and trust, AI adds intelligence to the way communities connect and collaborate.
 
-### Key Applications
-
-- **Skill & Need Matching**  
-
-AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credits flow where they are most valuable.
-
-- **Community Insights**  
-
-Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).
-
-- **Personalized Recommendations**  
-
-AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.
-
-- **Trust & Reputation Scoring**  
-
-AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.
-
-- **Scalability Across Communities**  
-
-AI enables interoperability between local timebanks, predicting cross‑community exchanges and fostering global collaboration.
+|Key Applications|Description|
+|----------------|-----------|
+|**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credits flow where they are most valuable.|
+|**Community Insights**|Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).|
+|**Personalized Recommendations**|AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.|
+|**Trust & Reputation Scoring**|AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.|
+|**Scalability Across Communities**|AI enables interoperability between local timebanks, predicting cross‑community exchanges and fostering global collaboration.|
 
 ## 🔗 Blockchain & Ledger Technology
 
 **JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit exchanges.
 
-### Core Features
-
-- **Hash‑Chained Transactions**
-
-Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.
-
-- **Public Verifiability**
-
-Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.
-
-- **Time Credits as Currency**
-
-Each hour of service provided equals one hour earned. Credits circulate freely, enabling flexible exchanges across the community.
-
-- **AI‑Enhanced Matching**
-
-AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.
-
-- **Decentralized Identity & Reputation**
-
-Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.
+|Core Features|Description|
+|-------------|-----------|
+|**Hash‑Chained Transactions**|Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
+|**Public Verifiability**|Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.|
+|**Time Credits as Currency**|Each hour of service provided equals one hour earned. Credits circulate freely, enabling flexible exchanges across the community.|
+|**AI‑Enhanced Matching**|AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
+|**Decentralized Identity & Reputation**|Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.|
 
 ## ⚙️ Formation of the Hash‑Chained Ledger
 
