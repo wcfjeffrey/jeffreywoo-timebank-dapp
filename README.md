@@ -127,7 +127,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 **3. EntryHash**
 
 - The **entryHash** is computed by concatenating the transaction’s fields, including ID, Index, Kind (Grant, Exchange, Donation, Pool Payout), From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and **prevHash**.
-- This concatenated string is then hashed using a cryptographic function such as SHA‑256.
+- This concatenated string is then hashed using a cryptographic function such as **SHA‑256**.
 
 **4. Chain Integrity**
 
@@ -198,7 +198,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 ### 🔗 Blockchain Explanation by A Sample Ledger Entry
 
-Suppose we have a transaction where Priya Iyer provides 60 minutes of tutoring.
+Priya Iyer offers a 30‑minute portfolio + resume review for designers via video call.
 
 The previous transaction’s hash is:  
 - PrevHash: 300cd5...d8ac  
@@ -208,31 +208,30 @@ The previous transaction’s hash is:
 
 |Field	|Value|
 |-------|-----|
-|ID	|tx1001|
+|ID	|tx2001|
 |Index	|1|
 |Kind	|GRANT|
 |From ID	|user123|
 |From Name	|Priya Iyer|
-|To ID	|user456|
-|To Name	|Community Member|
-|Minutes	|60|
-|Memo	|Tutoring session|
-|Related Service ID	|svc789|
-|Related Service Title	|Math Tutoring|
-|Created At	|2026-04-24T17:30:00Z|
+|To ID	|user789|
+|To Name	|Designer Participant|
+|Minutes	|30|
+|Memo	|Portfolio + resume review|
+|Related Service ID	|svc456|
+|Related Service Title	|30-min video call feedback|
+|Created At	|2026-04-22T10:00:00Z|
 |PrevHash	|300cd5...d8ac|
 
 #### 🧮 Hash Payload Construction
 
-To compute the entryHash, we concatenate the fields into a single string:
-
-Code
-tx1001|1|GRANT|user123|Priya Iyer|user456|Community Member|60|Tutoring session|svc789|Math Tutoring|2026-04-24T17:30:00Z|300cd5...d8ac
+To compute the **entryHash**, we concatenate the fields into a single string:
+```
+tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|30|Portfolio + resume review|svc456|30-min video call feedback|2026-04-22T10:00:00Z|300cd5...d8ac
+```
 
 #### 🔐 Hash Computation
 
-Using SHA‑256:
-
+Using **SHA‑256**:
 ```
 import crypto from "crypto";
 
@@ -240,7 +239,7 @@ function computeHash(data: string) {
   return crypto.createHash("sha256").update(data).digest("hex");
 }
 
-const payload = "tx1001|1|GRANT|user123|Priya Iyer|user456|Community Member|60|Tutoring session|svc789|Math Tutoring|2026-04-24T17:30:00Z|300cd5...d8ac";
+const payload = "tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|30|Portfolio + resume review|svc456|30-min video call feedback|2026-04-22T10:00:00Z|300cd5...d8ac";
 
 const entryHash = computeHash(payload);
 console.log(entryHash); // f31ab3...317e
@@ -248,10 +247,10 @@ console.log(entryHash); // f31ab3...317e
 
 #### ✅ Result
 
-- PrevHash: 300cd5...d8ac
-- EntryHash: f31ab3...317e
+- **PrevHash:** 300cd5...d8ac
+- **EntryHash:** f31ab3...317e
 
-This shows how the new transaction is cryptographically linked to the previous one. If any field changes (e.g., minutes, memo, or names), the resulting entryHash would change, breaking the chain — ensuring tamper‑evidence.
+This demonstrates how Priya’s **30‑minute video call review** is cryptographically linked to the previous transaction. Any change in the fields (e.g., minutes, memo, or names) would alter the entryHash, breaking the chain and ensuring tamper‑evidence.
 
 <img src="assets/JeffreyWooTimeBank5.png" alt="JeffreyWooTimeBank5" width="1200" height="1000" /> 
 <img src="assets/JeffreyWooTimeBank6.png" alt="JeffreyWooTimeBank6" width="1200" height="600" /> 
