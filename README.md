@@ -44,13 +44,6 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 - The ledger forms an immutable chain of service records, preventing tampering and ensuring accountability.
 - This blockchain‑inspired design provides **trust without intermediaries**, making time exchanges secure, auditable, and community-driven.
 
-### 🤝 Community Impact
-
-- Encourages volunteering and mutual aid.
-- Enables members to donate time to support vulnerable groups.
-- Builds trust and social connection across neighborhoods.
-- Empowers communities to value care, creativity, and collaboration equally.
-
 ## ✨ What It Does
 
 🤝 **Community Time Exchange** — trade time and skills directly with others through smart contracts  
@@ -59,14 +52,15 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 🌍 **Global & Local Integration** — supports Hong Kong community exchanges while connecting to global timebank networks  
 🔒 **Digital Identity & Trust Layer** — verifies participants via decentralized identity (DID) and reputation scoring
 
-## 💡 Social Impact
+## 🤝 Social Impact
 
 This project demonstrates how technology can reshape community collaboration by:  
-- Empowering individuals to value time equally, regardless of profession or income
-- Building trust through transparent, decentralized time exchange
-- Encouraging social inclusion and intergenerational cooperation
+- Empowering individuals to value time, care, and collaboration equally, regardless of profession or income
+- Building trust and social connection across neighborhoods through transparent, decentralized time exchange
+- Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation
 - Promoting sustainable community development through equitable resource sharing
 - Integrating AI to optimize skill matching and time utilization
+- Enables members to donate time to support vulnerable groups.
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
