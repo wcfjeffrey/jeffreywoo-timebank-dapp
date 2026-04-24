@@ -235,7 +235,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
 
-### 🔗 Blockchain Explanation by A Sample Ledger Entry
+### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
 
 <img src="assets/JeffreyWooTimeBank4a.png" alt="JeffreyWooTimeBank4a" width="1200" height="600" />
 
