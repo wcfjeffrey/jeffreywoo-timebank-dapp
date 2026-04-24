@@ -101,7 +101,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
                 ▼                               ▼
 ┌──────────────────────────────┐  ┌──────────────────────────────┐
 │       AI Matching Engine     │  │     Backend & API Layer      │
-│                              │  │       (Node.js / FastAPI)     │
+│                              │  │       (Node.js / FastAPI)    │
 │  ┌────────────────────────┐  │  └──────────────────────────────┘
 │  │ Gemini API / GPT-4o-ca │  │                 │
 │  └────────────────────────┘  │                 ▼
