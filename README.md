@@ -83,11 +83,37 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 - **Database:** PostgreSQL, Redis
 - **UI:** Tailwind CSS + Recharts + Framer Motion
 
+## 🎯 AI Application
+
+Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time exchanges smarter, fairer, and more efficient. While the ledger ensures transparency and trust, AI adds intelligence to the way communities connect and collaborate.
+
+### Key Applications
+
+**🔍 Skill & Need Matching**  
+
+AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credits flow where they are most valuable.
+
+**📊 Community Insights**  
+
+Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).
+
+**🧠 Personalized Recommendations**  
+
+AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.
+
+**🛡️ Trust & Reputation Scoring**  
+
+AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.
+
+**🌍 Scalability Across Communities**  
+
+AI enables interoperability between local timebanks, predicting cross‑community exchanges and fostering global collaboration.
+
 ## 🔗 Blockchain & Ledger Technology
 
 **JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit exchanges.
 
-**Core Features**
+### Core Features
 
 - **Hash‑Chained Transactions**
 
@@ -172,7 +198,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 1.	Clone the repository
     ```
-  	git clone `https://github.com/wcfjeffrey/jeffreywoo-timebank-dapp.git  
+  	git clone https://github.com/wcfjeffrey/jeffreywoo-timebank-dapp.git  
     cd jeffreywoo-timebank-dapp
     ```
     
@@ -250,7 +276,7 @@ console.log(entryHash); // f31ab3...317e
 - **PrevHash:** 300cd5...d8ac
 - **EntryHash:** f31ab3...317e
 
-This demonstrates how Priya’s **30‑minute video call review** is cryptographically linked to the previous transaction. Any change in the fields (e.g., minutes, memo, or names) would alter the entryHash, breaking the chain and ensuring tamper‑evidence.
+This demonstrates how Priya Iyer’s **30‑minute video call review** is cryptographically linked to the previous transaction. Any change in the fields (e.g., minutes, memo, or names) would alter the entryHash, breaking the chain and ensuring tamper‑evidence.
 
 <img src="assets/JeffreyWooTimeBank5.png" alt="JeffreyWooTimeBank5" width="1200" height="1000" /> 
 <img src="assets/JeffreyWooTimeBank6.png" alt="JeffreyWooTimeBank6" width="1200" height="600" /> 
