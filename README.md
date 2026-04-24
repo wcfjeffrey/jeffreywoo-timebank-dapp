@@ -523,7 +523,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 4.	Run the app  
     `npm run dev`
 
-## 🧠 Sample
+## 📋 Sample
 
 <img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="1000" />
 <img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
@@ -541,7 +541,7 @@ The previous transaction’s hash is:
 - prevHash: 300cd5...d8ac  
 - entryHash (computed): f31ab3...317e
 
-#### 📋 Transaction Fields
+#### Transaction Fields
 
 |Field	|Value|
 |-------|-----|
@@ -613,6 +613,16 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 <img src="assets/JeffreyWooTimeBank15.png" alt="JeffreyWooTimeBank15" width="1200" height="600" /> 
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
+
+## 📚 Related Resources
+
+1. [Zhang, C., Yu, W., Suo, H., & Chen, G. (2021). Blockchain in the 'Time Bank': Toward a community-oriented public interest technology. IEEE Transactions on Technology and Society.](https://ieeexplore.ieee.org/document/9431189)
+2. [Lin, J.-J., Lee, Y.-T., & Wu, J.-L. (2021). The effect of thickness-based dynamic matching mechanism on a Hyperledger Fabric-based timebank system. Future Internet, *13*(3).](https://www.mdpi.com/1999-5903/13/3/65)
+3. [Klijn, F. (2019). Time banks: A mechanism design approach. From Theory to Application.](http://www.coalitiontheory.net/content/time-banks-mechanism-design-approach)
+4. [Zhejiang Shuren University. (2024). A blockchain-based time bank service system design. Journal of Zhejiang Shuren University.](http://sdxb.zjsru.edu.cn/info/1613/7742.htm)
+5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
+6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
+7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
 
 ## ⚖️ Disclaimer
 
