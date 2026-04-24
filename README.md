@@ -195,6 +195,64 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 <img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
+
+### 🔗 Blockchain Explanation by A Sample Ledger Entry
+
+Suppose we have a transaction where Priya Iyer provides 60 minutes of tutoring.
+
+The previous transaction’s hash is:  
+- PrevHash: 300cd5...d8ac  
+- EntryHash (computed): f31ab3...317e
+
+#### 📋 Transaction Fields
+
+|Field	|Value|
+|-------|-----|
+|ID	|tx1001|
+|Index	|1|
+|Kind	|GRANT|
+|From ID	|user123|
+|From Name	|Priya Iyer|
+|To ID	|user456|
+|To Name	|Community Member|
+|Minutes	|60|
+|Memo	|Tutoring session|
+|Related Service ID	|svc789|
+|Related Service Title	|Math Tutoring|
+|Created At	|2026-04-24T17:30:00Z|
+|PrevHash	|300cd5...d8ac|
+
+#### 🧮 Hash Payload Construction
+
+To compute the entryHash, we concatenate the fields into a single string:
+
+Code
+tx1001|1|GRANT|user123|Priya Iyer|user456|Community Member|60|Tutoring session|svc789|Math Tutoring|2026-04-24T17:30:00Z|300cd5...d8ac
+
+#### 🔐 Hash Computation
+
+Using SHA‑256:
+
+```
+import crypto from "crypto";
+
+function computeHash(data: string) {
+  return crypto.createHash("sha256").update(data).digest("hex");
+}
+
+const payload = "tx1001|1|GRANT|user123|Priya Iyer|user456|Community Member|60|Tutoring session|svc789|Math Tutoring|2026-04-24T17:30:00Z|300cd5...d8ac";
+
+const entryHash = computeHash(payload);
+console.log(entryHash); // f31ab3...317e
+```
+
+#### ✅ Result
+
+- PrevHash: 300cd5...d8ac
+- EntryHash: f31ab3...317e
+
+This shows how the new transaction is cryptographically linked to the previous one. If any field changes (e.g., minutes, memo, or names), the resulting entryHash would change, breaking the chain — ensuring tamper‑evidence.
+
 <img src="assets/JeffreyWooTimeBank5.png" alt="JeffreyWooTimeBank5" width="1200" height="1000" /> 
 <img src="assets/JeffreyWooTimeBank6.png" alt="JeffreyWooTimeBank6" width="1200" height="600" /> 
 <img src="assets/JeffreyWooTimeBank7.png" alt="JeffreyWooTimeBank7" width="1200" height="600" />
