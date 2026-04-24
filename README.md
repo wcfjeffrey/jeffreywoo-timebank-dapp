@@ -123,7 +123,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 ## ⚖️ Disclaimer
 
-**JeffreyWoo TimeBank** is a conceptual decentralized application created for educational, research, and community development purposes only. It is not intended to function as a financial product, investment vehicle, or regulated service. The platform does not issue, trade, or guarantee monetary assets, and any time credits exchanged within the system are purely illustrative and non‑financial. Use of this project should be understood as experimental and exploratory, without any implication of financial return, legal enforceability, or commercial offering.
+**JeffreyWoo TimeBank** is a conceptual decentralized application created for **educational, research, and community development purposes only**. It is not intended to function as a financial product, investment vehicle, or regulated service. The platform does not issue, trade, or guarantee monetary assets, and any time credits exchanged within the system are purely illustrative and non‑financial. Use of this project should be understood as experimental and exploratory, without any implication of financial return, legal enforceability, or commercial offering.
 
 ## 📄 License
 
