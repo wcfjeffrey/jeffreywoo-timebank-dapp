@@ -83,7 +83,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Decentralized Identity (DID)**	| Builds trust through verifiable digital identities|
 |**Community Analytics**	| Tracks engagement, contribution, and social impact metrics|
 
-## 🏗️ System Architecture Overview
+## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────┐
 │                    User Interface (React)                       │
@@ -197,7 +197,98 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 - Because each transaction depends on the hash of the previous one, altering any record breaks the chain.
 - This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.
 
-## 🪙 Future Roadmap
+## 🪙 System Architecture Overview — Future State (with Roadmap Integration)
+<pre lang="markdown">
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         User Interface (React)                              │
+│                           TypeScript Frontend                               │
+│                      (Tailwind CSS / Framer Motion)                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          Frontend Logic Layer                               │
+│                     (State Management / API Calls)                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                      │
+          ┌───────────────────────────┼───────────────────────────┐
+          ▼                           ▼                           ▼
+┌─────────────────────┐   ┌─────────────────────┐   ┌─────────────────────────┐
+│   AI Matching       │   │   Backend & API     │   │  Decentralized Identity │
+│      Engine         │   │   Layer             │   │  (DID) Integration      │
+│  (Current + Future  │   │ (Node.js / FastAPI) │   │      (Future)           │
+│   Expansion)        │   │                     │   │                         │
+│ ┌─────────────────┐ │   └─────────────────────┘   │ ┌─────────────────────┐ │
+│ │ Gemini API /    │ │             │               │ │ Verifiable Digital  │ │
+│ │ GPT-4o-ca       │ │             ▼               │ │ Identities          │ │
+│ └─────────────────┘ │   ┌─────────────────────┐   │ │ Reputation Scoring  │ │
+│ ┌─────────────────┐ │   │  Application DB     │   │ └─────────────────────┘ │
+│ │ Demand/Supply   │ │   │ (PostgreSQL/Redis)  │   └─────────────────────────┘
+│ │ Prediction      │ │   └─────────────────────┘
+│ │ (Future)        │ │             │
+│ └─────────────────┘ │             ▼
+└─────────────────────┘   ┌─────────────────────────────────────────────────┐
+                          │                                                 │
+                          │         SMART CONTRACT ECOSYSTEM (Future)       │
+                          │                                                 │
+                          │  ┌─────────────────────────────────────────┐    │
+                          │  │         Solidity Smart Contracts        │    │
+                          │  │  • Time Credit Logic                    │    │
+                          │  │  • Exchange / Donation Rules            │    │
+                          │  └─────────────────────────────────────────┘    │
+                          │                    │                            │
+                          │         ┌──────────┴──────────┐                 │
+                          │         ▼                     ▼                 │
+                          │  ┌─────────────┐      ┌─────────────────────┐   │
+                          │  │  ERC-20 /   │      │  ERC-721 (Optional) │   │
+                          │  │  ERC-721    │      │  Unique Service NFTs│   │
+                          │  │  Tokenization│     │                     │   │
+                          │  └─────────────┘      └─────────────────────┘   │
+                          │                    │                            │
+                          │         ┌──────────┴──────────┐                 │
+                          │         ▼                     ▼                 │
+                          │  ┌─────────────┐      ┌─────────────────────┐   │
+                          │  │  Ethereum   │      │  Polygon            │   │
+                          │  │  Network    │      │  Network            │   │
+                          │  └─────────────┘      └─────────────────────┘   │
+                          │                    │                            │
+                          │         ┌──────────┴──────────┐                 │
+                          │         ▼                     ▼                 │
+                          │  ┌─────────────────────────────────────────┐    │
+                          │  │      Cross-Community Interoperability   │    │
+                          │  │  • Global Timebank Network              │    │
+                          │  │  • Cross-Border Time Credit Exchanges   │    │
+                          │  └─────────────────────────────────────────┘    │
+                          │                    │                            │
+                          │                    ▼                            │
+                          │  ┌─────────────────────────────────────────┐    │
+                          │  │         DAO Governance Layer            │    │
+                          │  │  • Community Voting                     │    │
+                          │  │  • Rule Upgrades                        │    │
+                          │  │  • Dispute Resolution                   │    │
+                          │  └─────────────────────────────────────────┘    │
+                          └─────────────────────────────────────────────────┘
+                                      │
+                                      ▼
+                          ┌─────────────────────────────────────────────────┐
+                          │            Current: Hash-Chained Ledger         │
+                          │         (Internal — Until Smart Contracts       │
+                          │          are fully deployed)                    │
+                          │                                                 │
+                          │  ┌─────────────────────────────────────────┐    │
+                          │  │  SHA-256 Hash-Chained Records           │    │
+                          │  │  • prevHash & entryHash                 │    │
+                          │  │  • Tamper-evident transaction log       │    │
+                          │  └─────────────────────────────────────────┘    │
+                          └─────────────────────────────────────────────────┘
+                                      │
+                                      ▼
+                          ┌─────────────────────────────────────────────────┐
+                          │              Community Analytics                │
+                          │           (Dashboards & Insights)               │
+                          │  • Engagement tracking  • Impact metrics        │
+                          │  • Demand forecasting   • Reputation scores     │
+                          └─────────────────────────────────────────────────┘</pre>
 
 **JeffreyWoo TimeBank** is currently a conceptual DApp built on a blockchain‑inspired hash‑chained ledger. Future development may extend this foundation into a fully deployed smart contract ecosystem. Planned directions include:
 
