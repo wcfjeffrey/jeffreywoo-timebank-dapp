@@ -29,7 +29,7 @@ This project demonstrates how technology can reshape community collaboration by:
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
-Most apps focus on money. JeffreyWoo TimeBank focuses on time — the most universal currency.
+Most apps focus on money. **JeffreyWoo TimeBank** focuses on time — the most universal currency.
 It merges AI intelligence with blockchain fairness, creating a new way to exchange value that’s human-centered, transparent, and future-ready.
 
 ## 🧩 Core Concepts
