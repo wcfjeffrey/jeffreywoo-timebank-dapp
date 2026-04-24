@@ -54,20 +54,20 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
                |   State Mgmt / API Calls  |
                └───────────────────────────┘
                              |
-           ┌───────────────────────────────────┐
-           ↓                                   ↓
-    ┌────────────────┐          ┌───────────────────────────┐
-    | Smart Contracts|          | AI Matching Engine        |
-    | (Solidity)     |          | Gemini API / GPT-4o       |
-    |                |          | (Pluggable AI Model APIs) |
-    └────────────────┘          └───────────────────────────┘
-            ↓                                  ↓
+             ┌─────────────────────────────────┐
+             ↓                                 ↓
+     ┌────────────────┐         ┌───────────────────────────┐
+     | Smart Contracts|         | AI Matching Engine        |
+     | (Solidity)     |         | Gemini API / GPT-4o       |
+     |                |         | (Pluggable AI Model APIs) |
+     └────────────────┘         └───────────────────────────┘
+              ↓                                ↓
 ┌───────────────────────────┐   ┌───────────────────────────┐
 | Blockchain Network        |   | Skill & Profile Database  |
 | Ethereum / Polygon        |   | PostgreSQL / Redis        |
 | (Configured chain)        |   |                           | 
 └───────────────────────────┘   └───────────────────────────┘
-            ↓                                  ↓
+              ↓                                ↓
 ┌───────────────────────────┐   ┌───────────────────────────┐
 | Transaction Ledger        |   | Community Analytics       |
 | Immutable Records         |   | Dashboards & Insights     |
