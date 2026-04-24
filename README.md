@@ -268,12 +268,12 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.
 
-**2. PrevHash**
+**2. prevHash**
 
 - The **prevHash** field stores the hash of the previous transaction’s **entryHash**.
 - This links each new record to the one before it, forming a continuous chain.
 
-**3. EntryHash**
+**3. entryHash**
 
 - The **entryHash** is computed by concatenating the transaction’s fields, including ID, Index, Kind (Grant, Exchange, Donation, Pool Payout), From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and **prevHash**.
 - This concatenated string is then hashed using a cryptographic function such as **SHA‑256**.
@@ -510,8 +510,8 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 Priya Iyer offers a 30‑minute portfolio + resume review for designers via video call.
 
 The previous transaction’s hash is:  
-- PrevHash: 300cd5...d8ac  
-- EntryHash (computed): f31ab3...317e
+- prevHash: 300cd5...d8ac  
+- entryHash (computed): f31ab3...317e
 
 #### 📋 Transaction Fields
 
@@ -529,7 +529,7 @@ The previous transaction’s hash is:
 |Related Service ID	|svc456|
 |Related Service Title	|30-min video call feedback|
 |Created At	|2026-04-22T10:00:00Z|
-|PrevHash	|300cd5...d8ac|
+|prevHash	|300cd5...d8ac|
 
 #### 1. Transaction A (prevHash: before Priya’s entry) (hash payload construction)
 
@@ -566,8 +566,8 @@ console.log(entryHash); // f31ab3...317e
 
 #### 4. Result
 
-- **PrevHash:** 300cd5...d8ac  
-- **EntryHash:** f31ab3...317e
+- **prevHash:** 300cd5...d8ac  
+- **entryHash:** f31ab3...317e
 - Each entryHash locks in the previous transaction’s hash.
 - This creates a hash‑chained ledger: TxA → TxB → TxC …
 - Any tampering in earlier entries invalidates all subsequent hashes, ensuring immutability and transparency.
