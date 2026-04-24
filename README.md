@@ -6,7 +6,7 @@
          
 > **Not your typical community exchange app!**
 
-**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency. Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
+**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency (TimeCoin). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
@@ -14,11 +14,11 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
 
-**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency.
+**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin).
 
 ### 💡 Core Concept
 
-- Timebanking allows members to earn time credits by providing services and spend/donate those time credits to receive help or support others.
+- Timebanking allows members to earn time credits (TimeCoin) by providing services and spend/donate those time credits (TimeCoin) to receive help or support others.
 - The guiding rule is simple: **1 hour given = 1 hour earned**.
 
 ### 🔄 How It Works
@@ -27,10 +27,10 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 Members offer skills — tutoring, caregiving, design review, repairs, etc. — and record the time spent helping others.
 
 #### 2. Earning Time Credits  
-Each hour of service generates a one-time credit stored securely in the ledger.
+Each hour of service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
 
 #### 3. Spending/Donating Time Credits  
-Members use earned credits to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
+Members use earned time credits (TimeCoin) to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
 
 #### 4. Flexible Reciprocity  
 Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration or a continuous cycle of goodwill.
@@ -71,7 +71,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 |Concept	| Description|
 |---------|------------|
-|**Time as Currency**	| Every hour of service equals one hour of credit, regardless of skill type|
+|**Time as Currency**	| Every hour of service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type|
 |**Smart Contracts**	| Automate time transactions securely on the blockchain|
 |**AI Skill Matching**	| Suggests optimal exchanges based on user profiles and community demand|
 |**Decentralized Identity (DID)**	| Builds trust through verifiable digital identities|
@@ -195,7 +195,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 │  │                                                                               │  │
 │  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
 │  │  │                    1 Hour Given = 1 Hour Earned                         │  │  │
-│  │  │                         (Time Credit Rule)                              │  │  │
+│  │  │                    (Time Credit/Time Coin Rule)                         │  │  │
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘
@@ -240,7 +240,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 |Key Application|Description|
 |----------------|-----------|
-|**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credits flow where they are most valuable.|
+|**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credit (TimeCoin) flow where they are most valuable.|
 |**Community Insights**|Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).|
 |**Personalized Recommendations**|AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.|
 |**Trust & Reputation Scoring**|AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.|
@@ -248,14 +248,14 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## 🔗 Blockchain & Ledger Techniques Applied
 
-**JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit exchanges.
+**JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit (TimeCoin) exchanges.
 
 |Core Feature|Description|
 |-------------|-----------|
 |**Hash‑Chained Transactions**|Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
 |**Public Verifiability**|Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.|
-|**Time Credits as Currency**|Each hour of service provided equals one hour earned. Credits circulate freely, enabling flexible exchanges across the community.|
-|**AI‑Enhanced Matching**|AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
+|**Time Credits as Currency**|Each hour of service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
+|**AI‑Enhanced Matching**|AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits/TimeCoins.|
 |**Decentralized Identity & Reputation**|Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.|
 
 ## ⚙️ Formation of the Hash‑Chained Ledger
@@ -451,7 +451,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 - **Tokenization of Time Credits**
 
-  - Represent each hour of service as a transferable ERC‑20 or ERC‑721 token  
+  - Represent each hour of service as a transferable ERC‑20 or ERC‑721 token (1 hour = 1 TimeCoin)  
   - Enable interoperability with other decentralized applications
 
 - **Decentralized Identity (DID) Integration**
@@ -467,7 +467,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 - **Cross‑Community Interoperability**
 
   - Connect multiple local timebanks into a global network  
-  - Enable cross‑border exchanges of time credits
+  - Enable cross‑border exchanges of time credits/TimeCoins
 
 - **Governance & Data Access Object (DAO) Model**
 
@@ -535,6 +535,7 @@ The previous transaction’s hash is:
 
 - Its fields are concatenated into a payload string.  
 - SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.
+- 1 hour = 1 time credit, so `entryHash_A` has 15 minutes = 0.25 time credits = 0.25 TimeCoins
 
 #### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
 
@@ -553,6 +554,7 @@ const payload = "tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|
 const entryHash = computeHash(payload);
 console.log(entryHash); // f31ab3...317e
 ```
+- 1 hour = 1 time credit, so `entryHash_B` has 30 minutes = 0.5 time credits = 0.5 TimeCoins
 
 #### 3. Dependency
 
@@ -561,8 +563,8 @@ console.log(entryHash); // f31ab3...317e
 
 #### 4. Result
 
-- **prevHash:** 300cd5...d8ac  
-- **entryHash:** f31ab3...317e
+- **prevHash:** 300cd5...d8ac  (0.25 TimeCoin)
+- **entryHash:** f31ab3...317e (0.5 TimeCoin)
 - Each entryHash locks in the previous transaction’s hash.
 - This creates a hash‑chained ledger: TxA → TxB → TxC …
 - Any tampering in earlier entries invalidates all subsequent hashes, ensuring immutability and transparency.
