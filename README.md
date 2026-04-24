@@ -18,7 +18,7 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 
 ### 💡 Core Concept
 
-- Timebanking allows members to earn time credits (TimeCoin) by providing services and spend/donate those time credits (TimeCoin) to receive help or support others.
+- Timebanking allows members to earn time credits (TimeCoins) by providing services and spend/donate those time credits (TimeCoins) to receive help or support others.
 - The guiding rule is simple: **1 hour given = 1 hour earned**.
 
 ### 🔄 How It Works
@@ -30,7 +30,7 @@ Members offer skills — tutoring, caregiving, design review, repairs, etc. — 
 Each hour of service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
 
 #### 3. Spending/Donating Time Credits  
-Members use earned time credits (TimeCoin) to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
+Members use earned time credits (TimeCoins) to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
 
 #### 4. Flexible Reciprocity  
 Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration or a continuous cycle of goodwill.
@@ -260,7 +260,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## ⚙️ Formation of the Hash‑Chained Ledger
 
-**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database to ensure immutability and verifiability of time credit transactions.
+**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database to ensure immutability and verifiability of time credit (TimeCoin) transactions.
 
 ### How It Works
 
@@ -563,8 +563,8 @@ console.log(entryHash); // f31ab3...317e
 
 #### 4. Result
 
-- **prevHash:** 300cd5...d8ac  (0.25 TimeCoin)
-- **entryHash:** f31ab3...317e (0.5 TimeCoin)
+- **prevHash:** 300cd5...d8ac  (0.25 TimeCoins)
+- **entryHash:** f31ab3...317e (0.5 TimeCoins)
 - Each entryHash locks in the previous transaction’s hash.
 - This creates a hash‑chained ledger: TxA → TxB → TxC …
 - Any tampering in earlier entries invalidates all subsequent hashes, ensuring immutability and transparency.
