@@ -247,6 +247,10 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |Data Integrity	|Reconciliation Design	|Hash chain ensures altering any transaction breaks all subsequent links — analogous to bank reconciliation and intercompany matching|
 |Smart Contracts	|Programmable Finance	|Planned Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
 |Stakeholder Reporting	|Dashboard Design	|Built live ledger viewer with community impact metrics — equivalent to board-level KPIs and balanced scorecards|
+|Digital Transformation	|Process Re-engineering	|Reimagined traditional timebanking with blockchain-inspired + AI layers — showing ability to lead finance tech transformation|
+|Project Management	|Cross-Functional Integration	|Project spans React frontend, Node.js backend, Gemini AI, PostgreSQL database — mirroring ERP implementation leadership|
+|Risk Management	|Control Design	|Built tamper-evident ledger to prevent fraud without central authority — analogous to designing fraud prevention frameworks|
+|Change Management	|Adoption Strategy	|Designed public verifiable ledger to build community trust without强制 central control — applicable to ERP or new system rollout|
 
 ## 🤖 Tech Stack
 
