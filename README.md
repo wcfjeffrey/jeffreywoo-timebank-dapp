@@ -10,6 +10,46 @@
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
+## ⏰ Timebanking System
+
+<img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="600" />
+
+**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency.
+
+### 💡 Core Concept
+
+- Timebanking allows members to earn time credits by providing services and spend time credits to receive help from others.
+- The guiding rule is simple: **1 hour given = 1 hour earned**.
+
+### 🔄 How It Works
+
+#### 1. Service Exchange  
+Members offer skills — tutoring, caregiving, design review, repairs, etc. — and record the time spent helping others.
+
+#### 2. Earning Time Credits  
+Each hour of service generates a one-time credit stored in the ledger.
+
+#### 3. Spending Time Credits  
+Members use earned credits to request services from others, creating a continuous cycle of giving and receiving.
+
+#### 4. Flexible Reciprocity  
+Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration.
+
+#### 5. Transparent Ledger  
+Every “earn” and “spend” transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
+
+### 🔗 Blockchain‑Inspired Transparency
+
+- Each transaction is cryptographically linked to the previous one using prevHash and entryHash.
+- The ledger forms an immutable chain of service records, preventing tampering and ensuring accountability.
+- This blockchain‑inspired design provides trust without intermediaries, making time exchanges secure and auditable.
+
+### 🤝 Community Impact
+
+- Encourages volunteering and mutual aid.
+- Builds trust and social connection across neighborhoods.
+- Empowers communities to value care, creativity, and collaboration equally.
+
 ## ✨ What It Does
 
 🤝 **Community Time Exchange** — trade time and skills directly with others through smart contracts  
