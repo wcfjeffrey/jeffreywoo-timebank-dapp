@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/JeffreyWooTimeBank.png" alt="JeffreyWooTimeBankBanner" width="1200" height="600" />
+  <img src="assets/JeffreyWooTimeBank.png" alt="JeffreyWooTimeBankBanner" width="1200" height="800" />
 </div>
 
 ## 📊 Overview
