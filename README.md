@@ -505,6 +505,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 ### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
 
 <img src="assets/JeffreyWooTimeBank4a.png" alt="JeffreyWooTimeBank4a" width="1200" height="600" />
+<img src="assets/JeffreyWooTimeBank4b.png" alt="JeffreyWooTimeBank4b" width="1200" height="600" />
 
 Priya Iyer offers a 30‑minute portfolio + resume review for designers via video call.
 
