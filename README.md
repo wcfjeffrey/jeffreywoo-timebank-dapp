@@ -536,15 +536,10 @@ The previous transaction’s hash is:
 - Its fields are concatenated into a payload string.  
 - SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.
 
-To compute the **entryHash**, I concatenate the fields into a single string:
-```
-tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|30|Portfolio + resume review|svc456|30-min video call feedback|2026-04-22T10:00:00Z|300cd5...d8ac
-```
-
 #### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
 
 - Includes `prevHash` = `entryHash_A`.  
-- Concatenates all fields **including that `prevHash` into a new payload**.  
+- Concatenates all fields **including that `prevHash` into a new payload (single string)**.  
 - Using **SHA‑256** to hash this payload produces `entryHash_B` = f31ab3...317e.
 ```
 import crypto from "crypto";
