@@ -11,15 +11,15 @@ AI driven matching intelligently connects neighbors by skills and needs, fosteri
 
 ## ✨ What It Does
 
-🤝 **Community Time Exchange** — trade time and skills directly with others through smart contracts
-🧠 **AI Matching Engine** — intelligently connects users based on skill profiles, availability, and community needs
-🔗 **Blockchain Transparency** — ensures secure, immutable records of time transactions
-🌍 **Global & Local Integration** — supports Hong Kong community exchanges while connecting to global timebank networks
+🤝 **Community Time Exchange** — trade time and skills directly with others through smart contracts  
+🧠 **AI Matching Engine** — intelligently connects users based on skill profiles, availability, and community needs  
+🔗 **Blockchain Transparency** — ensures secure, immutable records of time transactions  
+🌍 **Global & Local Integration** — supports Hong Kong community exchanges while connecting to global timebank networks  
 🔒 **Digital Identity & Trust Layer** — verifies participants via decentralized identity (DID) and reputation scoring
 
 ## 💡 Social Impact
 
-This project demonstrates how technology can reshape community collaboration by:
+This project demonstrates how technology can reshape community collaboration by:  
 - Empowering individuals to value time equally, regardless of profession or income
 - Building trust through transparent, decentralized time exchange
 - Encouraging social inclusion and intergenerational cooperation
@@ -74,13 +74,13 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 ## 🤖 Tech Stack
 
-•	**Language:** TypeScript, HTML
-•	**Framework:** React (Next.js optional)
-•	**Backend:** Node.js + FastAPI (for AI integration)
-•	**Blockchain:** Ethereum / Polygon (Smart Contracts via Solidity)
-•	**AI Models:** Gemini API, ChatAnywhere GPT 4o ca
-•	**Database:** PostgreSQL, Redis
-•	**UI:** Tailwind CSS + Recharts + Framer Motion
+- **Language:** TypeScript, HTML
+- **Framework:** React (Next.js optional)
+- **Backend:** Node.js + FastAPI (for AI integration)
+- **Blockchain:** Ethereum / Polygon (Smart Contracts via Solidity)
+- **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
+- **Database:** PostgreSQL, Redis
+- **UI:** Tailwind CSS + Recharts + Framer Motion
 
 ## 📦 Getting Started
 
