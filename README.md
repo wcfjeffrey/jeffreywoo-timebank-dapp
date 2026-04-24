@@ -12,7 +12,7 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 
 ## ⏰ Timebanking System
 
-<img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="600" />
+<img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="1000" />
 
 **JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency.
 
