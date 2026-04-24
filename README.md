@@ -260,7 +260,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## ⚙️ Formation of the Hash‑Chained Ledger
 
-**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database to ensure immutability and verifiability of time credit (TimeCoin) transactions.
+**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default, i.e., no smart contracts. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database (PostgreSQL), to ensure immutability and verifiability of time credit (TimeCoin) transactions.
 
 ### How It Works
 
