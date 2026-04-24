@@ -55,7 +55,7 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 ## 🤝 Social Impact
 
 This project demonstrates how technology can reshape community collaboration by:  
-- Empowering individuals to value time, care, and collaboration equally, regardless of profession or income
+- Empowering individuals to value time and care equally, regardless of profession or income
 - Building trust and social connection across neighborhoods through transparent, decentralized time exchange
 - Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation
 - Promoting sustainable community development through equitable resource sharing
