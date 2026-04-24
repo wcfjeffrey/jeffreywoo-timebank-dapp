@@ -116,7 +116,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 <img src="assets/JeffreyWooTimeBank11.png" alt="JeffreyWooTimeBank11" width="1200" height="600" /> 
 <img src="assets/JeffreyWooTimeBank12.png" alt="JeffreyWooTimeBank12" width="1200" height="600" /> 
 <img src="assets/JeffreyWooTimeBank13.png" alt="JeffreyWooTimeBank13" width="1200" height="600" />
-<img src="assets/JeffreyWooTimeBank14.png" alt="JeffreyWooTimeBank14" width="1200" height="600" /> 
+<img src="assets/JeffreyWooTimeBank14.png" alt="JeffreyWooTimeBank14" width="600" height="600" /> 
 <img src="assets/JeffreyWooTimeBank15.png" alt="JeffreyWooTimeBank15" width="1200" height="600" /> 
  
 *Note: Both earn and spend time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
