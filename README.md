@@ -18,7 +18,7 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 
 ### 💡 Core Concept
 
-- Timebanking allows members to earn time credits by providing services and spend time credits to receive help from others.
+- Timebanking allows members to earn time credits by providing services and spend/donate those time credits to receive help or support others.
 - The guiding rule is simple: **1 hour given = 1 hour earned**.
 
 ### 🔄 How It Works
@@ -27,26 +27,27 @@ AI-driven matching intelligently connects neighbors by skills and needs, fosteri
 Members offer skills — tutoring, caregiving, design review, repairs, etc. — and record the time spent helping others.
 
 #### 2. Earning Time Credits  
-Each hour of service generates a one-time credit stored in the ledger.
+Each hour of service generates a one-time credit stored securely in the ledger.
 
 #### 3. Spending Time Credits  
-Members use earned credits to request services from others, creating a continuous cycle of giving and receiving.
+Members use earned credits to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
 
 #### 4. Flexible Reciprocity  
-Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration.
+Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration or a continuous cycle of goodwill.
 
 #### 5. Transparent Ledger  
-Every “earn” and “spend” transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
+Every “earn”, “spend” and "donate" transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
 
 ### 🔗 Blockchain‑Inspired Transparency
 
-- Each transaction is cryptographically linked to the previous one using prevHash and entryHash.
+- Each transaction is cryptographically linked to the previous one using **prevHash** and **entryHash**.
 - The ledger forms an immutable chain of service records, preventing tampering and ensuring accountability.
-- This blockchain‑inspired design provides trust without intermediaries, making time exchanges secure and auditable.
+- This blockchain‑inspired design provides **trust without intermediaries**, making time exchanges secure, auditable, and community-driven.
 
 ### 🤝 Community Impact
 
 - Encourages volunteering and mutual aid.
+- Enables members to donate time to support vulnerable groups.
 - Builds trust and social connection across neighborhoods.
 - Empowers communities to value care, creativity, and collaboration equally.
 
