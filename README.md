@@ -126,7 +126,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 **3. EntryHash**
 
-- The **entryHash** is computed by concatenating the transaction’s fields (ID, Index, Kind, From ID, To ID, Minutes, Memo, Related Service ID, Created At, and **prevHash**).
+- The **entryHash** is computed by concatenating the transaction’s fields, including ID, Index, Kind (Grant, Exchange, Donation, Pool Payout), From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and **prevHash**.
 - This concatenated string is then hashed using a cryptographic function such as SHA‑256.
 
 **4. Chain Integrity**
