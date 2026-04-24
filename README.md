@@ -161,7 +161,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
   - Connect multiple local timebanks into a global network  
   - Enable cross‑border exchanges of time credits
 
-- **Governance & DAO Model**
+- **Governance & Data Access Object (DAO) Model**
 
   - Introduce community voting for rules, upgrades, and dispute resolution  
   - Ensure democratic participation in platform evolution
