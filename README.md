@@ -87,7 +87,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time exchanges smarter, fairer, and more efficient. While the ledger ensures transparency and trust, AI adds intelligence to the way communities connect and collaborate.
 
-|Key Applications|Description|
+|Key Application|Description|
 |----------------|-----------|
 |**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credits flow where they are most valuable.|
 |**Community Insights**|Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).|
@@ -99,7 +99,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 **JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit exchanges.
 
-|Core Features|Description|
+|Core Feature|Description|
 |-------------|-----------|
 |**Hash‑Chained Transactions**|Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
 |**Public Verifiability**|Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.|
