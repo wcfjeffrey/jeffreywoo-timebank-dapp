@@ -36,11 +36,11 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 |Concept	| Description|
 |---------|------------|
-|Time as Currency	| Every hour of service equals one hour of credit, regardless of skill type|
-|Smart Contracts	| Automate time transactions securely on the blockchain|
-|AI Skill Matching	| Suggests optimal exchanges based on user profiles and community demand|
-|Decentralized Identity (DID)	| Builds trust through verifiable digital identities|
-|Community Analytics	| Tracks engagement, contribution, and social impact metrics|
+|**Time as Currency**	| Every hour of service equals one hour of credit, regardless of skill type|
+|**Smart Contracts**	| Automate time transactions securely on the blockchain|
+|**AI Skill Matching**	| Suggests optimal exchanges based on user profiles and community demand|
+|**Decentralized Identity (DID)**	| Builds trust through verifiable digital identities|
+|**Community Analytics**	| Tracks engagement, contribution, and social impact metrics|
 
 ## 🏗️ System Architecture Overview
 <pre lang="markdown">
@@ -83,6 +83,91 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 - **Database:** PostgreSQL, Redis
 - **UI:** Tailwind CSS + Recharts + Framer Motion
 
+## 🔗 Blockchain & Ledger Technology
+
+**JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit exchanges.
+
+**Core Features**
+
+- **Hash‑Chained Transactions**
+
+Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.
+
+- **Public Verifiability**
+
+Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.
+
+- **Time Credits as Currency**
+
+Each hour of service provided equals one hour earned. Credits circulate freely, enabling flexible exchanges across the community.
+
+- **AI‑Enhanced Matching**
+
+AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.
+
+- **Decentralized Identity & Reputation**
+
+Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.
+
+## ⚙️ Formation of the Hash‑Chained Ledger
+
+**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database to ensure immutability and verifiability of time credit transactions.
+
+### How It Works
+
+**1. Transaction Entry**  
+
+Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.
+
+**2. PrevHash**
+
+- The **prevHash** field stores the hash of the previous transaction’s **entryHash**.
+- This links each new record to the one before it, forming a continuous chain.
+
+**3. EntryHash**
+
+- The **entryHash** is computed by concatenating the transaction’s fields (ID, Index, Kind, From ID, To ID, Minutes, Memo, Related Service ID, Created At, and **prevHash**).
+- This concatenated string is then hashed using a cryptographic function such as SHA‑256.
+
+**4. Chain Integrity**
+
+- Because each transaction depends on the hash of the previous one, altering any record breaks the chain.
+- This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.
+
+## 🪙 Future Roadmap
+
+**JeffreyWoo TimeBank** is currently a conceptual DApp built on a blockchain‑inspired hash‑chained ledger. Future development may extend this foundation into a fully deployed smart contract ecosystem. Planned directions include:
+
+- **Smart Contract Deployment**
+
+  - Implement core time credit logic in Solidity  
+  - Deploy contracts to Ethereum or Polygon for transparent, verifiable exchanges
+
+- **Tokenization of Time Credits**
+
+  - Represent each hour of service as a transferable ERC‑20 or ERC‑721 token  
+  - Enable interoperability with other decentralized applications
+
+- **Decentralized Identity (DID) Integration**
+
+  - Support verifiable digital identities for participants  
+  - Build reputation scoring based on contribution history
+
+- **AI‑Enhanced Matching Engine**
+
+  - Expand skill‑matching algorithms with advanced AI APIs  
+  - Optimize community exchanges by predicting demand and supply trends
+
+- **Cross‑Community Interoperability**
+
+  - Connect multiple local timebanks into a global network  
+  - Enable cross‑border exchanges of time credits
+
+- **Governance & DAO Model**
+
+  - Introduce community voting for rules, upgrades, and dispute resolution  
+  - Ensure democratic participation in platform evolution
+
 ## 📦 Getting Started
 
 1.	Clone the repository
@@ -90,15 +175,18 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
   	git clone `https://github.com/wcfjeffrey/jeffreywoo-timebank-dapp.git  
     cd jeffreywoo-timebank-dapp
     ```
-3.	Install dependencies  
+    
+2.	Install dependencies  
     `npm install`
-4.	Set up environment variables  
+  	
+3.	Set up environment variables  
     Create .env.local and add your keys:  
     ```
     GEMINI_API_KEY=your_api_key_here
     BLOCKCHAIN_NETWORK=polygon
     ```
-6.	Run the app  
+    
+4.	Run the app  
     `npm run dev`
 
 ## 🧠 Sample
