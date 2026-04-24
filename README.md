@@ -224,7 +224,7 @@ The previous transaction’s hash is:
 
 #### 🧮 Hash Payload Construction
 
-To compute the **entryHash**, we concatenate the fields into a single string:
+To compute the **entryHash**, I concatenate the fields into a single string:
 ```
 tx2001|1|GRANT|user123|Priya Iyer|user789|Designer Participant|30|Portfolio + resume review|svc456|30-min video call feedback|2026-04-22T10:00:00Z|300cd5...d8ac
 ```
