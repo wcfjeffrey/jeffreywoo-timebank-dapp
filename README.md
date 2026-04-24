@@ -553,10 +553,31 @@ const entryHash = computeHash(payload);
 console.log(entryHash); // f31ab3...317e
 ```
 
+#### 📘 How Blockchain Works
+
+**1. Transaction A (prevHash: before Priya’s entry)**
+
+- Its fields are concatenated into a payload string.  
+- SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.
+
+**2. Transaction B (entryHash_B: Priya’s entry)**
+
+- Includes `prevHash` = `entryHash_A`.  
+- Concatenates all fields **including that `prevHash` into a new payload**.  
+- Hashing this payload produces `entryHash_B` = f31ab3...317e.
+
+**3. Dependency**
+
+- Priya’s `entryHash_B` is valid only if the `prevHash` matches the actual hash of the previous transaction.  
+- If Transaction A were altered, its `entryHash_A` would change, breaking the link in Transaction B.
+
 #### ✅ Result
 
-- **PrevHash:** 300cd5...d8ac
+- **PrevHash:** 300cd5...d8ac  
 - **EntryHash:** f31ab3...317e
+- Each entryHash locks in the previous transaction’s hash.
+- This creates a hash‑chained ledger: TxA → TxB → TxC …
+- Any tampering in earlier entries invalidates all subsequent hashes, ensuring immutability and transparency.
 
 This demonstrates how Priya Iyer’s **30‑minute video call review** is cryptographically linked to the previous transaction. Any change in the fields (e.g., minutes, memo, or names) would alter the entryHash, breaking the chain and ensuring tamper‑evidence.
 
