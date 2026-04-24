@@ -29,14 +29,14 @@ Members offer skills — tutoring, caregiving, design review, repairs, etc. — 
 #### 2. Earning Time Credits  
 Each hour of service generates a one-time credit stored securely in the ledger.
 
-#### 3. Spending Time Credits  
+#### 3. Spending/Donating Time Credits  
 Members use earned credits to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
 
 #### 4. Flexible Reciprocity  
 Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration or a continuous cycle of goodwill.
 
 #### 5. Transparent Ledger  
-Every “earn”, “spend” and "donate" transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
+Every “earn”, “spend/donate" transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
 
 ### 🔗 Blockchain‑Inspired Transparency
 
@@ -305,7 +305,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 <img src="assets/JeffreyWooTimeBank14.png" alt="JeffreyWooTimeBank14" width="600" height="400" /> 
 <img src="assets/JeffreyWooTimeBank15.png" alt="JeffreyWooTimeBank15" width="1200" height="600" /> 
  
-*Note: Both earn and spend time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
+*Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
 ## ⚖️ Disclaimer
 
