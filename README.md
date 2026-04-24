@@ -565,6 +565,7 @@ console.log(entryHash); // f31ab3...317e
 
 - **prevHash:** 300cd5...d8ac  (0.25 TimeCoins)
 - **entryHash:** f31ab3...317e (0.5 TimeCoins)
+- Priya Iyer has given a total of 45 minutes (0.75 TimeCoins = 0.25 + 0.5) to the community.
 - Each entryHash locks in the previous transaction’s hash.
 - This creates a hash‑chained ledger: TxA → TxB → TxC …
 - Any tampering in earlier entries invalidates all subsequent hashes, ensuring immutability and transparency.
