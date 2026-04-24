@@ -103,14 +103,14 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 ## 🧠 Sample
 
-<img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="600" />
-<img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="1200" height="600" /> 
-<img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="1200" height="600" /> 
-<img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="600" />
-<img src="assets/JeffreyWooTimeBank5.png" alt="JeffreyWooTimeBank5" width="1200" height="600" /> 
+<img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="1000" />
+<img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
+<img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
+<img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
+<img src="assets/JeffreyWooTimeBank5.png" alt="JeffreyWooTimeBank5" width="1200" height="1000" /> 
 <img src="assets/JeffreyWooTimeBank6.png" alt="JeffreyWooTimeBank6" width="1200" height="600" /> 
 <img src="assets/JeffreyWooTimeBank7.png" alt="JeffreyWooTimeBank7" width="1200" height="600" />
-<img src="assets/JeffreyWooTimeBank8.png" alt="JeffreyWooTimeBank8" width="1200" height="600" /> 
+<img src="assets/JeffreyWooTimeBank8.png" alt="JeffreyWooTimeBank8" width="1200" height="1000" /> 
 <img src="assets/JeffreyWooTimeBank9.png" alt="JeffreyWooTimeBank9" width="1200" height="600" /> 
 <img src="assets/JeffreyWooTimeBank10.png" alt="JeffreyWooTimeBank10" width="1200" height="600" />
 <img src="assets/JeffreyWooTimeBank11.png" alt="JeffreyWooTimeBank11" width="1200" height="600" /> 
@@ -141,5 +141,4 @@ Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimizat
 
 📧 Email: jeffreywoocf@gmail.com  
 💼 LinkedIn: https://www.linkedin.com/in/wcfjeffrey/  
-🐙 GitHub: https://github.com/wcfjeffrey/
 🐙 GitHub: https://github.com/wcfjeffrey/
