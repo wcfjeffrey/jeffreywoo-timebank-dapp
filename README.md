@@ -85,34 +85,58 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 ## 🏗️ System Architecture Overview
 <pre lang="markdown">
-               ┌───────────────────────────┐
-               |   User Interface (React)  |
-               |   TypeScript Frontend     |
-               └───────────────────────────┘
-                            ↓
-               ┌───────────────────────────┐
-               |   Frontend Logic          |
-               |   State Mgmt / API Calls  |
-               └───────────────────────────┘
-                             |
-             ┌─────────────────────────────────┐
-             ↓                                 ↓
-     ┌────────────────┐         ┌───────────────────────────┐
-     | Smart Contracts|         | AI Matching Engine        |
-     | (Solidity)     |         | Gemini API / GPT-4o       |
-     |                |         | (Pluggable AI Model APIs) |
-     └────────────────┘         └───────────────────────────┘
-              ↓                                ↓
-┌───────────────────────────┐   ┌───────────────────────────┐
-| Blockchain Network        |   | Skill & Profile Database  |
-| Ethereum / Polygon        |   | PostgreSQL / Redis        |
-| (Configured chain)        |   |                           | 
-└───────────────────────────┘   └───────────────────────────┘
-              ↓                                ↓
-┌───────────────────────────┐   ┌───────────────────────────┐
-| Transaction Ledger        |   | Community Analytics       |
-| Immutable Records         |   | Dashboards & Insights     |
-└───────────────────────────┘   └───────────────────────────┘</pre>
+┌─────────────────────────────────────────────────────────────────┐
+│                    User Interface (React)                       │
+│                      TypeScript Frontend                        │
+│                 (Tailwind CSS / Framer Motion)                  │
+└─────────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                     Frontend Logic Layer                        │
+│                (State Management / API Calls)                   │
+└─────────────────────────────────────────────────────────────────┘
+                                │
+                ┌───────────────┴───────────────┐
+                ▼                               ▼
+┌──────────────────────────────┐  ┌──────────────────────────────┐
+│       AI Matching Engine     │  │     Backend & API Layer      │
+│                              │  │       (Node.js / FastAPI)     │
+│  ┌────────────────────────┐  │  └──────────────────────────────┘
+│  │ Gemini API / GPT-4o-ca │  │                 │
+│  └────────────────────────┘  │                 ▼
+└──────────────────────────────┘  ┌──────────────────────────────┐
+                                  │    Application Database      │
+                                  │     (PostgreSQL / Redis)     │
+                                  └──────────────────────────────┘
+                                                │
+                                                ▼
+                          ┌──────────────────────────────────────┐
+                          │       Blockchain-Inspired Layer      │
+                          │ (Hash-Chained Ledger Implementation) │
+                          │                                      │
+                          │  ┌────────────────────────────────┐  │
+                          │  │  SHA-256 Hash-Chained Records  │  │
+                          │  │  • Each tx stores `prevHash`   │  │
+                          │  │  • Each tx computes `entryHash`│  │
+                          │  │  • Tamper-evident chain        │  │
+                          │  └────────────────────────────────┘  │
+                          │                                      │
+                          │  ┌────────────────────────────────┐  │
+                          │  │   Transaction Ledger Tables    │  │
+                          │  │   (Earn / Spend / Donate /     │  │
+                          │  │    Pool Payout)                │  │
+                          │  └────────────────────────────────┘  │
+                          └──────────────────────────────────────┘
+                                                │
+                                                ▼
+                          ┌──────────────────────────────────────┐
+                          │        Community Analytics           │
+                          │     (Dashboards & Insights)          │
+                          │  • Skill/need demand patterns        │
+                          │  • Reputation scoring                │
+                          │  • Personalized recommendations      │
+                          └──────────────────────────────────────┘</pre>
 
 ## 🤖 Tech Stack
 
