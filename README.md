@@ -6,8 +6,9 @@
          
 > **Not your typical community exchange app!**
 
-**JeffreyWoo TimeBank** is a decentralized, AI powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency. Built on a blockchain inspired hash chained ledger, every transaction is cryptographically linked, tamper resistant, and publicly verifiable — ensuring trust without intermediaries.
-AI driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: 1 hour given = 1 hour earned. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
+**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency. Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
+
+AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
 ## ✨ What It Does
 
@@ -85,15 +86,19 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 ## 📦 Getting Started
 
 1.	Clone the repository
-2.	git clone https://github.com/wcfjeffrey/jeffreywoo-timebank-dapp.git
-    `cd jeffreywoo-timebank-dapp`
-3.	Install dependencies
+    ```
+  	git clone `https://github.com/wcfjeffrey/jeffreywoo-timebank-dapp.git  
+    cd jeffreywoo-timebank-dapp
+    ```
+3.	Install dependencies  
     `npm install`
-4.	Set up environment variables
-    Create .env.local and add your keys:
-    ```GEMINI_API_KEY=your_api_key_here
-    BLOCKCHAIN_NETWORK=polygon```
-6.	Run the app
+4.	Set up environment variables  
+    Create .env.local and add your keys:  
+    ```
+    GEMINI_API_KEY=your_api_key_here
+    BLOCKCHAIN_NETWORK=polygon
+    ```
+6.	Run the app  
     `npm run dev`
 
 ## 🧠 Sample
@@ -118,7 +123,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 ## ⚖️ Disclaimer
 
-**JeffreyWoo TimeBank** is a conceptual decentralized application for educational and community development purposes. It does not represent a financial instrument or investment platform.
+**JeffreyWoo TimeBank** is a conceptual decentralized application created for educational, research, and community development purposes only. It is not intended to function as a financial product, investment vehicle, or regulated service. The platform does not issue, trade, or guarantee monetary assets, and any time credits exchanged within the system are purely illustrative and non‑financial. Use of this project should be understood as experimental and exploratory, without any implication of financial return, legal enforceability, or commercial offering.
 
 ## 📄 License
 
