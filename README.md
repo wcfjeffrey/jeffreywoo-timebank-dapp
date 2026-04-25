@@ -173,7 +173,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 │              ▼                               ▼                               ▼      │
 │  ┌───────────────────────┐   ┌───────────────────────────┐   ┌─────────────────────┐│
 │  │   AI Matching Engine  │   │    Backend & API Layer    │   │  User & Identity    ││
-│  │                       │   │     (Node.js / FastAPI)   │   │     Management      ││
+│  │                       │   │  (Node.js / Express.js)   │   │     Management      ││
 │  │ ┌───────────────────┐ │   │                           │   │                     ││
 │  │ │ Gemini API /      │ │   │  ┌─────────────────────┐  │   │ ┌─────────────────┐ ││
 │  │ │ GPT-4o-ca         │ │   │  │ REST / GraphQL API  │  │   │ │ Basic User Auth │ ││
@@ -406,7 +406,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 │              ▼                               ▼                               ▼      │
 │  ┌───────────────────────┐   ┌───────────────────────────┐   ┌─────────────────────┐│
 │  │   AI Matching Engine  │   │    Backend & API Layer    │   │  Decentralized      ││
-│  │                       │   │     (Node.js / FastAPI)   │   │  Identity (DID)     ││
+│  │                       │   │   (Node.js / Express.js)  │   │  Identity (DID)     ││
 │  │ ┌───────────────────┐ │   │                           │   │                     ││
 │  │ │ Gemini API /      │ │   │  ┌─────────────────────┐  │   │ ┌─────────────────┐ ││
 │  │ │ GPT-4o-ca         │ │   │  │ REST / GraphQL API  │  │   │ │ Verifiable      │ ││
@@ -581,7 +581,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 |**🔹 CORE ARCHITECTURE**	|||	
 |Ledger Type	|Hash-chained ledger in PostgreSQL	|On-chain ledger on Ethereum/Polygon|
 |Transaction Storage	|Database rows with prevHash/entryHash	|Blockchain transactions with block hashes|
-|Business Logic Location	|Node.js / FastAPI backend	|Solidity smart contracts|
+|Business Logic Location	|Node.js / Express.js backend	|Solidity smart contracts|
 |Cryptographic Method	|SHA-256 for entryHash/prevHash	|SHA-256 + Consensus mechanism (PoS)|
 |Trust Model	|Trust the community + server integrity	|Trust blockchain code + network consensus|
 |**🔹 TIME COIN TOKEN**		|||
@@ -621,7 +621,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 |**🔹 DEVELOPMENT & MAINTENANCE**		|||
 |Programming Languages	|TypeScript, JavaScript, Python, HTML/CSS	|Solidity + existing frontend languages|
 |Smart Contract Language	|❌ None	|Solidity / Vyper|
-|Development Framework	|React, Node.js, FastAPI	|Hardhat / Truffle / Foundry + existing stack|
+|Development Framework	|React, Node.js, Express.js	|Hardhat / Truffle / Foundry + existing stack|
 |Testing Difficulty	|Easy (unit tests, integration tests)	|Hard (forking mainnet, simulation, gas optimization)|
 |Bug Fixes	|Easy (deploy new backend code)	|Very Hard (proxy pattern or new contract migration)|
 |Deployment Process	|`git push` to server	|`npx hardhat deploy --network polygon`|
