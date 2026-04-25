@@ -635,6 +635,60 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 |Time to Implement	|Already complete	|~2-4 months|
 |Estimated Effort	|—	|Medium to High|
 
+## 🚚 System Migration Plan (future development)
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ **PHASE 1: PREPARATION**                                                            │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Audit existing hash-chain ledger data                                             │
+│ □ Export all transaction records (earn/spend/donate/pool_payout)                    │
+│ □ Backup PostgreSQL database                                                        │
+│ □ Document existing smart contract logic mapped from backend code                   │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ **PHASE 2: SMART CONTRACT DEVELOPMENT**                                             │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Write Solidity TimeCoinToken (ERC-20)                                             │
+│ □ Write Solidity TimeBankCore smart contract (earn/spend/donate/poolPayout)         │
+│ □ Implement proxy pattern for upgradeability                                        │
+│ □ Write unit tests (Hardhat / Foundry)                                              │
+│ □ Run security Slither / static analysis                                            │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ **PHASE 3: TESTNET DEPLOYMENT**                                                     │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Deploy to Polygon Mumbai Testnet                                                  │
+│ □ Deploy to Ethereum Sepolia Testnet                                                │
+│ □ Verify contracts on explorers (MumbaiScan / Sepolia Etherscan)                    │
+│ □ Run integration tests with frontend                                               │
+│ □ Perform user acceptance testing (UAT)                                             │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ **PHASE 4: DATA MIGRATION**                                                         │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Migrate user balances from PostgreSQL to TimeCoin Token balances                  │
+│ □ Migrate transaction history as verified events                                    │
+│ □ Hash-chain validation: ensure all prevHash → entryHash links verified             │
+│ □ Generate Merkle proofs for historical data                                        │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ **PHASE 5: MAINNET DEPLOYMENT**                                                     │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Deploy to Polygon Mainnet (for lower gas)                                         │
+│ □ OR deploy to Ethereum Mainnet (higher security, higher cost)                      │
+│ □ Update frontend environment variables                                             │
+│ □ Configure wallet connectors (MetaMask, WalletConnect)                             │
+│ □ Launch hybrid mode (off-chain + on-chain)                                         │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
 ## 📦 Getting Started
 
 1.	Clone the repository
