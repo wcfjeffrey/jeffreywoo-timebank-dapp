@@ -52,7 +52,7 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
 | Travel Assistance | | | ✓ | ✓ | ✓ |
 | Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
-| Chinese Painting Class Assistance | | | ✓ | ✓ | ✓ |
+| Painting Class Assistance | | | ✓ | ✓ | ✓ |
 | Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
 | Art Class Assistance | | | ✓ | ✓ | ✓ |
 | Singing Class Assistance | | | ✓ | ✓ | ✓ |
