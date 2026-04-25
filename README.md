@@ -23,6 +23,17 @@
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
+## 🤝 United Nations Sustainable Development Goals (SDGs)
+
+The United Nations Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
+
+One of the major global social development challenges today is the "aging society." JeffreyWoo TimeBank aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
+
+The SDGs were officially adopted by all member states in 2015. The 17 SDGs are linked to five critical areas: People, Planet, Prosperity, Peace, and Partnership.
+
+Among them, the following SDGs are relevant to individuals with disabilities in this project:
+
+
 ## ⏰ Timebanking System
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
