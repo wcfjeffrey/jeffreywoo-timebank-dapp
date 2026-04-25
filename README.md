@@ -531,7 +531,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 |Need for Audits	|Code audits for backend	|Smart contract audits + formal verification|
 |**🔹 COSTS & FEES**		|||
 |Transaction Fee (Gas)	|❌ Free (no gas)	|✅ Required (MATIC or ETH)|
-|Estimated Cost per Transaction	|USD0	|~USD0.001 - USD0.01 (Polygon) / ~USD1-5 (Ethereum)|
+|Estimated Cost per Transaction (cast/earn/spend/donate TimeCoin)	|USD0	|~USD0.001 - USD0.01 (Polygon) / ~USD1-5 (Ethereum)|
 |Deployment Cost	|❌ Not applicable	|~USD0.10 - USD0.50 (Polygon) / ~USD50-200 (Ethereum)|
 |Monthly Operational Cost	|Server/hosting costs	|Gas costs + possible node fees|
 |Storage Cost	|Very low (PostgreSQL storage)	|Very high (blockchain storage limited)|
