@@ -661,8 +661,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 3: TESTNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Deploy to Polygon Mumbai Testnet                                                  │
-│ □ Deploy to Ethereum Sepolia Testnet                                                │
+│ □ Deploy to Polygon Mumbai Testnet / Ethereum Sepolia Testnet                       │
 │ □ Verify contracts on explorers (MumbaiScan / Sepolia Etherscan)                    │
 │ □ Run integration tests with frontend                                               │
 │ □ Perform user acceptance testing (UAT)                                             │
@@ -682,8 +681,8 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 5: MAINNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Deploy to Polygon Mainnet (for lower gas)                                         │
-│ □ OR deploy to Ethereum Mainnet (higher security, higher cost)                      │
+│ □ Deploy to Polygon Mainnet (for lower gas) /                                       │
+│   deploy to Ethereum Mainnet (higher security, higher cost)                         │
 │ □ Update frontend environment variables                                             │
 │ □ Configure wallet connectors (MetaMask, WalletConnect)                             │
 │ □ Launch hybrid mode (off-chain + on-chain)                                         │
