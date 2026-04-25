@@ -23,9 +23,9 @@
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
-## 🤝 United Nations Sustainable Development Goals (SDGs)
+## 🤝 United Nations (UN) Sustainable Development Goals (SDGs)
 
-The United Nations Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
+The UN Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
 
 One of the major global social development challenges today is the "aging society." JeffreyWoo TimeBank aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
 
@@ -33,7 +33,7 @@ The SDGs were officially adopted by all member states in 2015. The 17 SDGs are l
 
 Among them, the following SDGs are relevant to individuals with disabilities in this project:  
 
-| SDG | Link | Focus | Activities |
+| SDG | UN Link | Focus | Activities |
 |-----|------|-------|------------|
 | SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as escort support, walking together, and companionship. |
 | SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiving tea gatherings and caregiver tea gatherings. |
