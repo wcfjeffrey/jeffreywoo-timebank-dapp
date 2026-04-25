@@ -43,9 +43,9 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
 | SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
 
-## 🤝 Main Community Care Services of Association of Rehabilitation and Mutual Support (ARMS): SDG Alignment Matrix
+## 🤝 Example: Main Community Care Services of Association of Rehabilitation and Mutual Support (ARMS) — SDG Alignment Matrix
 
-| Main Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+| Main Community Care Services | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
 |---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
 | Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
 | Peer Companionship | ✓ | | | ✓ | ✓ |
