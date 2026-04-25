@@ -19,7 +19,7 @@
          
 > **Not your typical community exchange app!**
 
-**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency (TimeCoins). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
+**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, community care services, and care using time credits as currency (TimeCoins). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
@@ -41,6 +41,32 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest classes. |
 | SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
 
+## 🤝 Community Care Services: SDG Alignment Matrix
+
+| Community Care Service Category | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health &<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+|---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
+| Caregiving Tea Gathering Assistance | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
+| Walking Together / Peer Companionship | ✓ | | | ✓ | ✓ |
+| Escort Support | ✓ | | | ✓ | ✓ |
+| Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
+| Caregiver Self-Support / Self-Identity | ✓ | | ✓ | ✓ | ✓ |
+| Caregiver Tea Gathering | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Travel Assistance | | | ✓ | ✓ | ✓ |
+| Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
+| Chinese Painting Class Assistance | | | ✓ | ✓ | ✓ |
+| Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
+| Art Class Assistance | | | ✓ | ✓ | ✓ |
+| Singing Class Assistance | | | ✓ | ✓ | ✓ |
+| Exercise Class Assistance | | | ✓ | ✓ | ✓ |
+| Wellness Walking / Healthy Steps | | | ✓ | ✓ | ✓ |
+| Sharing Sessions | | | ✓ | ✓ | ✓ |
+| Volunteer Training | | | ✓ | ✓ | ✓ |
+| Community Outreach Activities | | | | ✓ | ✓ |
+| Members Helping Members (Self-Help) | | | ✓ | ✓ | ✓ |
+| Patients Helping Patients (Peer Support) | | | ✓ | ✓ | ✓ |
+| Rehabilitation Internship / Practicum | | | | ✓ | ✓ |
+
 ## ⏰ Timebanking System
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
@@ -49,16 +75,16 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 ### 💡 Core Concept
 
-- Timebanking allows members to earn time credits (TimeCoins) by providing services and spend/donate those time credits (TimeCoins) to receive help or support others.
+- Timebanking allows members to earn time credits (TimeCoins) by providing community care services and spend/donate those time credits (TimeCoins) to receive help or support others.
 - The guiding rule is simple: **1 hour given = 1 hour earned**.
 
 ### 🔄 How It Works
 
-#### 1. Service Exchange  
+#### 1. Community Care Service Exchange  
 Members offer skills — tutoring, caregiving, design review, repairs, etc. — and record the time spent helping others.
 
 #### 2. Earning Time Credits  
-Each hour of service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
+Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
 
 #### 3. Spending/Donating Time Credits  
 Members use earned time credits (TimeCoins) to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
@@ -77,7 +103,7 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 ## ✨ What It Does
 
-🤝 **Community Time Exchange** — trade time and skills directly with others through smart contracts  
+⏰ **Community Time Exchange** — trade time and skills directly with others through smart contracts  
 🧠 **AI Matching Engine** — intelligently connects users based on skill profiles, availability, and community needs  
 🔗 **Blockchain Transparency** — ensures secure, immutable records of time transactions  
 🌍 **Global & Local Integration** — supports Hong Kong community exchanges while connecting to global timebank networks  
@@ -113,7 +139,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 |Concept	| Description|
 |---------|------------|
-|**Time as Currency**	| Every hour of service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type|
+|**Time as Currency**	| Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type|
 |**Smart Contracts**	| Automate time transactions securely on the blockchain|
 |**AI Skill Matching**	| Suggests optimal exchanges based on user profiles and community demand|
 |**Decentralized Identity (DID)**	| Builds trust through verifiable digital identities|
@@ -311,9 +337,9 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 |Core Feature|Description|
 |-------------|-----------|
-|**Hash‑Chained Transactions**|Every service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
+|**Hash‑Chained Transactions**|Every community care service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
 |**Public Verifiability**|Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.|
-|**Time Credits as Currency**|Each hour of service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
+|**Time Credits as Currency**|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
 |**AI‑Enhanced Matching**|AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits/TimeCoins.|
 |**Decentralized Identity & Reputation**|Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.|
 
@@ -325,7 +351,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 **1. Transaction Entry**  
 
-Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.
+Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.
 
 **2. prevHash**
 
@@ -428,7 +454,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 │  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
 │  │  │                      Token Contract (ERC-20 / ERC-721)                  │  │  │
 │  │  │  • TimeCreditToken (ERC-20) for fungible time credits                   │  │  │
-│  │  │  • ServiceNFT (ERC-721) for unique service offerings                    │  │  │
+│  │  │  • ServiceNFT (ERC-721) for unique community care service offerings     │  │  │
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
 │  │                                                                               │  │
 │  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
@@ -510,7 +536,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 
 - **Tokenization of Time Credits**
 
-  - Represent each hour of service as a transferable ERC‑20 or ERC‑721 token (1 hour = 1 TimeCoin)  
+  - Represent each hour of community care service as a transferable ERC‑20 or ERC‑721 token (1 hour = 1 TimeCoin)  
   - Enable interoperability with other decentralized applications
 
 - **Decentralized Identity (DID) Integration**
@@ -545,7 +571,7 @@ Each service exchange (e.g., tutoring, bike repair) is recorded as a row in the 
 |Trust Model	|Trust the community + server integrity	|Trust blockchain code + network consensus|
 |**🔹 TIME COIN TOKEN**		|||
 |Token Representation	|Database records (Earn/Spend/Donate tables)	|ERC-20 fungible token|
-|Token Standard	|None (custom database schema)	|ERC-20 (or ERC-721 for unique services)|
+|Token Standard	|None (custom database schema)	|ERC-20 (or ERC-721 for unique community care services)|
 |1 Hour = ?	|1 TimeCoin (database credit)	|1 TimeCoin (ERC-20 token)|
 |Token Transfer	|Backend API updates database	|`transfer()` function on blockchain|
 |Token Balance	|Query PostgreSQL	|Query blockchain state (mapping)|
