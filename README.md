@@ -37,15 +37,15 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 | SDG | UN Link | Focus | Activities |
 |-----|------|-------|------------|
-| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as escort support, walking together, and companionship. |
-| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gatherings. |
-| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits and caregiver self-support groups. |
-| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest classes. |
+| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as medical escort support, and peer companionship. |
+| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gathering assistant. |
+| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits. |
+| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
 | SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
 
-## 🤝 Community Care Services: SDG Alignment Matrix
+## 🤝 Main Community Care Services: SDG Alignment Matrix
 
-| Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+| Main Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
 |---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
 | Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
 | Peer Companionship | ✓ | | | ✓ | ✓ |
