@@ -43,15 +43,13 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 ## 🤝 Community Care Services: SDG Alignment Matrix
 
-| Community Care Service Category | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health &<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+| Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health &<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
 |---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
-| Caregiving Tea Gathering Assistance | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
-| Walking Together / Peer Companionship | ✓ | | | ✓ | ✓ |
+| Peer Companionship | ✓ | | | ✓ | ✓ |
 | Escort Support | ✓ | | | ✓ | ✓ |
 | Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
-| Caregiver Self-Support / Self-Identity | ✓ | | ✓ | ✓ | ✓ |
-| Caregiver Tea Gathering | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
 | Travel Assistance | | | ✓ | ✓ | ✓ |
 | Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
 | Chinese Painting Class Assistance | | | ✓ | ✓ | ✓ |
@@ -59,13 +57,13 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | Art Class Assistance | | | ✓ | ✓ | ✓ |
 | Singing Class Assistance | | | ✓ | ✓ | ✓ |
 | Exercise Class Assistance | | | ✓ | ✓ | ✓ |
-| Wellness Walking / Healthy Steps | | | ✓ | ✓ | ✓ |
+| Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
 | Sharing Sessions | | | ✓ | ✓ | ✓ |
 | Volunteer Training | | | ✓ | ✓ | ✓ |
 | Community Outreach Activities | | | | ✓ | ✓ |
-| Members Helping Members (Self-Help) | | | ✓ | ✓ | ✓ |
-| Patients Helping Patients (Peer Support) | | | ✓ | ✓ | ✓ |
-| Rehabilitation Internship / Practicum | | | | ✓ | ✓ |
+| Helping Members | | | ✓ | ✓ | ✓ |
+| Helping Patients | | | ✓ | ✓ | ✓ |
+| Rehabilitation Internship | | | | ✓ | ✓ |
 
 ## ⏰ Timebanking System
 
