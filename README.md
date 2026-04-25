@@ -41,22 +41,6 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest classes. |
 | SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
 
-<a href="https://sdgs.un.org/goals/goal1">
-  <img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100">
-</a>
-<a href="https://sdgs.un.org/goals/goal2">
-  <img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100">
-</a>
-<a href="https://sdgs.un.org/goals/goal3">
-  <img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100">
-</a>
-<a href="https://sdgs.un.org/goals/goal4">
-  <img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100">
-</a>
-<a href="https://sdgs.un.org/goals/goal5">
-  <img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100">
-</a>
-
 ## ⏰ Timebanking System
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
