@@ -43,7 +43,7 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 ## 🤝 Community Care Services: SDG Alignment Matrix
 
-| Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health &<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+| Community Care Service Examples | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
 |---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
 | Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
 | Peer Companionship | ✓ | | | ✓ | ✓ |
