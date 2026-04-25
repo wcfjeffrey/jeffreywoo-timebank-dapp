@@ -79,7 +79,7 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 ### 🔄 How It Works
 
 #### 1. Community Care Service Exchange  
-Members offer skills — tutoring, caregiving, design review, repairs, etc. — and record the time spent helping others.
+Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
 
 #### 2. Earning Time Credits  
 Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
