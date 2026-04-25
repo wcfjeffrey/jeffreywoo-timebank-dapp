@@ -636,9 +636,9 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 |Estimated Effort	|—	|Medium to High|
 
 ## 🚚 System Migration Plan (future development)
-
+<pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ **PHASE 1: PREPARATION**                                                            │
+│ PHASE 1: PREPARATION                                                                │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Audit existing hash-chain ledger data                                             │
 │ □ Export all transaction records (earn/spend/donate/pool_payout)                    │
@@ -648,7 +648,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ **PHASE 2: SMART CONTRACT DEVELOPMENT**                                             │
+│ PHASE 2: SMART CONTRACT DEVELOPMENT                                                 │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Write Solidity TimeCoinToken (ERC-20)                                             │
 │ □ Write Solidity TimeBankCore smart contract (earn/spend/donate/poolPayout)         │
@@ -659,7 +659,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ **PHASE 3: TESTNET DEPLOYMENT**                                                     │
+│ PHASE 3: TESTNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Deploy to Polygon Mumbai Testnet                                                  │
 │ □ Deploy to Ethereum Sepolia Testnet                                                │
@@ -670,7 +670,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ **PHASE 4: DATA MIGRATION**                                                         │
+│ PHASE 4: DATA MIGRATION                                                             │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Migrate user balances from PostgreSQL to TimeCoin Token balances                  │
 │ □ Migrate transaction history as verified events                                    │
@@ -680,14 +680,24 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ **PHASE 5: MAINNET DEPLOYMENT**                                                     │
+│ PHASE 5: MAINNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Deploy to Polygon Mainnet (for lower gas)                                         │
 │ □ OR deploy to Ethereum Mainnet (higher security, higher cost)                      │
 │ □ Update frontend environment variables                                             │
 │ □ Configure wallet connectors (MetaMask, WalletConnect)                             │
 │ □ Launch hybrid mode (off-chain + on-chain)                                         │
-└─────────────────────────────────────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────────────────────────────────────┘</pre>
+
+## 🔗 Reference Resources for System Migration
+
+|Resource	|Link|
+|---------|----|
+|Hardhat Documentation	|https://hardhat.org/docs|
+|OpenZeppelin Contracts	|https://docs.openzeppelin.com/contracts|
+|Polygon Mumbai Faucet	|https://faucet.polygon.technology/|
+|Ethereum Sepolia Faucet	|https://sepoliafaucet.com/|
+|Remix IDE	|https://remix.ethereum.org/|
 
 ## 📦 Getting Started
 
