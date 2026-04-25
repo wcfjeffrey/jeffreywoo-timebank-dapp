@@ -6,7 +6,7 @@
          
 > **Not your typical community exchange app!**
 
-**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency (TimeCoin). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
+**JeffreyWoo TimeBank** is a decentralized, AI-powered timebanking DApp that enables communities to exchange skills, services, and care using time credits as currency (TimeCoins). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-resistant, and publicly verifiable — ensuring trust without intermediaries.  
 
 AI-driven matching intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**. By combining transparent ledger technology with adaptive AI, it transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value.
 
@@ -71,7 +71,7 @@ This project demonstrates how technology can reshape community collaboration by:
 - Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation
 - Promoting sustainable community development through equitable resource sharing
 - Integrating AI to optimize skill matching and time utilization
-- Enables members to donate time to support vulnerable groups.
+- Enabling members to donate time to support vulnerable groups.
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
