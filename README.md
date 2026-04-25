@@ -47,7 +47,7 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 |---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
 | Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
 | Peer Companionship | ✓ | | | ✓ | ✓ |
-| Escort Support | ✓ | | | ✓ | ✓ |
+| Medical Escort Support | ✓ | | | ✓ | ✓ |
 | Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
 | Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
 | Travel Assistance | | | ✓ | ✓ | ✓ |
