@@ -321,9 +321,28 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 - **Cache:** Redis
 - **Blockchain:** Ethereum / Polygon (Smart Contracts via Solidity)
 - **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
+- **API Codegen:** Orval
 - **UI:** Tailwind CSS + Recharts + Framer Motion
 - **Blockchain:**	Ethereum / Polygon (future development)
 - **Smart Contracts:** Solidity (future development)
+
+## 🔍 Runtime Data Validation with Zod
+
+**Zod** is a TypeScript-first schema declaration and validation library. It allows us to:
+
+- **Define data shapes** once and reuse them for both TypeScript types and runtime validation
+- **Validate API requests/responses** automatically
+- **Generate OpenAPI specifications** from Zod schemas
+- **Ensure data integrity** from database to frontend
+
+**What Zod Validates in This DApp**
+
+| Data Type | Validation Rule | Zod Schema |
+|-----------|----------------|------------|
+| Service Title | Minimum 3 characters | `CreateServiceBody` |
+| Estimated Minutes | Between 15 and 1440 | `CreateServiceBody` |
+| Donation Minutes | Minimum 15 minutes | `DonateToPoolBody` |
+| Query Limit | Maximum 200 entries | `ListLedgerQueryParams` |
 
 ## 🧠 AI Techniques Applied
 
