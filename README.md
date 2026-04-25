@@ -6,9 +6,11 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
@@ -310,12 +312,18 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 ## 🤖 Tech Stack
 
 - **Language:** TypeScript, HTML
-- **Framework:** React (Next.js optional)
-- **Backend:** Node.js + FastAPI (for AI integration)
+- **Framework:** React
+- **Runtime:** Node.js
+- **Framework:** Express (REST API)
+- **Validation:**	Zod (with drizzle-zod)
+- **Database ORM:**	Drizzle ORM
+- **Database:** PostgreSQL
+- **Cache:** Redis
 - **Blockchain:** Ethereum / Polygon (Smart Contracts via Solidity)
 - **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
-- **Database:** PostgreSQL, Redis
 - **UI:** Tailwind CSS + Recharts + Framer Motion
+- **Blockchain:**	Ethereum / Polygon (future development)
+- **Smart Contracts:** Solidity (future development)
 
 ## 🧠 AI Techniques Applied
 
