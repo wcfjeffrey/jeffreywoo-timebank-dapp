@@ -319,7 +319,6 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 - **Database ORM:**	Drizzle ORM
 - **Database:** PostgreSQL
 - **Cache:** Redis
-- **Blockchain:** Ethereum / Polygon (Smart Contracts via Solidity)
 - **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
 - **API Codegen:** Orval
 - **UI:** Tailwind CSS + Recharts + Framer Motion
