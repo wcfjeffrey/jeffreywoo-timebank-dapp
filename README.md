@@ -33,6 +33,24 @@ The SDGs were officially adopted by all member states in 2015. The 17 SDGs are l
 
 Among them, the following SDGs are relevant to individuals with disabilities in this project:  
 
+|SDG	|Link |Focus	|Activities|
+|-----|-----|-------|----------|
+|SDG 1	|<a href="https://sdgs.un.org/goals/goal1">
+  <img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100">
+</a>	|No Poverty	|Assist in caring for the health of disabled individuals through activities such as escort support, walking together, and companionship.|
+|SDG 2	|<a href="https://sdgs.un.org/goals/goal2">
+  <img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100">
+</a>	|Zero Hunger	|Provide daily meals and support for low-income disabled individuals through activities such as caregiving tea gatherings and caregiver tea gatherings.|
+|SDG 3	|<a href="https://sdgs.un.org/goals/goal3">
+  <img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100">
+</a>	|Good Health and Well-being	|Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits and caregiver self-support groups.|
+|SDG 4	|<a href="https://sdgs.un.org/goals/goal4">
+  <img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100">
+</a>	|Quality Education (Lifelong Learning)	|Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest classes.|
+|SDG 5	|<a href="https://sdgs.un.org/goals/goal5">
+  <img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100">
+</a>	|Gender Equality	|Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members.|
+
 <a href="https://sdgs.un.org/goals/goal1">
   <img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100">
 </a>
