@@ -141,11 +141,22 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 
 |Concept	| Description|
 |---------|------------|
-|**Time as Currency**	| Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type|
-|**Smart Contracts**	| Automate time transactions securely on the blockchain|
-|**AI Skill Matching**	| Suggests optimal exchanges based on user profiles and community demand|
-|**Decentralized Identity (DID)**	| Builds trust through verifiable digital identities|
-|**Community Analytics**	| Tracks engagement, contribution, and social impact metrics|
+|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type. Time is the most universal and equitable currency.|
+|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (prevHash → entryHash), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
+|**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
+|**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
+|**Cryptographic Integrity**	|Each transaction stores a prevHash (hash of the previous transaction) and an entryHash (hash of its own data + prevHash). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
+|**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
+|**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
+|**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
+
+## Decentralized-Inspired Architecture of This App
+
+This app cleverly implements key principles of blockchain within a traditional database to increase transparency and auditability:
+
+- **Hash-Chained Ledger:** Every transaction record stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.
+- **Public Verifiability:** The project states that the ledger is publicly verifiable, meaning anyone could theoretically download the ledger data and cryptographically verify the entire chain's integrity.
+- **No Intermediaries for Trust:** By making the ledger tamper-evident, the DApp aims to build "trust without intermediaries" for the validity of the transaction history, even though a central server still manages the data.
 
 ## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
