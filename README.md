@@ -152,14 +152,6 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
 |**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
-## Decentralized-Inspired Architecture of This App
-
-This app cleverly implements key principles of blockchain within a traditional database to increase transparency and auditability:
-
-- **Hash-Chained Ledger:** Every transaction record stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.
-- **Public Verifiability:** The project states that the ledger is publicly verifiable, meaning anyone could theoretically download the ledger data and cryptographically verify the entire chain's integrity.
-- **No Intermediaries for Trust:** By making the ledger tamper-evident, the DApp aims to build "trust without intermediaries" for the validity of the transaction history, even though a central server still manages the data.
-
 ## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
@@ -306,6 +298,14 @@ This app cleverly implements key principles of blockchain within a traditional d
 │  │  └─────────────────┘  └─────────────────┘  └─────────────────────────────────┘│  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
+
+## Decentralized-Inspired Architecture of This App
+
+This app cleverly implements key principles of blockchain within a traditional database to increase transparency and auditability:
+
+- **Hash-Chained Ledger:** Every transaction record stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.
+- **Public Verifiability:** The project states that the ledger is publicly verifiable, meaning anyone could theoretically download the ledger data and cryptographically verify the entire chain's integrity.
+- **No Intermediaries for Trust:** By making the ledger tamper-evident, the DApp aims to build "trust without intermediaries" for the validity of the transaction history, even though a central server still manages the data.
 
 ## ⭐ Finance Skills Strengthened
 
