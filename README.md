@@ -60,6 +60,7 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 | Singing Class Assistance | | | ✓ | ✓ | ✓ |
 | Exercise Class Assistance | | | ✓ | ✓ | ✓ |
 | Gardening Class Assistance | | | ✓ | ✓ | ✓ |
+| IT Class Assistance | | | ✓ | ✓ | ✓ |
 | Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
 | Sharing Sessions | | | ✓ | ✓ | ✓ |
 | Volunteer Training | | | ✓ | ✓ | ✓ |
