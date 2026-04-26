@@ -795,7 +795,7 @@ The previous transaction’s hash is:
 
 - Its fields are concatenated into a payload string.  
 - SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.  
-  *Note: The **shortened display hash** is for **visual reference only**. All cryptographic verification — chain integrity, tamper detection, and hash linking — uses the **full 64-character hash** stored in the database.*
+  *Note: The **shortened display hash** (10 characters) is for **visual reference only**. All cryptographic verification — chain integrity, tamper detection, and hash linking — uses the **full 64-character hash** stored in the database.*
 - 1 hour = 1 time credit, so `entryHash_A` has 15 minutes = 0.25 time credits = 0.25 TimeCoins
 
 #### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
