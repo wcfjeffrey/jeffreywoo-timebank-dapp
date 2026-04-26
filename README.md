@@ -105,11 +105,13 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 ## ✨ What It Does
 
-⏰ **Community Time Exchange** — trade time and skills directly with others through smart contracts  
-🧠 **AI Matching Engine** — intelligently connects users based on skill profiles, availability, and community needs  
-🔗 **Blockchain Transparency** — ensures secure, immutable records of time transactions  
-🌍 **Global & Local Integration** — supports Hong Kong community exchanges while connecting to global timebank networks  
-🔒 **Digital Identity & Trust Layer** — verifies participants via decentralized identity (DID) and reputation scoring
+⏰ **Community Time Exchange** — Trade time and skills directly with others through a hash-chained ledger — every transaction is cryptographically linked, tamper-evident, and publicly verifiable without requiring intermediaries. (Smart contracts coming in future migration to Ethereum/Polygon)  
+🧠 **AI Matching Engine** — Intelligently connects users based on skill profiles, availability, service history, and community demand using Gemini API and GPT-4o — helping members find the right helpers and opportunities faster.
+🔗 **Blockchain Transparency** — Ensures secure, immutable records of time transactions through SHA-256 hash chaining (`prevHash` → `entryHash`). Any alteration to past transactions breaks the chain, making tampering immediately detectable.
+🌍 **Local & Global Integration** — Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.  
+🔒 **Digital Identity & Trust** — Currently uses email/password authentication with profile-based reputation. Future integration will add verifiable decentralized identity (DID) and automated reputation scoring for enhanced trust across communities.
+📊	**Live Ledger Viewer** — Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently.
+🤝	**Four Core Actions** — **Earn** TimeCoins by providing services, **Spend** them to receive help, **Donate** to community pools, or facilitate **Pool Payouts** to support vulnerable members — creating a continuous cycle of giving and receiving where 1 hour given = 1 hour earned.
 
 ## 💡Finance Transformation Impact
 
