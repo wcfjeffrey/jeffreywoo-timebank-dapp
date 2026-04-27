@@ -1011,43 +1011,40 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
-## ⚖️ Regulatory & Compliance Framework
+## ⚖️ Legal & Regulatory Disclaimer (China & Hong Kong)
 
-This section applies only if this DApp is deployed or promoted in mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
+This section addresses the regulatory status of the term **"TimeBank"** in Mainland China and Hong Kong. This DApp is a conceptual, open-source project for **educational and research purposes only**.
 
-### 📌 Current Regulatory Status
+### 📌 Important Notice on the Use of "TimeBank"
 
-|Aspect	|Description|
-|-------|-----------|
-|**Regulatory Body**	|Civil Affairs authorities — timebanking is classified as mutual aid/volunteer service, not a financial activity|
-|**Legal Status**	|No specific national law; governed by local policies and administrative guidelines|
-|**Core Restriction**	|Strictly non-financial — time credits cannot be exchanged for money, invested, or securitized|
-|**Key Compliance Risk**	|Unauthorized use of the word **Bank** in a service name may violate the Commercial Banking Law|
+The name **"TimeBank"** is used in this project as a descriptive term for a community time exchange system — not as an indication of a licensed financial institution.
 
-### 🚨 Critical Naming Compliance
+However, users should be aware of the following legal restrictions:
 
-In mainland China, any entity using the term **Bank** without regulatory approval faces legal exposure. To ensure full compliance, many government-backed timebanking programs have adopted alternative names such as:  
-- **Time Exchange Hub** (Shanghai)  
-- **Volunteer Service Points** (Bengbu)  
-- **Community Care Exchange**
+|Jurisdiction	|Restriction	|Implication for This DApp|
+|-------------|-------------|-------------------------|
+|Mainland China	|Unauthorized use of "Bank" in service names violates the Commercial Banking Law and CBIRC regulations	|Deployment in mainland China requires renaming (e.g., "Time Exchange Hub")|
+|Hong Kong	|Section 97 of the Banking Ordinance (Cap. 155) prohibits non-banks from using "Bank" without HKMA consent	|Promotion in Hong Kong requires renaming or formal application|
 
-### ✅ How This DApp Aligns with Regulatory Expectations
+### 🛡️ Recommended Actions for Deployment
 
-|Regulatory Requirement	|How This DApp Complies|
-|-----------------------|----------------------|
-|**Non-financial positioning**	|TimeCoins are **service hour records**, not currency — no monetary value, no exchange for fiat|
-|**1 hour given = 1 hour earned**	|Matches official mutual aid principles across Shanghai, Bengbu, and other pilot cities|
-|**Transparent, tamper-proof records**	|Hash-chained ledger ensures **auditable, fraud-resistant transaction history** — addressing a key pain point in current timebank deployments|
-|**Cross-region interoperability**	|Supports **one account, multiple communities** — aligning with policy goals for portable time credits|
-|**Donation & redistribution**	|Allows time credits to be **donated to community pools** — supporting vulnerable populations without cash involvement|
+|Scenario	|Recommendation|
+|---------|--------------|
+|Open-source / Academic use	|"TimeBank" is acceptable as a project name|
+|Deployment in Mainland China	|Rename to e.g., "Decentralized Community Care Exchange" or "Mutual Aid Service Ledger"|
+|Deployment in Hong Kong	|Rename to e.g., "Time Exchange Hub" or seek HKMA written consent|
+|Any commercial deployment	|Consult local legal counsel before using "TimeBank"|
 
-### 🛡️ Positioning for Mainland Deployment
+### ✅ What This DApp Is (and Is Not)
 
-To ensure full compliance, if this DApp is deployed or promoted in mainland China, this DApp needs to be marketed and described as a **Decentralized Community Care Exchange** or **Mutual Aid Service Ledger** — not a **Bank**.
+|This DApp IS	|This DApp IS NOT|
+|-------------|----------------|
+|A transparent, AI-powered time exchange ledger	|A licensed bank or financial institution|
+|A mutual aid / volunteer service platform	|A currency exchange or investment vehicle|
+|An open-source educational project	|A regulated financial product|
+|Time credits as service hour records (1 hour = 1 TimeCoin)	|Time credits as monetary value or legal tender|
 
-The hash-chained ledger and AI matching engine are positioned as technology enablers for transparent, efficient mutual aid — never as financial instruments.
-
-**Note:** The China Banking and Insurance Regulatory Commission (CBIRC) has issued public warnings against unauthorized use of the term **Bank**. All timebanking projects must operate under civil affairs, not financial, supervision.
+>**Regulatory Note:** **"TimeBank"** is used as a **conceptual project name only**. This DApp is not a licensed bank or financial institution. Time credits (TimeCoins) represent **service hours only** and have **no monetary value**. Deployments in Mainland China or Hong Kong may require renaming to comply with local banking regulations. Users are responsible for legal compliance in their jurisdiction.
 
 ## 📚 Reference Resources
 
@@ -1058,11 +1055,14 @@ The hash-chained ledger and AI matching engine are positioned as technology enab
 5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
 6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
 7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
-8. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](https://www.gov.cn/zhengce/zhengceku/2022-12/03/content_5730054.htm)
-9. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
-10. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
-11. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
-12. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
+8. [HKMA Guideline on Section 97(1) of the Banking Ordinance (Nov 2000).](https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20001101-4-EN/20001101-4-EN.pdf)
+9. [HKMA Public Warning on Crypto Firms (Nov 2024).](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/)
+10. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](https://www.gov.cn/zhengce/zhengceku/2022-12/03/content_5730054.htm)
+11. [Commercial Banking Law, Article 11.](http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/12/content_1383716.htm)
+12. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
+13. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
+14. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
+15. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
 
 ## ⚖️ Disclaimer
 
