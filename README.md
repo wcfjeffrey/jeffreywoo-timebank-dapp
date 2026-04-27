@@ -130,7 +130,7 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 ### Note:  
 
-<inv>ERC-20 (Fungible Token) vs. ERC-721 (Non-Fungible Token / NFT)</inv>
+**ERC-20 (Fungible Token) vs. ERC-721 (Non-Fungible Token / NFT)**
 
 |Token Type	|Fungible — every token is identical and interchangeable	|Non-fungible — each token is unique and non-interchangeable|
 |-----------|---------------------------------------------------------|-----------------------------------------------------------|
