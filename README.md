@@ -118,14 +118,14 @@ Every transaction is cryptographically linked using SHA-256 hash chaining (`prev
 
 Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently. No login required.
 
-🔒 **7. Digital Identity & Trust**
+🔒 **Digital Identity & Trust**
 
 |Aspect	|Current	|Future|
 |-------|---------|------|
 |Authentication	|Email/Password	|Verifiable Decentralized Identity (DID)|
 |Reputation	|Profile-based	|Automated reputation scoring|
 
-🌍 **8. Local & Global Integration**
+🌍 **Local & Global Integration**
 Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.
 
 ## 💡Finance Transformation Impact
