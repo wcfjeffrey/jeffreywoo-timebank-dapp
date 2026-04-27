@@ -1060,9 +1060,9 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW:
 
 #### 1.4 User Assumption of Risk
 
-BY USING, CLONING, FORKING, DEPLOYING, OR OTHERWISE INTERACTING WITH THIS SOFTWARE, YOU EXPLICITLY ACKNOWLEDGE AND AGREE THAT:
-- You are solely responsible for compliance with all laws and regulations applicable to your jurisdiction
-- You assume all risks associated with the use, deployment, and promotion of the Software
+BY USING, CLONING, FORKING, DEPLOYING, OR OTHERWISE INTERACTING WITH THIS SOFTWARE, YOU EXPLICITLY ACKNOWLEDGE AND AGREE THAT:  
+- You are solely responsible for compliance with all laws and regulations applicable to your jurisdiction  
+- You assume all risks associated with the use, deployment, and promotion of the Software  
 - You will not hold the creator liable for any losses, damages, or penalties arising from your use
 
 ### PART 2: NATURE OF TIMECOINS
@@ -1113,7 +1113,7 @@ THE FOLLOWING USES ARE EXPLICITLY PROHIBITED:
 Under the PBOC Notice on Further Preventing and Handling Risks of Virtual Currency Trading Speculation (2021) :
 >*"Any legal person, unincorporated organization, or natural person investing in virtual currencies and related derivatives... relevant civil legal acts are void, and any resulting losses shall be borne by themselves."*
 
-**IMPLICATION FOR YOU:** If a Mainland Chinese court determines TimeCoins constitute **"virtual currency"**, any agreement involving TimeCoins may be declared void with no legal recourse.
+**IMPLICATION:** If a Mainland Chinese court determines TimeCoins constitute **"virtual currency"**, any agreement involving TimeCoins may be declared void with no legal recourse.
 
 #### 3.1.2 Illegal Fundraising Warning
 
@@ -1121,31 +1121,31 @@ Chinese financial regulators have issued specific warnings about **"TimeBank"** 
 
 >*"Recently, a mobile application named **"TimeBank"** under the guise of public welfare elderly care was found to be conducting investment activities... Such investment activities are suspected of illegality and crime." — CBIRC Risk Alert*
 
-**IMPLICATION FOR YOU:** Your DApp must NOT contain any feature resembling:
-- Investment returns
-- Referral bonuses
-- Multi-level marketing mechanics
-- RMB conversion
+**IMPLICATION:** This DApp must NOT contain any feature resembling:  
+- Investment returns  
+- Referral bonuses  
+- Multi-level marketing mechanics  
+- RMB conversion  
 - Guaranteed earnings
 
 #### 3.1.3 "Bank" Name Usage Restriction
 
-Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the Use of **"Bank"** Names (2022) :
-- Unauthorized use of **"Bank"** in service names is prohibited
+Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the Use of **"Bank"** Names (2022) :  
+- Unauthorized use of **"Bank"** in service names is prohibited  
 - Violations may result in administrative penalties and forced renaming
 
-IMPLICATION FOR YOU: Deployment in Mainland China requires renaming. Suggested alternatives:
-- **"Decentralized Community Care Exchange"**
-- **"Mutual Aid Service Ledger"**
+IMPLICATION: Deployment in Mainland China requires renaming. Suggested alternatives:  
+- **"Decentralized Community Care Exchange"**  
+- **"Mutual Aid Service Ledger"**  
 - **"Time Exchange Hub"**
 
 #### 3.1.4 Data Privacy (PIPL)
 
-Under the Personal Information Protection Law of China (PIPL) :
-- Cross-border transfer of Mainland China residents' personal data requires a security assessment or standard contract filing
+Under the Personal Information Protection Law of China (PIPL) :  
+- Cross-border transfer of Mainland China residents' personal data requires a security assessment or standard contract filing  
 - The GBA Standard Contract provides a simplified mechanism for data transfer between GBA cities and Hong Kong
 
-**IMPLICATION FOR YOU:** If you collect personal information from Mainland Chinese users and transfer it outside China, you must comply with PIPL.
+**IMPLICATION:** If you collect personal information from Mainland Chinese users and transfer it outside China, you must comply with PIPL.
 
 #### 3.1.5 Summary for Mainland China
 
@@ -1164,16 +1164,16 @@ Under the Personal Information Protection Law of China (PIPL) :
 
 #### 3.2.1 "Bank" Name Usage Restriction
 
-Under Section 97 of the Banking Ordinance (Cap. 155) :
-- No person other than a licensed bank or central bank shall use the word **"bank" or "銀行"** (in English or Chinese) without HKMA consent
+Under Section 97 of the Banking Ordinance (Cap. 155) :  
+- No person other than a licensed bank or central bank shall use the word **"bank" or "銀行"** (in English or Chinese) without HKMA consent  
 - Violation is a criminal offense: up to 7th level fine + 2 years imprisonment (on indictment)
 
 **IMPLICATION:** Promotion or deployment in Hong Kong using the name **"TimeBank"** requires HKMA written consent OR renaming.
 
 #### 3.2.2 Virtual Asset Regulation
 
-Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordinance (Cap. 615) - Virtual Asset Service Provider (VASP) Licensing Regime:
-- Operating a centralized virtual asset trading platform requires an SFC license
+Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordinance (Cap. 615) - Virtual Asset Service Provider (VASP) Licensing Regime:  
+- Operating a centralized virtual asset trading platform requires an SFC license  
 - License requirements include: HKD 5 million minimum capital, 2 responsible officers resident in Hong Kong, custody insurance
 
 **CRITICAL QUESTION:** Is this DApp **"decentralized"** enough to avoid licensing?
