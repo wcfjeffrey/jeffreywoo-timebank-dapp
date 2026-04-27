@@ -1011,7 +1011,45 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
-## 📚 Related Resources
+## ⚖️ Regulatory & Compliance Framework (if Using This DApp in Mainland China)
+
+This section outlines the regulatory landscape for timebanking initiatives in mainland China, where the project is conceptually rooted.
+
+### 📌 Current Regulatory Status
+
+|Aspect	|Description|
+|-------|-----------|
+|**Regulatory Body**	|Civil Affairs authorities — timebanking is classified as mutual aid/volunteer service, not a financial activity|
+|**Legal Status**	|No specific national law; governed by local policies and administrative guidelines|
+|**Core Restriction**	|Strictly non-financial — time credits cannot be exchanged for money, invested, or securitized|
+|**Key Compliance Risk**	|Unauthorized use of the word "Bank" in a service name may violate the Commercial Banking Law|
+
+### 🚨 Critical Naming Compliance
+
+In mainland China, any entity using the term **Bank** without regulatory approval faces legal exposure. To ensure full compliance, many government-backed timebanking programs have adopted alternative names such as:  
+- **"Time Exchange Hub"** (Shanghai)  
+- **"Volunteer Service Points"** (Bengbu)  
+- **"Community Care Exchange"**
+
+### ✅ How This DApp Aligns with Regulatory Expectations
+
+|Regulatory Requirement	|How This DApp Complies|
+|-----------------------|----------------------|
+|**Non-financial positioning**	|TimeCoins are **service hour records**, not currency — no monetary value, no exchange for fiat|
+|**1 hour given = 1 hour earned**	|Matches official mutual aid principles across Shanghai, Bengbu, and other pilot cities|
+|**Transparent, tamper-proof records**	|Hash-chained ledger ensures **auditable, fraud-resistant transaction history** — addressing a key pain point in current timebank deployments|
+|**Cross-region interoperability**	|Supports **"one account, multiple communities"** — aligning with policy goals for portable time credits|
+|**Donation & redistribution**	|Allows time credits to be **donated to community pools** — supporting vulnerable populations without cash involvement|
+
+### 🛡️ Positioning for Mainland Deployment
+
+To ensure full compliance, the DApp is marketed and described as a **"Decentralized Community Care Exchange"** or **"Mutual Aid Service Ledger"** — not a **"Bank"**.
+
+The hash-chained ledger and AI matching engine are positioned as technology enablers for transparent, efficient mutual aid — never as financial instruments.
+
+**Note:** The China Banking and Insurance Regulatory Commission (CBIRC) has issued public warnings against unauthorized use of the term **"Bank"**. All timebanking projects must operate under civil affairs, not financial, supervision.
+
+## 📚 Reference Resources
 
 1. [Zhang, C., Yu, W., Suo, H., & Chen, G. (2021). Blockchain in the 'Time Bank': Toward a community-oriented public interest technology. IEEE Transactions on Technology and Society.](https://ieeexplore.ieee.org/document/9431189)
 2. [Lin, J.-J., Lee, Y.-T., & Wu, J.-L. (2021). The effect of thickness-based dynamic matching mechanism on a Hyperledger Fabric-based timebank system. Future Internet, *13*(3).](https://www.mdpi.com/1999-5903/13/3/65)
