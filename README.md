@@ -1029,7 +1029,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 14. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
 15. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
 
-## ⚖️ Legal & Regulatory Disclaimer (China & Hong Kong)
+## ⚖️ Legal & Regulatory Disclaimer (Mainland China & Hong Kong)
 
 ### PART 1: GENERAL DISCLAIMER
 
