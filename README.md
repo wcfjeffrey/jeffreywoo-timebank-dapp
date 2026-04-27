@@ -119,12 +119,12 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 |Transformation Area	|Traditional Finance Challenge	|How This DApp Demonstrates Transformation	|Finance Implication|
 |---------------------|-------------------------------|-------------------------------------------|-------------------|
-|Trust & Intermediaries	|Manual reconciliations, audit costs, reliance on banks/third parties	|Hash-chained ledger (SHA-256) with prevHash/entryHash enables public verifiability without intermediaries	|Reduces audit fees, eliminates reconciliation overhead, automates trust for intercompany transactions|
-|Value Tokenization	|Fiat-based incentives, delayed recognition, limited flexibility	|Tokenized time credits (1 hour = 1 TimeCoin) with Earn/Spend/Donate/Pool Payout mechanics	|Demonstrates tokenomics understanding for Web3 finance, employee rewards, and cross-border value transfer|
-|Financial FP&A	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
-|Audit & Control	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
-|Reporting & Transparency	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
-|Strategic Roadmap	|Siloed systems, resistance to emerging tech	|Planned migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
+|**Trust & Intermediaries**	|Manual reconciliations, audit costs, reliance on banks/third parties	|Hash-chained ledger (SHA-256) with `prevHash`/`entryHash` enables public verifiability without intermediaries	|Reduces audit fees, eliminates reconciliation overhead, automates trust for intercompany transactions|
+|**Value Tokenization**	|Fiat-based incentives, delayed recognition, limited flexibility	|Tokenized time credits (1 hour = 1 TimeCoin) with Earn/Spend/Donate/Pool Payout mechanics	|Demonstrates tokenomics understanding for Web3 finance, employee rewards, and cross-border value transfer|
+|**Financial FP&A**	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
+|**Audit & Control**	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
+|**Reporting & Transparency**	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
+|**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Planned migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
 
 ### Note: 
 
@@ -163,10 +163,10 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |Concept	| Description|
 |---------|------------|
 |**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type. Time is the most universal and equitable currency.|
-|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (prevHash → entryHash), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
+|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
 |**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
 |**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
-|**Cryptographic Integrity**	|Each transaction stores a prevHash (hash of the previous transaction) and an entryHash (hash of its own data + prevHash). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
+|**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
 |**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
 |**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
@@ -323,7 +323,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |Skill Category	|Specific Skill	|How the DApp Demonstrated It|
 |---------------|---------------|----------------------------|
 |**Financial Systems**	|General Ledger Architecture	|Designed Earn/Spend/Donate/Pool Payout tables — analogous to GL, sub-ledgers, and contra accounts|
-|**Internal Controls**	|Audit Trail Design	|Implemented cryptographic prevHash → entryHash linkage making tampering immediately detectable|
+|**Internal Controls**	|Audit Trail Design	|Implemented cryptographic `prevHash` → `entryHash` linkage making tampering immediately detectable|
 |**Tokenomics**	|Digital Asset Economics	|Created time-based token economy with issuance, circulation, donation, and pool payout mechanics (1 hour = 1 TimeCoin)|
 |**FP&A**	|Predictive Forecasting	|Integrated AI demand forecasting to anticipate service needs — directly applicable to rolling forecasts and scenario planning|
 |**Process Automation**	|Workflow Automation	|Automated time credit issuance, transfer, verification, and balance updates — similar to invoice processing or payroll accruals|
@@ -374,17 +374,17 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## 🔗 Blockchain & Ledger Techniques Applied
 
-**JeffreyWoo TimeBank** leverages a **blockchain‑inspired hash-chained ledger** architecture inside its database (PostgreSQL) to ensure trust, transparency, accountability, immutability, and verifiability in time credit (TimeCoin) exchanges — all within a traditional database.
+**JeffreyWoo TimeBank** leverages a **blockchain‑inspired, hash-chained ledger** architecture inside its PostgreSQL database to ensure trust, transparency, accountability, immutability, and verifiability in time credit (TimeCoin) exchanges — all within a traditional database. This design makes it ideal for community adoption while demonstrating core Web3 principles.
 
-> **Note:** **JeffreyWoo TimeBank** currently does not rely on a public blockchain like **Ethereum or Polygon** by default, i.e., no **Smart Contracts**.
+> **Note:** Currently no public blockchain (**Ethereum or Polygon**), gas fees, cryptocurrency wallets, or **Smart Contracts**.
 
 ### ⚙️ How It Works
 
 |Step	|Description|
 |-----|-----------|
 |**1. Transaction Entry**	|Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
-|**2. prevHash**	|The prevHash field stores the hash of the previous transaction's entryHash. This links each new record to the one before it, forming a continuous chain.|
-|**3. entryHash**	|The entryHash is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and prevHash), then hashed using SHA-256.|
+|**2. prevHash**	|The `prevHash` field stores the hash of the previous transaction's `entryHash`. This links each new record to the one before it, forming a continuous chain.|
+|**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any record breaks the chain. This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.|
 
 ### 🔐 Visual Flow
@@ -419,7 +419,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 |Core Feature	|Description|
 |-------------|-----------|
-|**Hash‑Chained Transactions**	|Every transaction stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.|
+|**Hash‑Chained Transactions**	|Every transaction stores the hash of the previous transaction (`prevHash`) and its own hash (`entryHash`), creating a tamper-evident chain similar to Bitcoin's blockchain.|
 |**Public Verifiability**	|Anyone can download the ledger data and cryptographically verify the entire chain's integrity — ensuring community trust without requiring centralized intermediaries.|
 |**No Intermediaries for Trust**	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
 |**Time Credits as Currency**	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
@@ -631,9 +631,9 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |-------------------|-----------------------------------|-------------------------------------------------|
 |**🔹 CORE ARCHITECTURE**	|||	
 |Ledger Type	|Hash-chained ledger in PostgreSQL	|On-chain ledger on Ethereum/Polygon|
-|Transaction Storage	|Database rows with prevHash/entryHash	|Blockchain transactions with block hashes|
+|Transaction Storage	|Database rows with `prevHash`/`entryHash`	|Blockchain transactions with block hashes|
 |Business Logic Location	|Node.js / Express.js backend	|Solidity Smart Contracts|
-|Cryptographic Method	|SHA-256 for entryHash/prevHash	|SHA-256 + Consensus mechanism (PoS)|
+|Cryptographic Method	|SHA-256 for `entryHash`/`prevHash`	|SHA-256 + Consensus mechanism (PoS)|
 |Trust Model	|Cryptographic proofs + trust community + server integrity	|Trust blockchain code + network consensus|
 |**🔹 TIME COIN TOKEN**		|||
 |Token Representation	|Database records (Earn/Spend/Donate tables)	|ERC-20 fungible token|
@@ -647,7 +647,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Donate Operation	|INSERT into `donate` table	|Call `donate()` function to pool address|
 |Pool Payout	|INSERT into `pool_payout` table with approval	|Call `poolPayout()` via DAO vote + multi-sig|
 |**🔹 SECURITY & INTEGRITY**		|||
-|Tamper Evidence	|prevHash/entryHash chain breaks if altered	|Blockchain immutability + consensus|
+|Tamper Evidence	|`prevHash`/`entryHash` chain breaks if altered	|Blockchain immutability + consensus|
 |Auditability	|Manual SQL queries or ledger viewer	|Public block explorer (PolygonScan/EtherScan)|
 |Fraud Prevention	|Manual hash chain verification/ledger viewer	|Smart Contract invariants + automatic consensus + block explorer|
 |Centralization Risk	|Server can be compromised or shut down	|No central point of failure|
@@ -808,8 +808,8 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 Priya Iyer offers a 30‑minute portfolio + resume review for designers via video call.
 
 The previous transaction’s hash is:  
-- prevHash: 300cd5...d8ac  
-- entryHash (computed): f31ab3...317e
+- `prevHash`: 300cd5...d8ac  
+- `entryHash` (computed): f31ab3...317e
 
 #### Transaction Fields
 
