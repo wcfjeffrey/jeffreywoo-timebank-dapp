@@ -17,6 +17,7 @@
 ![Ethereum (Planned)](https://img.shields.io/badge/Ethereum_(Planned)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Polygon (Planned)](https://img.shields.io/badge/Polygon_(Planned)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
 ![Web3 (Planned)](https://img.shields.io/badge/Web3_(Planned)-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Solidity (Planned)](https://img.shields.io/badge/Solidity_(Planned)-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Smart Contracts (Planned)](https://img.shields.io/badge/Smart_Contracts_(Planned)-2563EB?style=for-the-badge)
 ![Status (Proof of Concept)](https://img.shields.io/badge/Status_(Proof_of_Concept)-F59E0B?style=for-the-badge)
 
