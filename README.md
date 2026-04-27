@@ -1058,7 +1058,7 @@ The hash-chained ledger and AI matching engine are positioned as technology enab
 5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
 6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
 7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
-8. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](http://www.cbirc.gov.cn/cn/view/pages/govermentDetail.html?docId=1084232&itemId=861&generaltype=1)
+8. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](https://www.gov.cn/zhengce/zhengceku/2022-12/03/content_5730054.htm))
 9. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
 10. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
 11. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
