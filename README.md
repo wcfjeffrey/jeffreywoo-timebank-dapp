@@ -419,12 +419,12 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 |Core Feature	|Description|
 |-------------|-----------|
-|Hash‑Chained Transactions	|Every transaction stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.|
-|Public Verifiability	|Anyone can download the ledger data and cryptographically verify the entire chain's integrity — ensuring community trust without requiring centralized intermediaries.|
-|No Intermediaries for Trust	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
-|Time Credits as Currency	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
-|AI‑Enhanced Matching	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
-|Decentralized Identity & Reputation (Future)	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
+|**Hash‑Chained Transactions**	|Every transaction stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.|
+|**Public Verifiability**	|Anyone can download the ledger data and cryptographically verify the entire chain's integrity — ensuring community trust without requiring centralized intermediaries.|
+|**No Intermediaries for Trust**	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
+|**Time Credits as Currency**	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
+|**AI‑Enhanced Matching**	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
+|**Decentralized Identity & Reputation (Future)**	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
 
 ### 💡 Why This Architecture Matters
 |Principle	|What It Means	|Finance Analogy|
@@ -634,7 +634,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Transaction Storage	|Database rows with prevHash/entryHash	|Blockchain transactions with block hashes|
 |Business Logic Location	|Node.js / Express.js backend	|Solidity Smart Contracts|
 |Cryptographic Method	|SHA-256 for entryHash/prevHash	|SHA-256 + Consensus mechanism (PoS)|
-|Trust Model	|Trust the community + server integrity	|Trust blockchain code + network consensus|
+|Trust Model	|Cryptographic proofs + trust community + server integrity	|Trust blockchain code + network consensus|
 |**🔹 TIME COIN TOKEN**		|||
 |Token Representation	|Database records (Earn/Spend/Donate tables)	|ERC-20 fungible token|
 |Token Standard	|None (custom database schema)	|ERC-20 (or ERC-721 for unique community care services)|
@@ -649,7 +649,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**🔹 SECURITY & INTEGRITY**		|||
 |Tamper Evidence	|prevHash/entryHash chain breaks if altered	|Blockchain immutability + consensus|
 |Auditability	|Manual SQL queries or ledger viewer	|Public block explorer (PolygonScan/EtherScan)|
-|Fraud Prevention	|Hash chain verification	|Smart Contract invariants + consensus|
+|Fraud Prevention	|Manual hash chain verification/ledger viewer	|Smart Contract invariants + automatic consensus + block explorer|
 |Centralization Risk	|Server can be compromised or shut down	|No central point of failure|
 |Need for Audits	|Code audits for backend	|Smart Contract audits + formal verification|
 |**🔹 COSTS & FEES**		|||
