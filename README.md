@@ -126,7 +126,23 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 |Financial FP&A	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
 |Audit & Control	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
 |Reporting & Transparency	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
-|Strategic Roadmap	|Siloed systems, resistance to emerging tech	|Planned migration to Solidity smart contracts on Ethereum/Polygon with ERC-20 tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
+|Strategic Roadmap	|Siloed systems, resistance to emerging tech	|Planned migration to Solidity smart contracts on Ethereum/Polygon with ERC-20/ERC-721 tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
+
+**Note:**  
+
+### ERC-20 (Fungible Token) vs. ERC-721 (Non-Fungible Token / NFT)
+
+|Token Type	|Fungible — every token is identical and interchangeable	|Non-fungible — each token is unique and non-interchangeable|
+|-----------|---------------------------------------------------------|-----------------------------------------------------------|
+|Analogy	|Like dollars or hours — one hour equals any other hour	|Like a certificate or deed — each represents something unique|
+|Best For	|Time credits / TimeCoins (currency-like)	|Service receipts, certifications, unique contributions|
+|Transferability	|Any token can be split and transferred in any amount	|Each token is transferred as a whole unit (indivisible)|
+|Divisibility	|Yes — can transfer 0.5, 0.25, or any decimal of a token	|No — tokens are indivisible (1 whole token only)|
+|Metadata	|None (balance only)	|Rich metadata (service description, date, provider, recipient)|
+|Use Case in TimeBank	|Daily time credit exchange (earn/spend/donate)	|Proof-of-service receipts, achievement badges, volunteer certifications|
+|Smart Contract Function	|transfer(from, to, amount)	|safeTransferFrom(from, to, tokenId)|
+|Balance Tracking	|balanceOf(address) returns a number	|balanceOf(address) returns count of unique tokens owned|
+|Gas Efficiency	|Lower gas cost per transaction	|Higher gas cost per mint/transfer|
 
 ## 🤝 Social Impact
 
@@ -154,7 +170,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Cryptographic Integrity**	|Each transaction stores a prevHash (hash of the previous transaction) and an entryHash (hash of its own data + prevHash). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
 |**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
-|**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
+|**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
@@ -379,7 +395,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## ⚙️ Formation of the Hash‑Chained Ledger
 
-**JeffreyWoo TimeBank** does not rely on a public blockchain like **Ethereum or Polygon** by default, i.e., no smart contracts. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database (PostgreSQL), to ensure immutability and verifiability of time credit (TimeCoin) transactions.
+**JeffreyWoo TimeBank** currently does not rely on a public blockchain like **Ethereum or Polygon** by default, i.e., no smart contracts. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database (PostgreSQL), to ensure immutability and verifiability of time credit (TimeCoin) transactions.
 
 ### How It Works
 
@@ -486,7 +502,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
 │  │                                                                               │  │
 │  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
-│  │  │                      Token Contract (ERC-20 / ERC-721)                  │  │  │
+│  │  │                      Token Contract (ERC-20/ERC-721)                    │  │  │
 │  │  │  • TimeCreditToken (ERC-20) for fungible time credits                   │  │  │
 │  │  │  • ServiceNFT (ERC-721) for unique community care service offerings     │  │  │
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
@@ -686,7 +702,7 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 2: SMART CONTRACT DEVELOPMENT                                                 │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Write Solidity TimeCoinToken (ERC-20)                                             │
+│ □ Write Solidity TimeCoinToken (ERC-20/ERC-721)                                     │
 │ □ Write Solidity TimeBankCore smart contract (earn/spend/donate/poolPayout)         │
 │ □ Implement proxy pattern for upgradeability                                        │
 │ □ Write unit tests (Hardhat / Foundry)                                              │
