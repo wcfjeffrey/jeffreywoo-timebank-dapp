@@ -110,9 +110,14 @@ Intelligently connects users based on skill profiles, availability, service hist
 
 🔗 **Blockchain Transparency (Hash-Chained Ledger)**
 
-Every transaction is cryptographically linked using SHA-256 hash chaining (`prevHash` → `entryHash`), creating a tamper-evident, publicly verifiable ledger. Any alteration to past transactions breaks the chain, making tampering immediately detectable.
+|Step	|Description|
+|-----|-----------|
+|**1. Transaction Entry**	|Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
+|**2. prevHash**	|The `prevHash` field stores the hash of the previous transaction's `entryHash`. This links each new record to the one before it, forming a continuous chain.|
+|**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256. Any alteration to past transactions breaks the chain, making tampering immediately detectable.|
+|**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any record breaks the chain. This creates a tamper-evident, publicly verifiable ledger, similar to how blocks are linked in a blockchain.|
 
-**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, crypto wallets, or smart contracts.
+**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, crypto wallets, or smart contracts.****
 
 📊	**Live Ledger Viewer**
 
@@ -390,15 +395,6 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 **JeffreyWoo TimeBank** leverages a **blockchain‑inspired, hash-chained ledger** architecture inside its PostgreSQL database to ensure trust, transparency, accountability, immutability, and verifiability in time credit (TimeCoin) exchanges — all within a traditional database. This design makes it ideal for community adoption while demonstrating core Web3 principles.
 
 > **Note:** Currently no public blockchain (**Ethereum or Polygon**), gas fees, cryptocurrency wallets, or **Smart Contracts**.
-
-### ⚙️ How It Works
-
-|Step	|Description|
-|-----|-----------|
-|**1. Transaction Entry**	|Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
-|**2. prevHash**	|The `prevHash` field stores the hash of the previous transaction's `entryHash`. This links each new record to the one before it, forming a continuous chain.|
-|**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
-|**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any record breaks the chain. This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.|
 
 ### 🔐 Hash-chained Ledger Flow
 
