@@ -83,37 +83,52 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 **JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin).
 
-### 💡 Core Concept
-
-- Timebanking allows members to earn time credits (TimeCoins) by providing community care services and spend/donate those time credits (TimeCoins) to receive help or support others.
-- The guiding rule is simple: **1 hour given = 1 hour earned**.
-
-### 🔄 How It Works
-
-#### 1. Community Care Service Exchange  
-Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
-
-#### 2. Earning Time Credits  
-Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the ledger.
-
-#### 3. Spending/Donating Time Credits  
-Members use earned time credits (TimeCoins) to request services from others, or donate them to community pools/charities/individuals in need, creating a continuous cycle of giving and receiving, and promoting generosity and social inclusion.
-
-#### 4. Flexible Reciprocity  
-Exchanges don’t need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration or a continuous cycle of goodwill.
-
-#### 5. Transparent Ledger  
-Every “earn”, “spend/donate" transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
-
 ## ✨ What It Does
 
-⏰ **Community Time Exchange** — Trade time and skills directly with others through a blockchain‑inspired, hash-chained ledger — every transaction is cryptographically linked, tamper-evident, and publicly verifiable without requiring intermediaries. (**Smart Contracts** coming in future migration to Ethereum/Polygon)  
-🧠 **AI Matching Engine** — Intelligently connects users based on skill profiles, availability, service history, and community demand using Gemini API and GPT-4o — helping members find the right helpers and opportunities faster.  
-🔗 **Blockchain Transparency** — Ensures secure, immutable records of time transactions through SHA-256 hash chaining (`prevHash` → `entryHash`). Any alteration to past transactions breaks the chain, making tampering immediately detectable.  
-🌍 **Local & Global Integration** — Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.  
-🔒 **Digital Identity & Trust** — Currently uses email/password authentication with profile-based reputation. Future integration will add verifiable decentralized identity (DID) and automated reputation scoring for enhanced trust across communities.  
-📊	**Live Ledger Viewer** — Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently.  
-🤝	**Four Core Actions** — **Earn** TimeCoins by providing services, **Spend** them to receive help, **Donate** to community pools, or facilitate **Pool Payouts** to support vulnerable members — creating a continuous cycle of giving and receiving where 1 hour given = 1 hour earned.
+Timebanking allows members to earn time credits (TimeCoins) by providing community care services, and spend/donate those time credits (TimeCoins) to receive help or support others.
+
+⏰ **Community Care Service Exchange**
+
+Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
+
+🤝	**Four Core Actions**
+
+|Action	|Description|
+|-------|-----------|
+|Earn	|Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the hash-chained ledger.|
+|Spend	|Use earned TimeCoins to request services from other members.|
+|Donate	|Contribute TimeCoins to community pools, charities, or individuals in need.|
+|Pool Payout	|Facilitate payouts from community pools to support vulnerable members.|
+
+> **Core Principle: 1 hour given = 1 hour earned — creating a continuous cycle of giving and receiving.**
+
+♻️ **Flexible Reciprocity**
+
+Exchanges don't need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration and a continuous cycle of goodwill.
+
+🧠 **AI Matching Engine**
+
+Intelligently connects users based on skill profiles, availability, service history, and community demand using Gemini API and GPT-4o — helping members find the right helpers and opportunities faster.
+
+🔗 **Blockchain Transparency (Hash-Chained Ledger)**
+
+Every transaction is cryptographically linked using SHA-256 hash chaining (`prevHash` → `entryHash`), creating a tamper-evident, publicly verifiable ledger. Any alteration to past transactions breaks the chain, making tampering immediately detectable.
+
+**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, crypto wallets, or smart contracts.
+
+📊	**Live Ledger Viewer**
+
+Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently. No login required.
+
+🔒 **7. Digital Identity & Trust**
+
+|Aspect	|Current	|Future|
+|-------|---------|------|
+|Authentication	|Email/Password	|Verifiable Decentralized Identity (DID)|
+|Reputation	|Profile-based	|Automated reputation scoring|
+
+🌍 **8. Local & Global Integration**
+Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.
 
 ## 💡Finance Transformation Impact
 
