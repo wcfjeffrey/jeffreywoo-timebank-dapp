@@ -105,12 +105,6 @@ Exchanges don’t need to be one‑to‑one. Members can give help to one person
 #### 5. Transparent Ledger  
 Every “earn”, “spend/donate" transaction is recorded in the hash‑chained ledger, ensuring integrity and public verifiability.
 
-### 🔗 Blockchain‑Inspired Transparency
-
-- Each transaction is cryptographically linked to the previous one using **prevHash** and **entryHash**.
-- The ledger forms an immutable chain of service records, preventing tampering and ensuring accountability.
-- This blockchain‑inspired design provides **trust without intermediaries**, making time exchanges secure, auditable, and community-driven.
-
 ## ✨ What It Does
 
 ⏰ **Community Time Exchange** — Trade time and skills directly with others through a hash-chained ledger — every transaction is cryptographically linked, tamper-evident, and publicly verifiable without requiring intermediaries. (Smart contracts coming in future migration to Ethereum/Polygon)  
@@ -324,14 +318,6 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
-## Decentralized-Inspired Architecture of This App
-
-This app cleverly implements key principles of blockchain within a traditional database to increase transparency and auditability:
-
-- **Hash-Chained Ledger:** Every transaction record stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.
-- **Public Verifiability:** The project states that the ledger is publicly verifiable, meaning anyone could theoretically download the ledger data and cryptographically verify the entire chain's integrity.
-- **No Intermediaries for Trust:** By making the ledger tamper-evident, the DApp aims to build "trust without intermediaries" for the validity of the transaction history, even though a central server still manages the data.
-
 ## ⭐ Finance Skills Strengthened
 
 |Skill Category	|Specific Skill	|How the DApp Demonstrated It|
@@ -388,40 +374,65 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 ## 🔗 Blockchain & Ledger Techniques Applied
 
-**JeffreyWoo TimeBank** leverages a hash‑chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit (TimeCoin) exchanges.
+**JeffreyWoo TimeBank** leverages a hash-chained ledger architecture inspired by blockchain principles to ensure trust, transparency, and accountability in time credit (TimeCoin) exchanges — all within a traditional database.
 
-|Core Feature|Description|
+**Note:** **JeffreyWoo TimeBank** currently does not rely on a public blockchain like Ethereum or Polygon by default, i.e., no smart contracts. Instead, it implements a blockchain‑inspired hash‑chained ledger inside its database (PostgreSQL), to ensure immutability and verifiability of time credit (TimeCoin) transactions.
+
+### ⚙️ How It Works
+
+|Step	|Description|
+|-----|-----------|
+|**1. Transaction Entry**	|Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
+|**2. prevHash**	|The prevHash field stores the hash of the previous transaction's entryHash. This links each new record to the one before it, forming a continuous chain.|
+|**3. entryHash**	|The entryHash is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and prevHash), then hashed using SHA-256.|
+|**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any record breaks the chain. This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.|
+
+### 🔐 Visual Flow
+
+<pre lang="markdown">
+┌─────────────────────────────────────────────────────────────────┐
+│                    HASH-CHAINED LEDGER FLOW                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   [Record 1]          [Record 2]          [Record 3]            │
+│   ┌─────────┐         ┌─────────┐         ┌─────────┐           │
+│   │  Data   │         │  Data   │         │  Data   │           │
+│   │ Fields  │         │ Fields  │         │ Fields  │           │
+│   └────┬────┘         └────┬────┘         └────┬────┘           │
+│        │                   │                   │                │
+│        ▼                   ▼                   ▼                │
+│   entryHash_A        entryHash_B        entryHash_C             │
+│   (SHA-256)          (SHA-256)          (SHA-256)               │
+│        │                   │                   │                │
+│        └─────────┬─────────┘                   │                │
+│                  │                             │                │
+│            prevHash_B ─────────────────────────┘                │
+│            (= entryHash_A)                                      │
+│                                                                 │
+│   ⛓️ Tampering any record breaks all subsequent hashes          │
+│   👁️ Anyone can verify the entire chain                         │
+│   🏛️ Trust without intermediaries                               │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘</pre>
+
+### 📊 Core Features
+
+|Core Feature	|Description|
 |-------------|-----------|
-|**Hash‑Chained Transactions**|Every community care service exchange is recorded as a transaction linked cryptographically to the previous one, forming an immutable chain of records.|
-|**Public Verifiability**|Transactions are auditable and tamper‑resistant, ensuring community trust without requiring centralized intermediaries.|
-|**Time Credits as Currency**|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
-|**AI‑Enhanced Matching**|AI algorithms connect participants by skills and needs, ensuring efficient and equitable distribution of time credits/TimeCoins.|
-|**Decentralized Identity & Reputation**|Each participant maintains a verifiable digital identity, with reputation scores built from contribution history.|
+|Hash‑Chained Transactions	|Every transaction stores the hash of the previous transaction (prevHash) and its own hash (entryHash), creating a tamper-evident chain similar to Bitcoin's blockchain.|
+|Public Verifiability	|Anyone can download the ledger data and cryptographically verify the entire chain's integrity — ensuring community trust without requiring centralized intermediaries.|
+|No Intermediaries for Trust	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
+|Time Credits as Currency	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
+|AI‑Enhanced Matching	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
+|Decentralized Identity & Reputation (Future)	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
 
-## ⚙️ Formation of the Hash‑Chained Ledger
-
-**JeffreyWoo TimeBank** currently does not rely on a public blockchain like **Ethereum or Polygon** by default, i.e., no smart contracts. Instead, it implements a **blockchain‑inspired hash‑chained ledger** inside its database (PostgreSQL), to ensure immutability and verifiability of time credit (TimeCoin) transactions.
-
-### How It Works
-
-**1. Transaction Entry**  
-
-Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.
-
-**2. prevHash**
-
-- The **prevHash** field stores the hash of the previous transaction’s **entryHash**.
-- This links each new record to the one before it, forming a continuous chain.
-
-**3. entryHash**
-
-- The **entryHash** is computed by concatenating the transaction’s fields, including ID, Index, Kind (Grant, Exchange, Donation, Pool Payout), From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and **prevHash**.
-- This concatenated string is then hashed using a cryptographic function such as **SHA‑256**.
-
-**4. Chain Integrity**
-
-- Because each transaction depends on the hash of the previous one, altering any record breaks the chain.
-- This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.
+### 💡 Why This Architecture Matters
+|Principle	|What It Means	|Finance Analogy|
+|-----------|---------------|---------------|
+|**Tamper-Evidence**	|Altering any record breaks all subsequent hashes — tampering is immediately detectable	|Continuous auditing — fraud detected instantly, not after periodic review|
+|**Public Verifiability**	|Anyone can audit the full transaction history without permission	|Open-book accounting — stakeholders verify independently|
+|**Trust Without Intermediaries**	|No bank, broker, or central authority needed to validate transactions	|Trustless reconciliation — counterparties don't need to trust each other|
+|**Immutable Audit Trail**	|Complete, unalterable history of every time credit exchange	|Forensic accounting ready — perfect for regulatory review|
 
 ## 🪙 System Architecture Overview — Future State (with Roadmap Integration)
 <pre lang="markdown">
