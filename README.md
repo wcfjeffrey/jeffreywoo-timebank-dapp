@@ -1013,7 +1013,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 ## ⚖️ Regulatory & Compliance Framework (if Using This DApp in Mainland China)
 
-This section outlines the regulatory landscape for timebanking initiatives in mainland China, where the project is conceptually rooted.
+This section applies only if the DApp is deployed or promoted within mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
 
 ### 📌 Current Regulatory Status
 
