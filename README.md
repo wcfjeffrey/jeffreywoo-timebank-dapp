@@ -81,11 +81,9 @@ Among them, the following SDGs are relevant to individuals with disabilities in 
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
 
-**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin).
+✨ **What It Does**
 
-## ✨ What It Does
-
-Timebanking allows members to earn time credits (TimeCoins) by providing community care services, and spend/donate those time credits (TimeCoins) to receive help or support others.
+**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin). Members earn time credits (TimeCoins) by providing community care services, and spend or donate those credits to receive help or support others.
 
 ⏰ **Community Care Service Exchange**
 
