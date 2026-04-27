@@ -424,6 +424,8 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘</pre>
 
+**Note:** For a detailed walkthrough of the `prevHash`/`entryHash` calculation, see the below *Blockchain Mechanism Illustrated by a Ledger Example*.
+
 ### 📊 Core Features
 
 |Core Feature	|Description|
