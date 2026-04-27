@@ -117,7 +117,7 @@ Intelligently connects users based on skill profiles, availability, service hist
 |**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any past record breaks the chain. This creates a tamper-evident, publicly verifiable ledger, similar to how blocks are linked in a blockchain.|
 
-**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, cryptocurrency wallets, or smart contracts.
+**Note:** For Conceptual Roadmap (Educational Vision Only), Smart Contracts can be migrated to Ethereum/Polygon. Currently, no public blockchain, gas fees, cryptocurrency wallets, or smart contracts.
 
 📊	**Live Ledger Viewer**
 
@@ -131,13 +131,13 @@ For time credit management, each member has a personal dashboard "Wallet" showin
 
 🔒 **Digital Identity & Trust**
 
-|Aspect	|Current	|Future|
+|Aspect	|Current	|Conceptual Development|
 |-------|---------|------|
 |Authentication	|Email/Password	|Verifiable Decentralized Identity (DID)|
 |Reputation	|Profile-based	|Automated reputation scoring|
 
 🌍 **Local & Global Integration**
-Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.
+Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Conceptual Roadmap (Educational Vision Only) includes connecting to global timebank networks and enabling cross-community interoperability.
 
 ## 💡Finance Transformation Impact
 
@@ -193,8 +193,8 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
 |**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
-|**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
-|**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
+|**Decentralized Identity (DID) — Conceptual Development**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
+|**Smart Contracts — Conceptual Development**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
@@ -373,8 +373,8 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 - **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
 - **API Codegen:** Orval
 - **UI:** Tailwind CSS + Recharts + Framer Motion
-- **Blockchain:**	Ethereum / Polygon (future development)
-- **Smart Contracts:** Solidity (future development)
+- **Blockchain:**	Ethereum / Polygon (conceptual development)
+- **Smart Contracts:** Solidity (conceptual development)
 
 ## 🔍 Data Validation with Zod
 
@@ -442,7 +442,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**No Intermediaries for Trust**	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
 |**Time Credits as Currency**	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
 |**AI‑Enhanced Matching**	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
-|**Decentralized Identity & Reputation (Future)**	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
+|**Decentralized Identity & Reputation (Conceptual Development)**	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
 
 ### 💡 Why This Architecture Matters
 |Principle	|What It Means	|Finance Analogy|
@@ -452,7 +452,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**Trust Without Intermediaries**	|No bank, broker, or central authority needed to validate transactions	|Trustless reconciliation — counterparties don't need to trust each other|
 |**Immutable Audit Trail**	|Complete, unalterable history of every time credit exchange	|Forensic accounting ready — perfect for regulatory review|
 
-## 🪙 System Architecture Overview — Future State (with Roadmap Integration)
+## 🪙 System Architecture Overview — Conceptual Development (with Roadmap Integration)
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │                              PRESENTATION LAYER                                     │
@@ -521,7 +521,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
                                               ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │                            BLOCKCHAIN / SMART CONTRACT LAYER                        │
-│                                    (Future)                                         │
+│                                 (Conceptual Development)                            │
 │                                                                                     │
 │  ┌───────────────────────────────────────────────────────────────────────────────┐  │
 │  │                         SOLIDITY SMART CONTRACTS                              │  │
@@ -550,19 +550,19 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 │                                              │                                      │
-│              ┌───────────────────────────────────────────────────────────┐          │
-│              ▼                                                           ▼          │
-│  ┌───────────────────────┐                                   ┌─────────────────────┐│
-│  │   Polygon/Ethereum    │                                   │   Cross-Chain       ││
-│  │      Network          │                                   │   Bridge            ││
-│  │  (Mainnet / Testnet)  │                                   │   (Future)          ││
-│  └───────────────────────┘                                   └─────────────────────┘│
+│              ┌─────────────────────────────────────────────────────────┐            │
+│              ▼                                                         ▼            │
+│  ┌───────────────────────┐                              ┌──────────────────────────┐│
+│  │   Polygon/Ethereum    │                              │   Cross-Chain            ││
+│  │      Network          │                              │   Bridge                 ││
+│  │  (Mainnet / Testnet)  │                              │ (Conceptual Development) ││
+│  └───────────────────────┘                              └──────────────────────────┘│
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                               │
                                               ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │                           INTEROPERABILITY & GOVERNANCE LAYER                       │
-│                                    (Future)                                         │
+│                                 (Conceptual Development)                            │
 │                                                                                     │
 │  ┌───────────────────────────────────────────────────────────────────────────────┐  │
 │  │                      Cross-Community Interoperability                         │  │
@@ -611,7 +611,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
-**JeffreyWoo TimeBank** is currently a conceptual DApp built on a **blockchain‑inspired hash‑chained ledger**. Future development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Planned directions include:
+**JeffreyWoo TimeBank** is currently a conceptual DApp built on a **blockchain‑inspired hash‑chained ledger**. Conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Planned directions include:
 
 - **Smart Contract Deployment**
 
@@ -643,10 +643,10 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
   - Introduce community voting for rules, upgrades, and dispute resolution  
   - Ensure democratic participation in platform evolution
 
-## 📈 Full Comparison Table: Current DApp vs. Future DApp
+## 📈 Full Comparison Table: Current DApp vs. Conceptually Developed DApp
 
-|Comparison Aspect	|Current DApp (Hash-Chained Ledger)	|Future DApp (Smart Contracts on Ethereum/Polygon)|
-|-------------------|-----------------------------------|-------------------------------------------------|
+|Comparison Aspect	|Current DApp (Hash-Chained Ledger)	|Conceptually Developed DApp (Smart Contracts on Ethereum/Polygon)|
+|-------------------|-----------------------------------|-----------------------------------------------------------------|
 |**🔹 CORE ARCHITECTURE**	|||	
 |Ledger Type	|Hash-chained ledger in PostgreSQL	|On-chain ledger on Ethereum/Polygon|
 |Transaction Storage	|Database rows with `prevHash`/`entryHash`	|Blockchain transactions with block hashes|
@@ -717,11 +717,11 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Low Budget Project	|✅ Best choice	|❌ Gas costs add up|
 |High-Value Transactions	|⚠️ Risk of server compromise	|✅ Strongest security|
 |**🔹 ROADMAP STATUS**		|||
-|Implementation Status	|✅ Fully implemented (current)	|🔮 Planned (future development)|
+|Implementation Status	|✅ Fully implemented (current)	|🔮 Planned (conceptual development)|
 |Time to Implement	|Already complete	|~2-4 months|
 |Estimated Effort	|—	|Medium to High|
 
-## 🚚 System Migration Plan (future development)
+## 🚚 Conceptual System Migration (Educational Vision Only)
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 1: PREPARATION & AUDIT                                                        │
@@ -787,7 +787,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ POST-MIGRATION (Future)                                                             │
+│ POST-MIGRATION (Conceptual Development)                                             │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
 │ □ Monitor Mainnet performance and gas costs                                         │
 │ □ Implement cross-chain bridges (Polygon ↔ Ethereum ↔ other chains)                 │
