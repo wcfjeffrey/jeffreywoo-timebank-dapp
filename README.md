@@ -1013,7 +1013,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 ## ⚖️ Legal & Regulatory Disclaimer (China & Hong Kong)
 
-This section addresses the regulatory status of the term **"TimeBank"** in Mainland China and Hong Kong. This DApp is a conceptual, open-source project for **educational and research purposes only**.
+This section addresses the regulatory status of the term **"TimeBank"** in Mainland China and Hong Kong. **JeffreyWoo TimeBank** is a conceptual decentralized application created for **educational, research, and community development purposes only**. It is not intended to function as a financial product, investment vehicle, or regulated service. The platform does not issue, trade, or guarantee monetary assets, and any time credits exchanged within the system are purely illustrative and non‑financial. Use of this project should be understood as experimental and exploratory, without any implication of financial return, legal enforceability, or commercial offering.
 
 ### 📌 Important Notice on the Use of "TimeBank"
 
@@ -1063,10 +1063,6 @@ However, users should be aware of the following legal restrictions:
 13. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
 14. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
 15. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
-
-## ⚖️ Disclaimer
-
-**JeffreyWoo TimeBank** is a conceptual decentralized application created for **educational, research, and community development purposes only**. It is not intended to function as a financial product, investment vehicle, or regulated service. The platform does not issue, trade, or guarantee monetary assets, and any time credits exchanged within the system are purely illustrative and non‑financial. Use of this project should be understood as experimental and exploratory, without any implication of financial return, legal enforceability, or commercial offering.
 
 ## 📄 License
 
