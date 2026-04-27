@@ -1134,7 +1134,7 @@ Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the 
 - Unauthorized use of **"Bank"** in service names is prohibited  
 - Violations may result in administrative penalties and forced renaming
 
-IMPLICATION: Deployment in Mainland China requires renaming. Suggested alternatives:  
+**IMPLICATION:** Deployment in Mainland China requires renaming. Suggested alternatives:  
 - **"Decentralized Community Care Exchange"**  
 - **"Mutual Aid Service Ledger"**  
 - **"Time Exchange Hub"**
