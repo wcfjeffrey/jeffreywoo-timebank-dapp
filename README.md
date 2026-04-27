@@ -867,7 +867,10 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 <img src="assets/JeffreyWooTimeBank13.png" alt="JeffreyWooTimeBank13" width="1200" height="600" />
 <img src="assets/JeffreyWooTimeBank14.png" alt="JeffreyWooTimeBank14" width="500" height="400" /> 
 <img src="assets/JeffreyWooTimeBank15.png" alt="JeffreyWooTimeBank15" width="1200" height="600" /> 
-**Voting + Resolution Mechanism**
+
+### Note: 
+
+### Voting + Resolution Mechanism
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                    VOTE → RESOLVE → EXECUTION FLOW                                      │
