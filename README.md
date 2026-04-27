@@ -169,13 +169,13 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 
 ## 🤝 Social Impact
 
-This project demonstrates how technology can reshape community collaboration by:  
-- Empowering individuals to value time and care equally, regardless of profession or income
-- Building trust and social connection across neighborhoods through transparent, decentralized time exchange
-- Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation
-- Promoting sustainable community development through equitable resource sharing
-- Integrating AI to optimize skill matching and time utilization
-- Enabling members to donate time to support vulnerable groups.
+This project demonstrates how blockchain-inspired ledger technology can reshape community collaboration by:  
+- **Empowering individuals** to value time and care equally, regardless of profession or income — with every hour cryptographically recorded and publicly verifiable on an immutable ledger
+- **Building trust and social connection** across neighborhoods through transparent, decentralized time exchange — where hash-chained records eliminate the need for central authorities or intermediaries
+- **Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation** — backed by a tamper-evident blockchain-style audit trail that ensures fairness and accountability
+- **Promoting sustainable community development** through equitable resource sharing — with every transaction cryptographically linked, preventing fraud or manipulation of time credits
+- **Integrating AI** to optimize skill matching and time utilization — while the underlying hash chain ensures all matches and exchanges are permanently recorded and verifiable
+- **Enabling members to donate time** to support vulnerable groups — with blockchain transparency ensuring donations reach intended recipients and can be audited by anyone
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
