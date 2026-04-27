@@ -107,7 +107,7 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 ## ✨ What It Does
 
-⏰ **Community Time Exchange** — Trade time and skills directly with others through a hash-chained ledger — every transaction is cryptographically linked, tamper-evident, and publicly verifiable without requiring intermediaries. (**Smart Contracts** coming in future migration to Ethereum/Polygon)  
+⏰ **Community Time Exchange** — Trade time and skills directly with others through a blockchain‑inspired, hash-chained ledger — every transaction is cryptographically linked, tamper-evident, and publicly verifiable without requiring intermediaries. (**Smart Contracts** coming in future migration to Ethereum/Polygon)  
 🧠 **AI Matching Engine** — Intelligently connects users based on skill profiles, availability, service history, and community demand using Gemini API and GPT-4o — helping members find the right helpers and opportunities faster.  
 🔗 **Blockchain Transparency** — Ensures secure, immutable records of time transactions through SHA-256 hash chaining (`prevHash` → `entryHash`). Any alteration to past transactions breaks the chain, making tampering immediately detectable.  
 🌍 **Local & Global Integration** — Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Future roadmap includes connecting to global timebank networks and enabling cross-community interoperability.  
