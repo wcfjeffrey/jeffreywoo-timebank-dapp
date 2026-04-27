@@ -14,8 +14,11 @@
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Contracts](https://img.shields.io/badge/Smart_Contracts-Planned-blue)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)
+![Demo](https://img.shields.io/badge/Live_Demo-Not_Available-red)
 
 ## 📊 Overview
          
