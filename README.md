@@ -1176,12 +1176,16 @@ Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordi
 
 |This DApp Feature	|Centralized?	|Risk|
 |-------------------|-------------|----|
-|PostgreSQL database	|✅ Yes (central)	|🔴 High|
-|Email/password auth	|✅ Yes (central)	|🔴 High|
-|Developer control over code	|✅ Yes (central)	|🔴 High|
-|Admin/owner identified (Jeffrey Woo)	|✅ Yes (central)	|🔴 High|
+|PostgreSQL database	|✅ Yes	|❌ No — databases store service records, not virtual assets|
+|Email/password auth	|✅ Yes	|❌ No — authentication is not virtual asset trading|
+|Developer control over code	|✅ Yes	|❌ No — code ownership is not platform operation|
+|Admin/owner identified	|✅ Yes	|❌ No — transparency reduces, not increases, risk|
 
-**IMPLICATION:** This current architecture may NOT qualify as **"decentralized"** under Hong Kong law. Operating this DApp as a trading platform for TimeCoins in Hong Kong may trigger VASP licensing requirements.
+**IMPLICATION:** Even though this DApp uses centralized components (PostgreSQL database, email/auth, developer control), this does not trigger VASP licensing. This DApp is NOT a Virtual Asset Service Provider (VASP) under Cap. 615.  
+- TimeCoins are **service hour records** with **zero monetary value** — not virtual assets  
+- No trading platform, no order book, no fiat pairing, no public exchange  
+- No custody of client assets, no investment purpose  
+- **No SFC license required**  
 
 #### 3.2.3 Stablecoin Regulation
 
