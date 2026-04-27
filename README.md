@@ -21,7 +21,7 @@
          
 > **Not your typical community exchange app!**
 
-**JeffreyWoo TimeBank** is a decentralized-by-design, AI-powered timebanking DApp that enables communities to exchange skills, community care services, and support using time credits as currency (**TimeCoins**). Built on a blockchain-inspired, hash-chained ledger, every transaction is cryptographically linked, tamper-evident, and publicly verifiable — ensuring trust without requiring traditional intermediaries.
+**JeffreyWoo TimeBank** is a decentralized-by-design, blockchain‑inspired, AI-powered timebanking DApp that enables communities to exchange skills, community care services, and support using time credits as currency (**TimeCoins**). Built on a hash-chained ledger, every transaction is cryptographically linked, tamper-evident, and publicly verifiable — ensuring trust without requiring traditional intermediaries.
 
 Decentralization is achieved through: the cryptographic hash chain itself. No single party can alter transaction history without detection, as every record is mathematically linked to the one before it. The ledger's integrity is distributed across cryptographic proofs rather than centralized authority — making trust a property of the data, not the operator.
 
