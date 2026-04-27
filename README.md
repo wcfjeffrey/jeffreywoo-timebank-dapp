@@ -758,11 +758,14 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 ## 📋 Sample
 
 <img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="1000" />
-<h2><u><b>Sign Up to Join JeffreyWoo TimeBank Community</b></u></h2>
+
+<ins>Sign Up to Join JeffreyWoo TimeBank Community</ins>
 <img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
-<h2><u><b>Secure Login to JeffreyWoo TimeBank</b></u></h2>
+
+<ins>Secure Login to JeffreyWoo TimeBank</ins>
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
-<h2><u><b>Transparent Public Ledger (No Login Required)</b></u></h2>
+
+<ins>Transparent Public Ledger (No Login Required)</ins>
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
 
 ### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
