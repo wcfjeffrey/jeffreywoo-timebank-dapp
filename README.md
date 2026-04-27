@@ -112,7 +112,7 @@ Intelligently connects users based on skill profiles, availability, service hist
 
 |Step	|Description|
 |-----|-----------|
-|**1. Transaction Entry**	|Each community care service exchange (e.g., tutoring, bike repair) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
+|**1. Transaction Entry**	|Each community care service exchange (e.g., cooking, repairs, home & garden, mentorship, childcare) is recorded as a row in the ledger with all relevant fields: Sender, Recipient, Minutes, Memo, Timestamp, etc.|
 |**2. prevHash**	|The `prevHash` field stores the hash of the previous transaction's `entryHash`. This links each new record to the one before it, forming a continuous chain.|
 |**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any past record breaks the chain. This creates a tamper-evident, publicly verifiable ledger, similar to how blocks are linked in a blockchain.|
