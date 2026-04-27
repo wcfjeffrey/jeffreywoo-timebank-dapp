@@ -141,8 +141,8 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 |Divisibility	|Yes — can transfer 0.5, 0.25, or any decimal of a token	|No — tokens are indivisible (1 whole token only)|
 |Metadata	|None (balance only)	|Rich metadata (service description, date, provider, recipient)|
 |Use Case in TimeBank	|Daily time credit exchange (earn/spend/donate)	|Proof-of-service receipts, achievement badges, volunteer certifications|
-|Smart Contract Function	|transfer(from, to, amount)	|safeTransferFrom(from, to, tokenId)|
-|Balance Tracking	|balanceOf(address) returns a number	|balanceOf(address) returns count of unique tokens owned|
+|Smart Contract Function	|`transfer(from, to, amount)`	|`safeTransferFrom(from, to, tokenId)`|
+|Balance Tracking	|`balanceOf(address)` returns a number	|`balanceOf(address)` returns count of unique tokens owned|
 |Gas Efficiency	|Lower gas cost per transaction	|Higher gas cost per mint/transfer|
 
 ## 🤝 Social Impact
