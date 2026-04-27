@@ -123,6 +123,10 @@ Intelligently connects users based on skill profiles, availability, service hist
 
 Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently. No login required.
 
+💰 **Time Credit Balances & Transaction History**
+
+For time credit management, each member has a personal dashboard "Wallet" showing real-time TimeCoin balance, complete earn/spend/donate/pool payout history, and cryptographic transaction receipts including `entryHash` for personal audit verification.
+
 🔒 **Digital Identity & Trust**
 
 |Aspect	|Current	|Future|
@@ -186,6 +190,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
 |**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
+|**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
 |**Decentralized Identity (DID) — Future**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
 |**Smart Contracts — Future**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
