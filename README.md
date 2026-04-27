@@ -1011,9 +1011,9 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
-## ⚖️ Regulatory & Compliance Framework (if Using This DApp in Mainland China)
+## ⚖️ Regulatory & Compliance Framework
 
-This section applies only if this DApp is deployed or promoted within mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
+This section applies only if this DApp is deployed or promoted in mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
 
 ### 📌 Current Regulatory Status
 
@@ -1027,9 +1027,9 @@ This section applies only if this DApp is deployed or promoted within mainland C
 ### 🚨 Critical Naming Compliance
 
 In mainland China, any entity using the term **Bank** without regulatory approval faces legal exposure. To ensure full compliance, many government-backed timebanking programs have adopted alternative names such as:  
-- **"Time Exchange Hub"** (Shanghai)  
-- **"Volunteer Service Points"** (Bengbu)  
-- **"Community Care Exchange"**
+- **Time Exchange Hub** (Shanghai)  
+- **Volunteer Service Points** (Bengbu)  
+- **Community Care Exchange**
 
 ### ✅ How This DApp Aligns with Regulatory Expectations
 
@@ -1043,7 +1043,7 @@ In mainland China, any entity using the term **Bank** without regulatory approva
 
 ### 🛡️ Positioning for Mainland Deployment
 
-To ensure full compliance, the DApp will be marketed and described as a **Decentralized Community Care Exchange** or **Mutual Aid Service Ledger** — not a **Bank**.
+To ensure full compliance, if this DApp is deployed or promoted in mainland China, this DApp needs to be marketed and described as a **Decentralized Community Care Exchange** or **Mutual Aid Service Ledger** — not a **Bank**.
 
 The hash-chained ledger and AI matching engine are positioned as technology enablers for transparent, efficient mutual aid — never as financial instruments.
 
