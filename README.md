@@ -137,6 +137,7 @@ For time credit management, each member has a personal dashboard "Wallet" showin
 |Reputation	|Profile-based	|Automated reputation scoring|
 
 🌍 **Local & Global Integration**
+
 Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Conceptual development includes connecting to global timebank networks and enabling cross-community interoperability.
 
 ## 💡Finance Transformation Impact
@@ -611,7 +612,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
-**JeffreyWoo TimeBank** is currently a conceptual DApp built on a **blockchain‑inspired hash‑chained ledger**. Conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
+**JeffreyWoo TimeBank** is currently a DApp built on a **blockchain‑inspired hash‑chained ledger**. Its conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
 
 - **Smart Contract Deployment**
 
