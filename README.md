@@ -1131,7 +1131,7 @@ Chinese financial regulators have issued specific warnings about **"TimeBank"** 
 #### 3.1.3 "Bank" Name Usage Restriction
 
 Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the Use of **"Bank"** Names (2022) :
-- Unauthorized use of "Bank" in service names is prohibited
+- Unauthorized use of **"Bank"** in service names is prohibited
 - Violations may result in administrative penalties and forced renaming
 
 IMPLICATION FOR YOU: Deployment in Mainland China requires renaming. Suggested alternatives:
@@ -1168,24 +1168,24 @@ Under Section 97 of the Banking Ordinance (Cap. 155) :
 - No person other than a licensed bank or central bank shall use the word **"bank" or "銀行"** (in English or Chinese) without HKMA consent
 - Violation is a criminal offense: up to 7th level fine + 2 years imprisonment (on indictment)
 
-**IMPLICATION FOR YOU:** Promotion or deployment in Hong Kong using the name **"TimeBank"** requires HKMA written consent OR renaming.
+**IMPLICATION:** Promotion or deployment in Hong Kong using the name **"TimeBank"** requires HKMA written consent OR renaming.
 
 #### 3.2.2 Virtual Asset Regulation
 
-Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordinance (Cap. 615) - VASP Licensing Regime:
+Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordinance (Cap. 615) - Virtual Asset Service Provider (VASP) Licensing Regime:
 - Operating a centralized virtual asset trading platform requires an SFC license
 - License requirements include: HKD 5 million minimum capital, 2 responsible officers resident in Hong Kong, custody insurance
 
-**CRITICAL QUESTION:** Is your DApp **"decentralized"** enough to avoid licensing?
+**CRITICAL QUESTION:** Is this DApp **"decentralized"** enough to avoid licensing?
 
-|Your DApp Feature	|Centralized?	|Risk|
+|This DApp Feature	|Centralized?	|Risk|
 |-------------------|-------------|----|
 |PostgreSQL database	|✅ Yes (central)	|🔴 High|
 |Email/password auth	|✅ Yes (central)	|🔴 High|
 |Developer control over code	|✅ Yes (central)	|🔴 High|
 |Admin/owner identified (Jeffrey Woo)	|✅ Yes (central)	|🔴 High|
 
-**IMPLICATION FOR YOU:** Your current architecture may NOT qualify as **"decentralized"** under Hong Kong law. Operating this DApp as a trading platform for TimeCoins in Hong Kong may trigger VASP licensing requirements.
+**IMPLICATION:** This current architecture may NOT qualify as **"decentralized"** under Hong Kong law. Operating this DApp as a trading platform for TimeCoins in Hong Kong may trigger VASP licensing requirements.
 
 #### 3.2.3 Stablecoin Regulation
 
@@ -1194,7 +1194,7 @@ Under the Stablecoins Ordinance (Cap. 656), effective August 1, 2025:
 - Issuing stablecoins in Hong Kong requires an HKMA license
 - License requirements include: 100% fiat reserve backing, full reserve segregation, regular audits
 
-**IMPLICATION FOR YOU:** If Hong Kong regulators interpret "1 hour = 1 TimeCoin" as a form of stable value pegging, TimeCoins could be classified as stablecoins, requiring an HKMA license.
+**IMPLICATION:** If Hong Kong regulators interpret "1 hour = 1 TimeCoin" as a form of stable value pegging, TimeCoins could be classified as stablecoins, requiring an HKMA license.
 
 #### 3.2.4 Summary for Hong Kong
 
@@ -1222,7 +1222,7 @@ The creator has not obtained legal opinions from any jurisdiction regarding this
 
 #### 5.1 License
 
-This Software is provided under a Proprietary License as specified in the repository. Unauthorized copying, modification, distribution, or commercial use requires prior written consent from the creator.
+This Software is provided under a **Proprietary License** as specified in the repository. Unauthorized copying, modification, distribution, or commercial use requires prior written consent from the creator.
 
 #### 5.2 No Endorsement
 
