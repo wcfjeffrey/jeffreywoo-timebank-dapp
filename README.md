@@ -719,54 +719,76 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 ## 🚚 System Migration Plan (future development)
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│ PHASE 1: PREPARATION                                                                │
+│ PHASE 1: PREPARATION & AUDIT                                                        │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Audit existing hash-chain ledger data                                             │
-│ □ Export all transaction records (earn/spend/donate/pool_payout)                    │
-│ □ Backup PostgreSQL database                                                        │
-│ □ Document existing Smart Contract logic mapped from backend code                   │
+│ □ Audit existing hash-chain ledger data for integrity                               │
+│ □ Export all transaction records (Earn/Spend/Donate/Pool Payout)                    │
+│ □ Backup PostgreSQL database (users, services, transactions)                        │
+│ □ Document backend business logic for Solidity migration                            │
+│ □ Map database schema to smart contract data structures                             │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 2: SMART CONTRACT DEVELOPMENT                                                 │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Write Solidity TimeCoinToken (ERC-20/ERC-721)                                     │
-│ □ Write Solidity TimeBankCore Smart Contract (earn/spend/donate/poolPayout)         │
-│ □ Implement proxy pattern for upgradeability                                        │
-│ □ Write unit tests (Hardhat / Foundry)                                              │
-│ □ Run security Slither / static analysis                                            │
+│ □ Write Solidity TimeCoinToken (ERC-20 for fungible time credits)                   │
+│ □ Write Solidity ServiceNFT (ERC-721 for proof-of-service receipts)                 │
+│ □ Write Solidity TimeBankCore (earn/spend/donate/poolPayout functions)              │
+│ □ Implement proxy pattern for upgradeability (UUPS or Transparent)                  │
+│ □ Write unit tests (Hardhat / Foundry) with 100% coverage goal                      │
+│ □ Run security analysis (Slither, Mythril, static analysis)                         │
+│ □ Perform formal verification for critical functions                                │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 3: TESTNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Deploy to Polygon Mumbai Testnet / Ethereum Sepolia Testnet                       │
+│ □ Deploy to Polygon Mumbai Testnet (lower gas for testing)                          │
+│ □ Deploy to Ethereum Sepolia Testnet (higher security testing)                      │
 │ □ Verify contracts on explorers (MumbaiScan / Sepolia Etherscan)                    │
-│ □ Run integration tests with frontend                                               │
-│ □ Perform user acceptance testing (UAT)                                             │
+│ □ Run integration tests with existing React frontend                                │
+│ □ Perform user acceptance testing (UAT) with pilot community                        │
+│ □ Test wallet connections (MetaMask, WalletConnect, Coinbase Wallet)                │
+│ □ Conduct gas optimization and cost analysis                                        │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 4: DATA MIGRATION                                                             │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Migrate user balances from PostgreSQL to TimeCoin Token balances                  │
-│ □ Migrate transaction history as verified events                                    │
-│ □ Hash-chain validation: ensure all prevHash → entryHash links verified             │
-│ □ Generate Merkle proofs for historical data                                        │
+│ □ Migrate user balances from PostgreSQL to ERC-20 token balances                    │
+│ □ Migrate transaction history as verified on-chain events                           │
+│ □ Validate hash-chain integrity (prevHash → entryHash links)                        │
+│ □ Generate Merkle proofs for historical off-chain data                              │
+│ □ Create audit report comparing legacy vs. migrated data                            │
+│ □ Implement fallback mechanism for migration failures                               │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                          │
                                          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │ PHASE 5: MAINNET DEPLOYMENT                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ □ Deploy to Polygon Mainnet (for lower gas) /                                       │
-│   Ethereum Mainnet (higher security, higher cost)                                   │
-│ □ Update frontend environment variables                                             │
-│ □ Configure wallet connectors (MetaMask, WalletConnect)                             │
-│ □ Launch hybrid mode (off-chain + on-chain)                                         │
+│ □ Deploy to Polygon Mainnet (recommended: lower gas, faster finality)               │
+│ □ Alternative: Ethereum Mainnet (higher security, higher cost, slower)              │
+│ □ Update frontend environment variables for Mainnet                                 │
+│ □ Configure wallet connectors for Mainnet networks                                  │
+│ □ Launch hybrid mode (off-chain PostgreSQL for off-chain data + on-chain tokens)    │
+│ □ Deploy DAO governance contracts (voting, treasury, dispute resolution)            │
+│ □ Execute final security audit by third-party firm                                  │
+│ □ Go-live: Community announcement and onboarding guide                              │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ POST-MIGRATION (Future)                                                             │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│ □ Monitor Mainnet performance and gas costs                                         │
+│ □ Implement cross-chain bridges (Polygon ↔ Ethereum ↔ other chains)                 │
+│ □ Integrate with DeFi protocols (lending, yield farming for time credits)           │
+│ □ Enable cross-community interoperability (global timebank network)                 │
+│ □ Launch bug bounty program for smart contract security                             │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
 ## 🔗 Reference Resources for System Migration
