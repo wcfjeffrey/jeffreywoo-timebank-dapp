@@ -872,28 +872,87 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 ### Voting + Resolution Mechanism
 <pre lang="markdown">
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                    VOTE → RESOLVE → EXECUTION FLOW                                      │
-├─────────────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                         │
-│  PHASE 1: VOTING                                                                        │
-│  ├── Proposal by Luz Martín: "Pay 1 hour from the pool to restock the community pantry" │
-│  ├── Voting period: 7 days                                                              │
-│  └── Votes recorded on-chain/ledger                                                     │
-│                                                                                         │
-│  PHASE 2: RESOLVE (After window closes)                                                 │
-│  ├── Check: Did quorum pass? Yes/No                                                     │
-│  ├── Check: Did majority vote For? Yes/No                                               │
-│  ├── Record outcome on ledger                                                           │
-│  └── Emit event: ProposalResolved(proposalId, passed)                                   │
-│                                                                                         │
-│  PHASE 3: EXECUTION (If passed)                                                         │
-│  ├── Transfer 1 hour from community pool                                                │
-│  ├── To: Luz Martín                                                                     │
-│  ├── Record POOL_PAYOUT transaction in ledger                                           │
-│  └── Emit event: PoolPayoutExecuted(poolId, recipient, amount)                          │
-│                                                                                         │
-└─────────────────────────────────────────────────────────────────────────────────────────┘</pre>
+┌─────────────────────────────────────────────────────────────────┐
+│         PROPOSAL: Pay 1 hour from pool to restock pantry        │
+│         Proposed by: Luz Martín                                 │
+│         Created: Apr 22, 2026                                   │
+│         Closes: Apr 29, 2026                                    │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                     PHASE 1: VOTING ACTIVE                      │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Status:      Voting Open                               │    │
+│  │  Period:      Apr 22, 2026 → Apr 29, 2026 (7 days)      │    │
+│  │  Community:   Cast votes (For / Against / Abstain)      │    │
+│  │  Ledger:      Records each vote as transaction          │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
+│  Vote Transaction Example:                                      │
+│  ┌────────────┬──────────┬────────────┬─────────────────────┐   │
+│  │ Kind       │ From     │ Proposal ID│ Vote                │   │
+│  ├────────────┼──────────┼────────────┼─────────────────────┤   │
+│  │ VOTE       │ Alice    │ #42        │ FOR                 │   │
+│  │ VOTE       │ Bob      │ #42        │ AGAINST             │   │
+│  │ VOTE       │ Carol    │ #42        │ ABSTAIN             │   │
+│  └────────────┴──────────┴────────────┴─────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                  PHASE 2: VOTING CLOSED & RESOLVE               │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Trigger:     Apr 29, 2026 (after 23:59:59 UTC)         │    │
+│  │  Action:      Call resolveProposal(#42)                 │    │
+│  │  Check 1:     Voting window closed? ✓ Yes               │    │
+│  │  Check 2:     Quorum reached? (e.g., 10% of total)      │    │
+│  │  Check 3:     For votes > Against votes?                │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
+│  Resolution Recorded on Ledger:                                 │
+│  ┌────────────────┬─────────────────────────────────────────┐   │
+│  │ Kind           │ PROPOSAL_RESOLVE                        │   │
+│  │ Proposal ID    │ #42                                     │   │
+│  │ Outcome        │ PASSED (or FAILED)                      │   │
+│  │ Vote Tally     │ 45 For / 12 Against / 3 Abstain         │   │
+│  │ Timestamp      │ Apr 29, 2026 00:00:01 UTC               │   │
+│  └────────────────┴─────────────────────────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              PHASE 3: EXECUTION (IF PROPOSAL PASSES)            │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Condition:   Proposal #42 PASSED                       │    │
+│  │  Action:      Execute pool payout                       │    │
+│  │  From:        Community Pool                            │    │
+│  │  To:          Pantry Restocking Account                 │    │
+│  │  Amount:      1 hour (60 minutes)                       │    │
+│  │  Reason:      Restock community pantry                  │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
+│  Execution Recorded on Ledger:                                  │
+│  ┌────────────────┬─────────────────────────────────────────┐   │
+│  │ Kind           │ POOL_PAYOUT                             │   │
+│  │ From ID        │ community_pool_address                  │   │
+│  │ To ID          │ pantry_restock_address                  │   │
+│  │ Minutes        │ 60                                      │   │
+│  │ Memo           │ Prop #42: Restock community pantry      │   │
+│  │ Approved By    │ DAO Vote #42                            │   │
+│  │ prevHash       │ (hash of previous PROPOSAL_RESOLVE tx)  │   │
+│  │ entryHash      │ SHA-256(combined fields + prevHash)     │   │
+│  │ Timestamp      │ Apr 29, 2026 00:00:05 UTC               │   │
+│  └────────────────┴─────────────────────────────────────────┘   │
+│                                                                 │
+│  ✅ Community pantry restocked with 1 hour of time credits      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘</pre>
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
