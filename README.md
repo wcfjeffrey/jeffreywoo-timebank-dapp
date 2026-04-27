@@ -14,11 +14,11 @@
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-![Ethereum (Planned)](https://img.shields.io/badge/Ethereum_(Planned)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Polygon (Planned)](https://img.shields.io/badge/Polygon_(Planned)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
-![Web3 (Planned)](https://img.shields.io/badge/Web3_(Planned)-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-![Solidity (Planned)](https://img.shields.io/badge/Solidity_(Planned)-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Smart Contracts (Planned)](https://img.shields.io/badge/Smart_Contracts_(Planned)-2563EB?style=for-the-badge)
+![Ethereum (Conceptual Development)](https://img.shields.io/badge/Ethereum_(Conceptual Development)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Polygon (Conceptual Development)](https://img.shields.io/badge/Polygon_(Conceptual Development)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
+![Web3 (Conceptual Development)](https://img.shields.io/badge/Web3_(Conceptual Development)-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Solidity (Conceptual Development)](https://img.shields.io/badge/Solidity_(Conceptual Development)-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Smart Contracts (Conceptual Development)](https://img.shields.io/badge/Smart_Contracts_(Conceptual Development)-2563EB?style=for-the-badge)
 ![Status (Proof of Concept)](https://img.shields.io/badge/Status_(Proof_of_Concept)-F59E0B?style=for-the-badge)
 
 ## 📊 Overview
@@ -148,7 +148,7 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 |**Financial FP&A**	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
 |**Audit & Control**	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
 |**Reporting & Transparency**	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
-|**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Planned migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in Decentralized Finance (DeFi) integration, programmable money, and decentralized treasury management|
+|**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Conceptual migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in Decentralized Finance (DeFi) integration, programmable money, and decentralized treasury management|
 
 ### Note: 
 
@@ -193,8 +193,8 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
 |**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
-|**Decentralized Identity (DID) — Conceptual Development**	|Planned integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
-|**Smart Contracts — Conceptual Development**	|Planned migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
+|**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
+|**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 🏗️ System Architecture Overview — Current State
 <pre lang="markdown">
@@ -353,12 +353,12 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**FP&A**	|Predictive Forecasting	|Integrated AI demand forecasting to anticipate service needs — directly applicable to rolling forecasts and scenario planning|
 |**Process Automation**	|Workflow Automation	|Automated time credit issuance, transfer, verification, and balance updates — similar to invoice processing or payroll accruals|
 |**Data Integrity**	|Reconciliation Design	|Hash chain ensures altering any transaction breaks all subsequent links — analogous to bank reconciliation and intercompany matching|
-|**Smart Contracts**	|Programmable Finance	|Planned Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
 |**Stakeholder Reporting**	|Dashboard Design	|Built live ledger viewer with community impact metrics — equivalent to board-level KPIs and balanced scorecards|
 |**Digital Transformation**	|Process Re-engineering	|Reimagined traditional timebanking with blockchain-inspired + AI layers — showing ability to lead finance tech transformation|
 |**Project Management**	|Cross-Functional Integration	|Project spans React frontend, Node.js backend, Gemini AI, PostgreSQL database — mirroring ERP implementation leadership|
 |**Risk Management**	|Control Design	|Built tamper-evident ledger to prevent fraud without central authority — analogous to designing fraud prevention frameworks|
 |**Change Management**	|Adoption Strategy	|Designed public verifiable ledger to build community trust without mandatory central control — applicable to ERP or new system rollout|
+|**Smart Contracts (Conceptual Development)**	|Programmable Finance	|Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
 
 ## 🤖 Tech Stack
 
@@ -717,7 +717,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Low Budget Project	|✅ Best choice	|❌ Gas costs add up|
 |High-Value Transactions	|⚠️ Risk of server compromise	|✅ Strongest security|
 |**🔹 ROADMAP STATUS**		|||
-|Implementation Status	|✅ Fully implemented (current)	|🔮 Planned (conceptual development)|
+|Implementation Status	|✅ Fully implemented (current)	|🔮 Conceptually developing|
 |Time to Implement	|Already complete	|~2-4 months|
 |Estimated Effort	|—	|Medium to High|
 
