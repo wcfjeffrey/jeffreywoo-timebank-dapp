@@ -14,11 +14,11 @@
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-![Ethereum (Conceptual Development)](https://img.shields.io/badge/Ethereum_(Conceptual Development)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Polygon (Conceptual Development)](https://img.shields.io/badge/Polygon_(Conceptual Development)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
-![Web3 (Conceptual Development)](https://img.shields.io/badge/Web3_(Conceptual Development)-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-![Solidity (Conceptual Development)](https://img.shields.io/badge/Solidity_(Conceptual Development)-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Smart Contracts (Conceptual Development)](https://img.shields.io/badge/Smart_Contracts_(Conceptual Development)-2563EB?style=for-the-badge)
+![Ethereum (Conceptual Only)](https://img.shields.io/badge/Ethereum_(Conceptual_Only)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Polygon (Conceptual Only)](https://img.shields.io/badge/Polygon_(Conceptual_Only)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
+![Web3 (Conceptual Only)](https://img.shields.io/badge/Web3_(Conceptual_Only)-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Solidity (Conceptual Only)](https://img.shields.io/badge/Solidity_(Conceptual_Only)-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Smart Contracts (Conceptual Only)](https://img.shields.io/badge/Smart_Contracts_(Conceptual_Only)-2563EB?style=for-the-badge)
 ![Status (Proof of Concept)](https://img.shields.io/badge/Status_(Proof_of_Concept)-F59E0B?style=for-the-badge)
 
 ## 📊 Overview
