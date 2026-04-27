@@ -128,9 +128,9 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 |Reporting & Transparency	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
 |Strategic Roadmap	|Siloed systems, resistance to emerging tech	|Planned migration to Solidity smart contracts on Ethereum/Polygon with ERC-20/ERC-721 tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
 
-**Note:**  
+### Note:  
 
-### ERC-20 (Fungible Token) vs. ERC-721 (Non-Fungible Token / NFT)
+<inv>ERC-20 (Fungible Token) vs. ERC-721 (Non-Fungible Token / NFT)</inv>
 
 |Token Type	|Fungible — every token is identical and interchangeable	|Non-fungible — each token is unique and non-interchangeable|
 |-----------|---------------------------------------------------------|-----------------------------------------------------------|
