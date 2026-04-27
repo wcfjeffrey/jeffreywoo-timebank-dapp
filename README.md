@@ -148,7 +148,7 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 |**Financial FP&A**	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
 |**Audit & Control**	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
 |**Reporting & Transparency**	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
-|**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Planned migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management|
+|**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Planned migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in Decentralized Finance (DeFi) integration, programmable money, and decentralized treasury management|
 
 ### Note: 
 
