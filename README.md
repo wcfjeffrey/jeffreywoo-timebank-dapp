@@ -130,7 +130,7 @@ Every “earn”, “spend/donate" transaction is recorded in the hash‑chained
 
 ### Note: 
 
-**ERC-20 vs. ERC-721**
+### ERC-20 vs. ERC-721: Comparison for JeffreyWoo TimeBank DApp
 
 |Aspect|ERC-20 (Fungible Token)|ERC-721 (Non-Fungible Token / NFT)|
 |------|-----------------------|----------------------------------|
