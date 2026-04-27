@@ -1035,7 +1035,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 #### 1.1 Project Status
 
-JeffreyWoo TimeBank (the "Software") is a conceptual, open-source decentralized application created exclusively for:
+**JeffreyWoo TimeBank** (the "Software") is a conceptual, open-source decentralized application created exclusively for:
 - Educational purposes
 - Academic research
 - Community development exploration
@@ -1071,23 +1071,23 @@ BY USING, CLONING, FORKING, DEPLOYING, OR OTHERWISE INTERACTING WITH THIS SOFTWA
 
 |Statement|Clarification|
 |---------|-------------|
-|TimeCoins are service hour records	|They represent one hour of community service provided|
-|TimeCoins are closed-loop credits	|They can only be used within this Software ecosystem|
-|TimeCoins have no monetary value	|They cannot be sold, exchanged, or redeemed for fiat currency|
-|TimeCoins are not investments	|No expectation of profit, return, or appreciation|
-|TimeCoins are not securities	|They do not represent ownership, dividends, or financial rights|
+|TimeCoins are **service hour records**	|They represent one hour of community service provided|
+|TimeCoins are **closed-loop credits**	|They can only be used within this Software ecosystem|
+|TimeCoins have **no monetary value**	|They cannot be sold, exchanged, or redeemed for fiat currency|
+|TimeCoins are **not investments**	|No expectation of profit, return, or appreciation|
+|TimeCoins are **not securities**	|They do not represent ownership, dividends, or financial rights|
 
 #### 2.2 What TimeCoins Are NOT
 
 |TimeCoins are NOT	|Legal Implication|
 |-------------------|-----------------|
-|Legal tender	|Not recognized as currency by any government|
-|Virtual currency (as defined in China)	|Not intended for market circulation|
-|Virtual asset (as defined in Hong Kong Cap. 615)	|Not for trading or investment purposes|
-|Stablecoin (as defined in Hong Kong Cap. 656)	|No fiat peg, no reserve backing|
-|Financial product	|Not regulated by any financial authority|
-|Store of value	|No guarantee of future value|
-|Medium of exchange (outside the Software)	|Not accepted for goods/services outside the platform|
+|**Legal tender**	|Not recognized as currency by any government|
+|**Virtual currency** (as defined in China)	|Not intended for market circulation|
+|**Virtual asset** (as defined in Hong Kong Cap. 615)	|Not for trading or investment purposes|
+|**Stablecoin** (as defined in Hong Kong Cap. 656)	|No fiat peg, no reserve backing|
+|**Financial product**	|Not regulated by any financial authority|
+|**Store of value**	|No guarantee of future value|
+|**Medium of exchange** (outside the Software)	|Not accepted for goods/services outside the platform|
 
 #### 2.3 Prohibited Uses of TimeCoins
 
@@ -1095,31 +1095,31 @@ THE FOLLOWING USES ARE EXPLICITLY PROHIBITED:
 
 |Prohibited Activity	|Risk|
 |---------------------|----|
-|Exchanging TimeCoins for fiat currency (RMB, HKD, USD, etc.)	|Potential violation of virtual currency laws|
-|Trading TimeCoins on any exchange	|Potential unlicensed trading platform operation|
-|Using TimeCoins as payment for non-community services	|Misrepresentation of purpose|
-|Offering TimeCoins as investment products	|Potential securities law violation|
-|Creating secondary markets for TimeCoins	|Potential unregistered trading platform|
-|Any form of yield, interest, or return on TimeCoins	|Potential illegal fundraising|
+|**Exchanging TimeCoins for fiat currency** (RMB, HKD, USD, etc.)	|Potential violation of virtual currency laws|
+|**Trading TimeCoins on any exchange**	|Potential unlicensed trading platform operation|
+|**Using TimeCoins as payment for non-community services**	|Misrepresentation of purpose|
+|**Offering TimeCoins as investment products**	|Potential securities law violation|
+|**Creating secondary markets for TimeCoins**	|Potential unregistered trading platform|
+|**Any form of yield, interest, or return on TimeCoins**	|Potential illegal fundraising|
 
 ### PART 3: JURISDICTION-SPECIFIC NOTICES
 
 #### 3.1 People's Republic of China (Mainland China)
 
-⚠️ HIGH RISK JURISDICTION - EXTREME CAUTION REQUIRED
+⚠️ **HIGH RISK JURISDICTION - EXTREME CAUTION REQUIRED**
 
-##### 3.1.1 Virtual Currency Prohibition
+#### 3.1.1 Virtual Currency Prohibition
 
 Under the PBOC Notice on Further Preventing and Handling Risks of Virtual Currency Trading Speculation (2021) :
 >*"Any legal person, unincorporated organization, or natural person investing in virtual currencies and related derivatives... relevant civil legal acts are void, and any resulting losses shall be borne by themselves."*
 
-**MPLICATION FOR YOU:** If a Mainland Chinese court determines TimeCoins constitute "virtual currency," any agreement involving TimeCoins may be declared void with no legal recourse.
+**IMPLICATION FOR YOU:** If a Mainland Chinese court determines TimeCoins constitute **"virtual currency"**, any agreement involving TimeCoins may be declared void with no legal recourse.
 
-##### 3.1.2 Illegal Fundraising Warning
+#### 3.1.2 Illegal Fundraising Warning
 
-Chinese financial regulators have issued specific warnings about "Time Bank" apps engaged in investment activities:
+Chinese financial regulators have issued specific warnings about **"TimeBank"** apps engaged in investment activities:
 
->*"Recently, a mobile application named 'Time Bank' under the guise of public welfare elderly care was found to be conducting investment activities... Such investment activities are suspected of illegality and crime." — CBIRC Risk Alert*
+>*"Recently, a mobile application named **"TimeBank"** under the guise of public welfare elderly care was found to be conducting investment activities... Such investment activities are suspected of illegality and crime." — CBIRC Risk Alert*
 
 **IMPLICATION FOR YOU:** Your DApp must NOT contain any feature resembling:
 - Investment returns
@@ -1128,30 +1128,30 @@ Chinese financial regulators have issued specific warnings about "Time Bank" app
 - RMB conversion
 - Guaranteed earnings
 
-##### 3.1.3 "Bank" Name Usage Restriction
+#### 3.1.3 "Bank" Name Usage Restriction
 
-Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the Use of 'Bank' Names (2022) :
+Under the Commercial Banking Law of China and CBIRC Notice on Standardizing the Use of **"Bank"** Names (2022) :
 - Unauthorized use of "Bank" in service names is prohibited
 - Violations may result in administrative penalties and forced renaming
 
 IMPLICATION FOR YOU: Deployment in Mainland China requires renaming. Suggested alternatives:
-- "Decentralized Community Care Exchange"
-- "Mutual Aid Service Ledger"
-- "Time Exchange Hub"
+- **"Decentralized Community Care Exchange"**
+- **"Mutual Aid Service Ledger"**
+- **"Time Exchange Hub"**
 
-##### 3.1.4 Data Privacy (PIPL)
+#### 3.1.4 Data Privacy (PIPL)
 
 Under the Personal Information Protection Law of China (PIPL) :
-- Cross-border transfer of Mainland residents' personal data requires security assessment or standard contract filing
+- Cross-border transfer of Mainland China residents' personal data requires a security assessment or standard contract filing
 - The GBA Standard Contract provides a simplified mechanism for data transfer between GBA cities and Hong Kong
 
 **IMPLICATION FOR YOU:** If you collect personal information from Mainland Chinese users and transfer it outside China, you must comply with PIPL.
 
-##### 3.1.5 Summary for Mainland China
+#### 3.1.5 Summary for Mainland China
 
 |Action	|Status|
 |-------|------|
-|Deploy as "TimeBank"	|❌ NOT RECOMMENDED|
+|Deploy as **"TimeBank"**	|❌ NOT RECOMMENDED|
 |Allow fiat conversion	|❌ PROHIBITED|
 |Offer investment returns	|❌ PROHIBITED|
 |Include referral bonuses	|❌ PROHIBITED|
@@ -1160,23 +1160,23 @@ Under the Personal Information Protection Law of China (PIPL) :
 
 #### 3.2 Hong Kong Special Administrative Region
 
-⚠️ HIGH RISK JURISDICTION - LEGAL ADVICE STRONGLY RECOMMENDED
+⚠️ **HIGH RISK JURISDICTION - LEGAL ADVICE STRONGLY RECOMMENDED**
 
-##### 3.2.1 "Bank" Name Usage Restriction
+#### 3.2.1 "Bank" Name Usage Restriction
 
 Under Section 97 of the Banking Ordinance (Cap. 155) :
-- No person other than a licensed bank or central bank shall use the word "bank" (in English or Chinese) without HKMA consent
+- No person other than a licensed bank or central bank shall use the word **"bank" or "銀行"** (in English or Chinese) without HKMA consent
 - Violation is a criminal offense: up to 7th level fine + 2 years imprisonment (on indictment)
 
-**IMPLICATION FOR YOU:** Promotion or deployment in Hong Kong using the name "TimeBank" requires HKMA written consent OR renaming.
+**IMPLICATION FOR YOU:** Promotion or deployment in Hong Kong using the name **"TimeBank"** requires HKMA written consent OR renaming.
 
-##### 3.2.2 Virtual Asset Regulation
+#### 3.2.2 Virtual Asset Regulation
 
-Under the Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615) - VASP Licensing Regime:
+Under the Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Ordinance (Cap. 615) - VASP Licensing Regime:
 - Operating a centralized virtual asset trading platform requires an SFC license
 - License requirements include: HKD 5 million minimum capital, 2 responsible officers resident in Hong Kong, custody insurance
 
-**CRITICAL QUESTION:** Is your DApp "decentralized" enough to avoid licensing?
+**CRITICAL QUESTION:** Is your DApp **"decentralized"** enough to avoid licensing?
 
 |Your DApp Feature	|Centralized?	|Risk|
 |-------------------|-------------|----|
@@ -1185,9 +1185,9 @@ Under the Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 
 |Developer control over code	|✅ Yes (central)	|🔴 High|
 |Admin/owner identified (Jeffrey Woo)	|✅ Yes (central)	|🔴 High|
 
-**IMPLICATION FOR YOU:** Your current architecture may NOT qualify as "decentralized" under Hong Kong law. Operating this DApp as a trading platform for TimeCoins in Hong Kong may trigger VASP licensing requirements.
+**IMPLICATION FOR YOU:** Your current architecture may NOT qualify as **"decentralized"** under Hong Kong law. Operating this DApp as a trading platform for TimeCoins in Hong Kong may trigger VASP licensing requirements.
 
-##### 3.2.3 Stablecoin Regulation
+#### 3.2.3 Stablecoin Regulation
 
 Under the Stablecoins Ordinance (Cap. 656), effective August 1, 2025:
 - A stablecoin is a digital asset that purports to maintain a stable value against a fiat currency
@@ -1196,11 +1196,11 @@ Under the Stablecoins Ordinance (Cap. 656), effective August 1, 2025:
 
 **IMPLICATION FOR YOU:** If Hong Kong regulators interpret "1 hour = 1 TimeCoin" as a form of stable value pegging, TimeCoins could be classified as stablecoins, requiring an HKMA license.
 
-##### 3.2.4 Summary for Hong Kong
+#### 3.2.4 Summary for Hong Kong
 
 |Action|Status|
 |------|------|
-|Deploy as "TimeBank"	|⚠️ Requires HKMA consent or renaming|
+|Deploy as **"TimeBank"**	|⚠️ Requires HKMA consent or renaming|
 |Operate as virtual asset trading platform	|❌ Requires SFC license (Cap. 615)|
 |Issue TimeCoin as stablecoin	|⚠️ May require HKMA license (Cap. 656)|
 |Market to Hong Kong residents	|⚠️ Legal advice recommended|
@@ -1226,7 +1226,7 @@ This Software is provided under a Proprietary License as specified in the reposi
 
 #### 5.2 No Endorsement
 
-Use of the name "TimeBank" does not imply endorsement by, affiliation with, or approval of any government agency, financial regulator, or banking institution.
+Use of the name **"TimeBank"** does not imply endorsement by, affiliation with, or approval of any government agency, financial regulator, or banking institution.
 
 ### PART 6: SEVERABILITY
 
@@ -1236,7 +1236,7 @@ If any provision of this Disclaimer is found to be unenforceable or invalid unde
 
 This Disclaimer shall be governed by the laws of Hong Kong Special Administrative Region, without regard to conflict of law principles. Any disputes arising from or relating to this Disclaimer or the Software shall be resolved exclusively in the courts of Hong Kong.
 
-> **⚠️ COMPREHENSIVE LEGAL DISCLAIMER:** JeffreyWoo TimeBank is a conceptual, open-source project for educational purposes only. TimeCoins are service hour records with **no monetary value** — they are NOT currency, NOT investments, NOT securities, and NOT stablecoins. Deployment in Mainland China or Hong Kong carries significant regulatory risks (virtual currency prohibitions, "Bank" name restrictions, potential VASP/stablecoin licensing requirements). **The creator assumes NO liability for regulatory violations, fines, or legal consequences.** Users must consult qualified legal counsel before any deployment.
+> **⚠️ COMPREHENSIVE LEGAL DISCLAIMER:** **JeffreyWoo TimeBank** is a conceptual, open-source project for educational purposes only. TimeCoins are service hour records with **no monetary value** — they are NOT currency, NOT investments, NOT securities, and NOT stablecoins. Deployment in Mainland China or Hong Kong carries significant regulatory risks (virtual currency prohibitions, **"Bank"** name restrictions, potential VASP/stablecoin licensing requirements). **The creator assumes NO liability for regulatory violations, fines, or legal consequences.** Users must consult qualified legal counsel before any deployment.
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
