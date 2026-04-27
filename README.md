@@ -13,13 +13,12 @@
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)  
 
-![Ethereum (Planned)](https://img.shields.io/badge/Ethereum_(Planned)-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Polygon (Planned)](https://img.shields.io/badge/Polygon_(Planned)-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
-![Contracts](https://img.shields.io/badge/Smart_Contracts-Planned-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Proof_of_Concept-yellow?style=for-the-badge)
-![Demo](https://img.shields.io/badge/Live_Demo-Not_Available-red?style=for-the-badge)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white&label=Ethereum%20(Planned))
+![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white&label=Polygon%20(Planned))
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white&label=Web3%20(Planned))
+![Smart Contracts](https://img.shields.io/badge/Smart_Contracts-2563EB?style=for-the-badge&label=Smart%20Contracts%20(Planned))
+![Status](https://img.shields.io/badge/Status-F59E0B?style=for-the-badge&label=Status%20(Proof%20of%20Concept))
 
 ## 📊 Overview
          
