@@ -830,7 +830,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 ### Secure Login to JeffreyWoo TimeBank  
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
 
-### Transparent Public Ledger (No Login Required)  
+### Live Ledger View (No Login Required)  
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
 
 ### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
