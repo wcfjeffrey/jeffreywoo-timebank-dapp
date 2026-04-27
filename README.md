@@ -127,6 +127,8 @@ Anyone can view all transactions in real-time — see who earned, spent, or dona
 
 For time credit management, each member has a personal dashboard "Wallet" showing real-time TimeCoin balance, complete earn/spend/donate/pool payout history, and cryptographic transaction receipts including `entryHash` for personal audit verification.
 
+>**Note:** This is a time credit dashboard, not a cryptocurrency wallet. No crypto, gas fees, or private keys required — simply log in with email/password.
+
 🔒 **Digital Identity & Trust**
 
 |Aspect	|Current	|Future|
@@ -680,11 +682,11 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Scalability	|High (add more database servers)	|Limited (L2 solutions needed)|
 |Confirmation Finality	|Instant (server response)	|Multiple block confirmations needed|
 |**🔹 USER EXPERIENCE**		|||
-|Wallet Required	|❌ No (email/password login)	|✅ Yes (MetaMask, WalletConnect, etc.)|
-|User Onboarding	|Simple (email signup)	|Complex (install wallet, buy crypto)|
+|Cryptocurrency Wallet Required	|❌ No (email/password login)	|✅ Yes (MetaMask, WalletConnect, etc.)|
+|User Onboarding	|Simple (email signup)	|Complex (install cryptocurrency wallet, buy crypto)|
 |Gas Fee Management	|❌ Not required	|✅ Users need MATIC/ETH for gas|
 |Recovery Mechanism	|Standard password reset	|Seed phrase recovery (self-custody)|
-|Mobile Accessibility	|Any browser	|Any browser + wallet app|
+|Mobile Accessibility	|Any browser	|Any browser + cryptocurrency wallet app|
 |**🔹 DEVELOPMENT & MAINTENANCE**		|||
 |Programming Languages	|TypeScript, JavaScript, Python, HTML/CSS	|Solidity + existing frontend languages|
 |Smart Contract Language	|❌ None	|Solidity / Vyper|
@@ -696,7 +698,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**🔹 INTEROPERABILITY**		|||
 |Cross-Chain Support	|❌ Not applicable	|✅ Bridges (Polygon ↔ Ethereum ↔ other chains)|
 |DeFi Integration	|❌ Not possible	|✅ Can integrate with exchanges, lending protocols|
-|Wallet Integration	|❌ None	|✅ MetaMask, Coinbase Wallet, Rainbow, etc.|
+|Cryptocurrency Wallet Integration	|❌ None	|✅ MetaMask, Coinbase Wallet, Rainbow, etc.|
 |Block Explorer	|❌ None	|✅ PolygonScan / EtherScan|
 |**🔹 GOVERNANCE**		|||
 |Control Model	|Centralized (developer/admin)	|Decentralized (DAO with token voting)|
@@ -753,7 +755,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │ □ Verify contracts on explorers (MumbaiScan / Sepolia Etherscan)                    │
 │ □ Run integration tests with existing React frontend                                │
 │ □ Perform user acceptance testing (UAT) with pilot community                        │
-│ □ Test wallet connections (MetaMask, WalletConnect, Coinbase Wallet)                │
+│ □ Test cryptocurrency wallet connections (MetaMask, WalletConnect, Coinbase Wallet) │
 │ □ Conduct gas optimization and cost analysis                                        │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                          │
@@ -776,7 +778,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │ □ Deploy to Polygon Mainnet (recommended: lower gas, faster finality)               │
 │ □ Alternative: Ethereum Mainnet (higher security, higher cost, slower)              │
 │ □ Update frontend environment variables for Mainnet                                 │
-│ □ Configure wallet connectors for Mainnet networks                                  │
+│ □ Configure cryptocurrency wallet connectors for Mainnet networks                   │
 │ □ Launch hybrid mode (off-chain PostgreSQL for off-chain data + on-chain tokens)    │
 │ □ Deploy DAO governance contracts (voting, treasury, dispute resolution)            │
 │ □ Execute final security audit by third-party firm                                  │
