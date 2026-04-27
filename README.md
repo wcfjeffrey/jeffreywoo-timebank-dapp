@@ -885,13 +885,13 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 │  ├── Check: Did quorum pass? Yes/No                                                     │
 │  ├── Check: Did majority vote For? Yes/No                                               │
 │  ├── Record outcome on ledger                                                           │
-│  └── Emit event: `ProposalResolved(proposalId, passed)`                                 │
+│  └── Emit event: ProposalResolved(proposalId, passed)                                   │
 │                                                                                         │
 │  PHASE 3: EXECUTION (If passed)                                                         │
 │  ├── Transfer 1 hour from community pool                                                │
 │  ├── To: Luz Martín                                                                     │
 │  ├── Record POOL_PAYOUT transaction in ledger                                           │
-│  └── Emit event: `PoolPayoutExecuted(poolId, recipient, amount)`                        │
+│  └── Emit event: PoolPayoutExecuted(poolId, recipient, amount)                          │
 │                                                                                         │
 └─────────────────────────────────────────────────────────────────────────────────────────┘</pre>
  
