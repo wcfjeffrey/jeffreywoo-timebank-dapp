@@ -759,16 +759,16 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 
 <img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="1000" />
 
-<ins>Sign Up to Join JeffreyWoo TimeBank Community</ins>  
+### Sign Up to Join JeffreyWoo TimeBank Community  
 <img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
 
-<ins>Secure Login to JeffreyWoo TimeBank</ins>  
+### Secure Login to JeffreyWoo TimeBank  
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
 
-<ins>Transparent Public Ledger (No Login Required)</ins>  
+### Transparent Public Ledger (No Login Required)  
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
 
-#### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
+### ⛓️ Blockchain Mechanism Illustrated by a Ledger Example
 
 <img src="assets/JeffreyWooTimeBank4a.png" alt="JeffreyWooTimeBank4a" width="1200" height="600" />
 <img src="assets/JeffreyWooTimeBank4b.png" alt="JeffreyWooTimeBank4b" width="1200" height="600" />
@@ -779,7 +779,7 @@ The previous transaction’s hash is:
 - prevHash: 300cd5...d8ac  
 - entryHash (computed): f31ab3...317e
 
-##### Transaction Fields
+#### Transaction Fields
 
 |Field	|Value|
 |-------|-----|
@@ -797,14 +797,14 @@ The previous transaction’s hash is:
 |Created At	|2026-04-22T10:00:00Z|
 |prevHash	|300cd5...d8ac|
 
-##### 1. Transaction A (prevHash: before Priya’s entry) (hash payload construction)
+#### 1. Transaction A (prevHash: before Priya’s entry) (hash payload construction)
 
 - Its fields are concatenated into a payload string.  
 - SHA‑256 hashing produces `entryHash_A` = 300cd5...d8ac.  
   *Note: The **shortened display hash** (10 characters) is for **visual reference only**. All cryptographic verification — chain integrity, tamper detection, and hash linking — uses the **full 64-character hash** stored in the database.*
 - 1 hour = 1 time credit, so `entryHash_A` has 15 minutes = 0.25 time credits = 0.25 TimeCoins
 
-##### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
+#### 2. Transaction B (entryHash_B: Priya’s entry) (hash computation)
 
 - Includes `prevHash` = `entryHash_A`.  
 - Concatenates all fields **including that `prevHash` into a new payload (single string)**.  
@@ -823,12 +823,12 @@ console.log(entryHash); // f31ab3...317e
 ```
 - 1 hour = 1 time credit, so `entryHash_B` has 30 minutes = 0.5 time credits = 0.5 TimeCoins
 
-##### 3. Dependency
+#### 3. Dependency
 
 - Priya’s `entryHash_B` is valid only if the `prevHash` matches the actual hash of the previous transaction.  
 - If Transaction A were altered, its `entryHash_A` would change, breaking the link in Transaction B.
 
-##### 4. Result
+#### 4. Result
 
 - **prevHash:** 300cd5...d8ac  (0.25 TimeCoins)
 - **entryHash:** f31ab3...317e (0.5 TimeCoins)
