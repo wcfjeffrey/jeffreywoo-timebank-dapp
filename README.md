@@ -1022,7 +1022,7 @@ This section applies only if the DApp is deployed or promoted within mainland Ch
 |**Regulatory Body**	|Civil Affairs authorities — timebanking is classified as mutual aid/volunteer service, not a financial activity|
 |**Legal Status**	|No specific national law; governed by local policies and administrative guidelines|
 |**Core Restriction**	|Strictly non-financial — time credits cannot be exchanged for money, invested, or securitized|
-|**Key Compliance Risk**	|Unauthorized use of the word "Bank" in a service name may violate the Commercial Banking Law|
+|**Key Compliance Risk**	|Unauthorized use of the word **Bank** in a service name may violate the Commercial Banking Law|
 
 ### 🚨 Critical Naming Compliance
 
@@ -1043,7 +1043,7 @@ In mainland China, any entity using the term **Bank** without regulatory approva
 
 ### 🛡️ Positioning for Mainland Deployment
 
-To ensure full compliance, the DApp is marketed and described as a **"Decentralized Community Care Exchange"** or **"Mutual Aid Service Ledger"** — not a **"Bank"**.
+To ensure full compliance, the DApp will be marketed and described as a **"Decentralized Community Care Exchange"** or **"Mutual Aid Service Ledger"** — not a **"Bank"**.
 
 The hash-chained ledger and AI matching engine are positioned as technology enablers for transparent, efficient mutual aid — never as financial instruments.
 
@@ -1058,6 +1058,11 @@ The hash-chained ledger and AI matching engine are positioned as technology enab
 5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
 6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
 7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
+8. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](http://www.cbirc.gov.cn/cn/view/pages/govermentDetail.html?docId=1084232&itemId=861&generaltype=1)
+9. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
+10. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
+11. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
+12. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
 
 ## ⚖️ Disclaimer
 
