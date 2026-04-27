@@ -1013,7 +1013,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 ## ⚖️ Regulatory & Compliance Framework (if Using This DApp in Mainland China)
 
-This section applies only if the DApp is deployed or promoted within mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
+This section applies only if this DApp is deployed or promoted within mainland China, where the project is conceptually rooted. For other regions, local regulations should be consulted.
 
 ### 📌 Current Regulatory Status
 
@@ -1038,16 +1038,16 @@ In mainland China, any entity using the term **Bank** without regulatory approva
 |**Non-financial positioning**	|TimeCoins are **service hour records**, not currency — no monetary value, no exchange for fiat|
 |**1 hour given = 1 hour earned**	|Matches official mutual aid principles across Shanghai, Bengbu, and other pilot cities|
 |**Transparent, tamper-proof records**	|Hash-chained ledger ensures **auditable, fraud-resistant transaction history** — addressing a key pain point in current timebank deployments|
-|**Cross-region interoperability**	|Supports **"one account, multiple communities"** — aligning with policy goals for portable time credits|
+|**Cross-region interoperability**	|Supports **one account, multiple communities** — aligning with policy goals for portable time credits|
 |**Donation & redistribution**	|Allows time credits to be **donated to community pools** — supporting vulnerable populations without cash involvement|
 
 ### 🛡️ Positioning for Mainland Deployment
 
-To ensure full compliance, the DApp will be marketed and described as a **"Decentralized Community Care Exchange"** or **"Mutual Aid Service Ledger"** — not a **"Bank"**.
+To ensure full compliance, the DApp will be marketed and described as a **Decentralized Community Care Exchange** or **Mutual Aid Service Ledger** — not a **Bank**.
 
 The hash-chained ledger and AI matching engine are positioned as technology enablers for transparent, efficient mutual aid — never as financial instruments.
 
-**Note:** The China Banking and Insurance Regulatory Commission (CBIRC) has issued public warnings against unauthorized use of the term **"Bank"**. All timebanking projects must operate under civil affairs, not financial, supervision.
+**Note:** The China Banking and Insurance Regulatory Commission (CBIRC) has issued public warnings against unauthorized use of the term **Bank**. All timebanking projects must operate under civil affairs, not financial, supervision.
 
 ## 📚 Reference Resources
 
