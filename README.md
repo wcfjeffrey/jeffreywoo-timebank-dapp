@@ -758,7 +758,9 @@ Each community care service exchange (e.g., tutoring, bike repair) is recorded a
 ## 📋 Sample
 
 <img src="assets/JeffreyWooTimeBank1.png" alt="JeffreyWooTimeBank1" width="1200" height="1000" />
+Sign Up to Join JeffreyWoo TimeBank Community
 <img src="assets/JeffreyWooTimeBank2.png" alt="JeffreyWooTimeBank2" width="300" height="600" /> 
+Secure Login to JeffreyWoo TimeBank
 <img src="assets/JeffreyWooTimeBank3.png" alt="JeffreyWooTimeBank3" width="300" height="600" /> 
 <img src="assets/JeffreyWooTimeBank4.png" alt="JeffreyWooTimeBank4" width="1200" height="1200" />
 
