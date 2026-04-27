@@ -387,7 +387,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any record breaks the chain. This makes the ledger tamper‑evident, similar to how blocks are linked in a blockchain.|
 
-### 🔐 Visual Flow
+### 🔐 Hash-chained Ledger Flow
 
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────┐
