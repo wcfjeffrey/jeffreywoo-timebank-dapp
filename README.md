@@ -117,7 +117,7 @@ Intelligently connects users based on skill profiles, availability, service hist
 |**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any past record breaks the chain. This creates a tamper-evident, publicly verifiable ledger, similar to how blocks are linked in a blockchain.|
 
-**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, crypto wallets, or smart contracts.****
+**Note:** Smart contracts are coming in the future migration to Ethereum/Polygon. Currently, no public blockchain, gas fees, crypto wallets, or smart contracts.
 
 📊	**Live Ledger Viewer**
 
