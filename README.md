@@ -117,7 +117,7 @@ Intelligently connects users based on skill profiles, availability, service hist
 |**3. entryHash**	|The `entryHash` is computed by concatenating the transaction's fields (ID, Index, Kind, From ID, From Name, To ID, To Name, Minutes, Memo, Related Service ID, Related Service Title, Created At, and `prevHash`), then hashed using SHA-256.|
 |**4. Chain Integrity**	|Because each transaction depends on the hash of the previous one, altering any past record breaks the chain. This creates a tamper-evident, publicly verifiable ledger, similar to how blocks are linked in a blockchain.|
 
-**Note:** For Conceptual Roadmap (Educational Vision Only), Smart Contracts can be migrated to Ethereum/Polygon. Currently, no public blockchain, gas fees, cryptocurrency wallets, or smart contracts.
+**Note:** For conceptual development (educational vision only), Smart Contracts can be migrated to Ethereum/Polygon. Currently, no public blockchain, gas fees, cryptocurrency wallets, or smart contracts.
 
 📊	**Live Ledger Viewer**
 
@@ -137,7 +137,7 @@ For time credit management, each member has a personal dashboard "Wallet" showin
 |Reputation	|Profile-based	|Automated reputation scoring|
 
 🌍 **Local & Global Integration**
-Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Conceptual Roadmap (Educational Vision Only) includes connecting to global timebank networks and enabling cross-community interoperability.
+Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Conceptual development includes connecting to global timebank networks and enabling cross-community interoperability.
 
 ## 💡Finance Transformation Impact
 
@@ -442,7 +442,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**No Intermediaries for Trust**	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
 |**Time Credits as Currency**	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
 |**AI‑Enhanced Matching**	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
-|**Decentralized Identity & Reputation (Conceptual Development)**	|Planned integration of verifiable digital identities and reputation scores built from contribution history.|
+|**Decentralized Identity & Reputation (Conceptual Development)**	|Integration of verifiable digital identities and reputation scores built from contribution history.|
 
 ### 💡 Why This Architecture Matters
 |Principle	|What It Means	|Finance Analogy|
@@ -553,8 +553,8 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │              ┌─────────────────────────────────────────────────────────┐            │
 │              ▼                                                         ▼            │
 │  ┌───────────────────────┐                              ┌──────────────────────────┐│
-│  │   Polygon/Ethereum    │                              │   Cross-Chain            ││
-│  │      Network          │                              │   Bridge                 ││
+│  │  Polygon/Ethereum     │                              │ Cross-Chain              ││
+│  │  Network              │                              │ Bridge                   ││
 │  │  (Mainnet / Testnet)  │                              │ (Conceptual Development) ││
 │  └───────────────────────┘                              └──────────────────────────┘│
 └─────────────────────────────────────────────────────────────────────────────────────┘
@@ -611,7 +611,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
-**JeffreyWoo TimeBank** is currently a conceptual DApp built on a **blockchain‑inspired hash‑chained ledger**. Conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Planned directions include:
+**JeffreyWoo TimeBank** is currently a conceptual DApp built on a **blockchain‑inspired hash‑chained ledger**. Conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
 
 - **Smart Contract Deployment**
 
