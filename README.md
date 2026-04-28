@@ -702,7 +702,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Cryptocurrency Wallet Integration	|❌ None	|✅ MetaMask, Coinbase Wallet, Rainbow, etc.|
 |Block Explorer	|❌ None	|✅ PolygonScan / EtherScan|
 |**🔹 GOVERNANCE**		|||
-|Control Model	|Hybrid (community voting + admin execution)	|Decentralized (DAO with on-chain token voting)|
+|Control Model	|Hybrid (community voting + admin execution)	|Decentralized (DAO with automated on-chain token voting)|
 |Rule Changes	|Community votes on proposals; admin implements changes (recorded on hash-chain)	|Community votes on proposals; smart contract executes automatically|
 |Voting Mechanism	|TimeCoin-weighted or one-member-one-vote; votes recorded on hash-chain with tamper-evident entries	|On-chain voting with gas fees; votes recorded immutably on blockchain|
 |Vote Integrity	|Hash-chain ensures tamper-evident votes; anyone can audit	|Blockchain consensus ensures tamper-proof votes|
