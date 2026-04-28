@@ -137,8 +137,6 @@ Members offer their skills and community care services — drawing on examples f
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘</pre>
 
-Members govern JeffreyWoo TimeBank collectively through a transparent, hash-chained voting system.
-
 | Governance Feature | How It Works |
 |--------------------|--------------|
 | **Proposal Creation** | Any member can submit a proposal (pool payouts, rule changes, dispute resolution, community initiatives) |
@@ -150,7 +148,7 @@ Members govern JeffreyWoo TimeBank collectively through a transparent, hash-chai
 | **Execution** | Passed proposals are executed by admin (recorded on hash-chain) with full transparency |
 | **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
 
-All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
+Members govern JeffreyWoo TimeBank collectively through a transparent, hash-chained voting system. All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
 
 **Note:** For a detailed walkthrough of the voting system, see the below *Voting + Resolution Mechanism*.
 
