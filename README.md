@@ -108,13 +108,12 @@ Members offer their skills and community care services — drawing on examples f
 │                                                                 │
 │  STEP 1: PROPOSAL CREATION                                      │
 │  ┌─────────────────────────────────────────────────────────┐    │
-│  │  Any member submits proposal (e.g., "Pay 1 hour from    │    │
-│  │  community pool to restock pantry")                     │    │
+│  │  Any member submits proposal                            │    │
 │  │  → Recorded on hash-chain with entry_hash               │    │
 │  └─────────────────────────────────────────────────────────┘    │
 │                              │                                  │
 │                              ▼                                  │
-│  STEP 2: VOTING WINDOW (e.g., Apr 22 → Apr 29, 2026)            │
+│  STEP 2: VOTING WINDOW                                          │
 │  ┌─────────────────────────────────────────────────────────┐    │
 │  │  Members cast votes: FOR / AGAINST / ABSTAIN            │    │
 │  │  → Each vote recorded with prev_hash/entry_hash         │    │
@@ -131,14 +130,14 @@ Members offer their skills and community care services — drawing on examples f
 │                              ▼                                  │
 │  STEP 4: EXECUTION (IF PASSED)                                  │
 │  ┌─────────────────────────────────────────────────────────┐    │
-│  │  Admin executes passed proposal (e.g., pool payout)     │    │
+│  │  Admin executes passed proposal                         │    │
 │  │  → Execution recorded on hash-chain                     │    │
 │  │  → Full transparency: anyone can audit                  │    │
 │  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘</pre>
 
-Members govern the TimeBank collectively through a transparent, hash-chained voting system.
+Members govern JeffreyWoo TimeBank collectively through a transparent, hash-chained voting system.
 
 | Governance Feature | How It Works |
 |--------------------|--------------|
@@ -152,6 +151,8 @@ Members govern the TimeBank collectively through a transparent, hash-chained vot
 | **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
 
 All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
+
+**Note:** For a detailed walkthrough of the voting system, see the below *Voting + Resolution Mechanism*.
 
 ♻️ **Flexible Reciprocity**
 
