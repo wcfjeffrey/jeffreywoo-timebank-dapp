@@ -100,6 +100,59 @@ Members offer their skills and community care services — drawing on examples f
 
 > **Core Principle: 1 hour given = 1 hour earned — creating a continuous cycle of giving and receiving.**
 
+🗳️ **Community Governance & Voting on Hash-Chain**
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    COMMUNITY VOTING FLOW                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  STEP 1: PROPOSAL CREATION                                      │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Any member submits proposal (e.g., "Pay 1 hour from    │    │
+│  │  community pool to restock pantry")                     │    │
+│  │  → Recorded on hash-chain with entry_hash               │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 2: VOTING WINDOW (e.g., Apr 22 → Apr 29, 2026)            │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Members cast votes: FOR / AGAINST / ABSTAIN            │    │
+│  │  → Each vote recorded with prev_hash/entry_hash         │    │
+│  │  → Chain ensures no vote can be altered/deleted         │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 3: VOTING CLOSES & RESOLUTION                             │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  System tallies votes (FOR > AGAINST? Quorum met?)      │    │
+│  │  → Outcome recorded on hash-chain                       │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 4: EXECUTION (IF PASSED)                                  │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Admin executes passed proposal (e.g., pool payout)     │    │
+│  │  → Execution recorded on hash-chain                     │    │
+│  │  → Full transparency: anyone can audit                  │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+Members govern the TimeBank collectively through a transparent, hash-chained voting system.
+
+| Governance Feature | How It Works |
+|--------------------|--------------|
+| **Proposal Creation** | Any member can submit a proposal (pool payouts, rule changes, dispute resolution, community initiatives) |
+| **Voting Window** | Time-bound voting period (e.g., 7 days) with clear start/end timestamps |
+| **Vote Weighting** | Optional: 1 TimeCoin = 1 vote, or one-member-one-vote |
+| **Tamper-Evident Votes** | Each vote is recorded on the hash-chain with `prevHash`/`entryHash` — altering any vote breaks the chain |
+| **Quorum & Majority** | Configurable thresholds (e.g., 10% quorum, >50% majority to pass) |
+| **Automatic Tallying** | Votes are counted automatically when window closes |
+| **Execution** | Passed proposals are executed by admin (recorded on hash-chain) with full transparency |
+| **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
+
+All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
+
 ♻️ **Flexible Reciprocity**
 
 Exchanges don't need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration and a continuous cycle of goodwill.
@@ -149,6 +202,7 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 |**Financial FP&A**	|Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (Gemini API / GPT-4o)	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning|
 |**Audit & Control**	|Periodic audits, sample-based testing, fraud detection lag	|Cryptographic linkage breaks chain if any transaction is altered — tamper-evident by design	|Mirrors continuous auditing, real-time control monitoring, and forensic accounting principles|
 |**Reporting & Transparency**	|Month-end close cycles, static PDF reports, delayed stakeholder visibility	|Live ledger viewer with real-time updates, community impact dashboards, public transaction log	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards|
+| **Governance & Internal Controls** | Centralized decision-making, lack of audit trail for approvals, manual vote counting | Community voting on proposals (pool payouts, rule changes) with hash-chained vote records — each vote cryptographically linked and tamper-evident | Demonstrates decentralized governance with transparent audit trails, applicable to board voting, shareholder resolutions, and internal control approvals |
 |**Strategic Roadmap**	|Siloed systems, resistance to emerging tech	|Conceptual migration to **Solidity Smart Contracts on Ethereum/Polygon** with **ERC-20/ERC-721** tokenization and DAO governance	|Shows strategic foresight in Decentralized Finance (DeFi) integration, programmable money, and decentralized treasury management|
 
 ### Note: 
@@ -177,6 +231,7 @@ This project demonstrates how blockchain-inspired ledger technology can reshape 
 - **Promoting sustainable community development** through equitable resource sharing — with every transaction cryptographically linked, preventing fraud or manipulation of time credits
 - **Integrating AI** to optimize skill matching and time utilization — while the underlying hash chain ensures all matches and exchanges are permanently recorded and verifiable
 - **Enabling members to donate time** to support vulnerable groups — with blockchain transparency ensuring donations reach intended recipients and can be audited by anyone
+- **Empowering democratic governance** — giving every member a voice through transparent, tamper-evident voting on community decisions (pool payouts, rule changes, dispute resolution), fostering a truly participatory ecosystem
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
@@ -192,6 +247,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
 |**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
 |**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
+| **Community Governance** | Members can submit proposals and cast votes on community decisions (pool payouts, rule changes, dispute resolution). Each vote is recorded on the hash-chain with `prevHash`/`entryHash` linkage — ensuring tamper-evident, publicly verifiable governance without smart contracts. Supports TimeCoin-weighted or one-member-one-vote models. |
 |**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
 |**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
 |**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
@@ -359,6 +415,7 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Project Management**	|Cross-Functional Integration	|Project spans React frontend, Node.js backend, Gemini AI, PostgreSQL database — mirroring ERP implementation leadership|
 |**Risk Management**	|Control Design	|Built tamper-evident ledger to prevent fraud without central authority — analogous to designing fraud prevention frameworks|
 |**Change Management**	|Adoption Strategy	|Designed public verifiable ledger to build community trust without mandatory central control — applicable to ERP or new system rollout|
+| **Corporate Governance** | Shareholder Voting & Resolution Tracking | Implemented proposal-vote-execute workflow with hash-chained vote records — analogous to board resolutions, shareholder voting, and audit committee approvals with immutable audit trails |
 |**Smart Contracts (Conceptual Development)**	|Programmable Finance	|Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
 
 ## 🤖 Tech Stack
@@ -443,6 +500,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**No Intermediaries for Trust**	|Trust becomes a property of the mathematical proof, not a server administrator. The ledger is tamper-evident by design.
 |**Time Credits as Currency**	|Each hour of community care service provided equals one hour earned (1 hour = 1 TimeCoin). Credits circulate freely, enabling flexible exchanges across the community.|
 |**AI‑Enhanced Matching**	|AI algorithms (Gemini API, GPT-4o) connect participants by skills and needs, ensuring efficient and equitable distribution of time credits.|
+| **Community Voting** | Members cast votes on proposals; each vote stored as hash-chain entry with `prevHash`/`entryHash`. Tamper-evident, auditable, and publicly verifiable. Supports TimeCoin-weighted voting or one-member-one-vote. Quorum and majority rules enforced by backend logic. |
 |**Decentralized Identity & Reputation (Conceptual Development)**	|Conceptual integration of verifiable digital identities and reputation scores built from contribution history.|
 
 ### 💡 Why This Architecture Matters
