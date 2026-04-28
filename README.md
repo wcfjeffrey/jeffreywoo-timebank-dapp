@@ -1072,24 +1072,6 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
-## 📚 Reference Resources
-
-1. [Zhang, C., Yu, W., Suo, H., & Chen, G. (2021). Blockchain in the 'Time Bank': Toward a community-oriented public interest technology. IEEE Transactions on Technology and Society.](https://ieeexplore.ieee.org/document/9431189)
-2. [Lin, J.-J., Lee, Y.-T., & Wu, J.-L. (2021). The effect of thickness-based dynamic matching mechanism on a Hyperledger Fabric-based timebank system. Future Internet, *13*(3).](https://www.mdpi.com/1999-5903/13/3/65)
-3. [Klijn, F. (2019). Time banks: A mechanism design approach. From Theory to Application.](http://www.coalitiontheory.net/content/time-banks-mechanism-design-approach)
-4. [Zhejiang Shuren University. (2024). A blockchain-based time bank service system design. Journal of Zhejiang Shuren University.](http://sdxb.zjsru.edu.cn/info/1613/7742.htm)
-5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
-6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
-7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
-8. [HKMA Guideline on Section 97(1) of the Banking Ordinance (Nov 2000).](https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20001101-4-EN/20001101-4-EN.pdf)
-9. [HKMA Public Warning on Crypto Firms (Nov 2024).](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/)
-10. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](https://www.gov.cn/zhengce/zhengceku/2022-12/03/content_5730054.htm)
-11. [Commercial Banking Law, Article 11.](http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/12/content_1383716.htm)
-12. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
-13. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
-14. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
-15. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
-
 ## ⚖️ Legal & Regulatory Disclaimer (Mainland China & Hong Kong)
 
 ### PART 1: GENERAL DISCLAIMER
@@ -1302,6 +1284,24 @@ If any provision of this Disclaimer is found to be unenforceable or invalid unde
 This Disclaimer shall be governed by the laws of Hong Kong Special Administrative Region, without regard to conflict of law principles. Any disputes arising from or relating to this Disclaimer or the Software shall be resolved exclusively in the courts of Hong Kong.
 
 > **⚠️ COMPREHENSIVE LEGAL DISCLAIMER:** **JeffreyWoo TimeBank** is a conceptual, open-source project for educational purposes only. TimeCoins are service hour records with **no monetary value** — they are NOT currency, NOT investments, NOT securities, and NOT stablecoins. Deployment in Mainland China or Hong Kong carries significant regulatory risks (virtual currency prohibitions, **"Bank"** name restrictions, potential VASP/stablecoin licensing requirements). **The creator assumes NO liability for regulatory violations, fines, or legal consequences.** Users must consult qualified legal counsel before any deployment.
+
+## 📚 Reference Resources
+
+1. [Zhang, C., Yu, W., Suo, H., & Chen, G. (2021). Blockchain in the 'Time Bank': Toward a community-oriented public interest technology. IEEE Transactions on Technology and Society.](https://ieeexplore.ieee.org/document/9431189)
+2. [Lin, J.-J., Lee, Y.-T., & Wu, J.-L. (2021). The effect of thickness-based dynamic matching mechanism on a Hyperledger Fabric-based timebank system. Future Internet, *13*(3).](https://www.mdpi.com/1999-5903/13/3/65)
+3. [Klijn, F. (2019). Time banks: A mechanism design approach. From Theory to Application.](http://www.coalitiontheory.net/content/time-banks-mechanism-design-approach)
+4. [Zhejiang Shuren University. (2024). A blockchain-based time bank service system design. Journal of Zhejiang Shuren University.](http://sdxb.zjsru.edu.cn/info/1613/7742.htm)
+5. [Tanous, K., & Richards, A. (2016). New River Valley (NRV) time bank development report. Virginia Tech (VTechWorks).](https://vtechworks.lib.vt.edu/items/fd07d123-b890-42ad-bc9e-562f3d97fe6b/full)
+6. [Collom, E., Lasker, J. N., & Kyriacou, C. (n.d.). Equal time, equal value: Community currencies and time banking in the US. Routledge.](https://www.routledge.com/Equal-Time-Equal-Value-Community-Currencies-and-Time-Banking-in-the-US/Collom-Lasker/p/book/9781138109285)
+7. [Timebanking UK. (n.d.). Ampthill & Flitwick timebank.](https://tol2.timebanking.org/ampthillflitwick)
+8. [HKMA Guideline on Section 97(1) of the Banking Ordinance (Nov 2000).](https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20001101-4-EN/20001101-4-EN.pdf)
+9. [HKMA Public Warning on Crypto Firms (Nov 2024).](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/)
+10. [CBIRC et al. (2022). Notice on Standardizing the Use of "Bank" Names.](https://www.gov.cn/zhengce/zhengceku/2022-12/03/content_5730054.htm)
+11. [Commercial Banking Law, Article 11.](http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/12/content_1383716.htm)
+12. [Shanghai Civil Affairs Bureau (2026). Huzhu Aged Care Time Hub Administrative Measures.](http://sh.people.com.cn/n2/2026/0113/c134768-41470864.html)
+13. [Ministry of Civil Affairs (2012). Volunteer Service Record Measures.](http://mzt.hunan.gov.cn/xxgk/zcfg/wj/201403/t20140303_3726810.html)
+14. [State Council (2017). Volunteer Service Regulations (Order No. 685).](https://m.fadada.com:9443/article/detail-5236)
+15. [Loudi Civil Affairs Bureau (2023). Notice on Renaming "Time Bank" to "Mutual Aid Volunteer Service".](https://ldmzj.hnloudi.gov.cn/ldmzj/06/202307/7954726b238146808c37a151ba23364a.shtml)
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
