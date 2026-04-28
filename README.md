@@ -702,10 +702,17 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |Cryptocurrency Wallet Integration	|❌ None	|✅ MetaMask, Coinbase Wallet, Rainbow, etc.|
 |Block Explorer	|❌ None	|✅ PolygonScan / EtherScan|
 |**🔹 GOVERNANCE**		|||
-|Control Model	|Centralized (developer/admin)	|Decentralized (DAO with token voting)|
-|Rule Changes	|Developer updates code	|Community votes on proposals|
-|Dispute Resolution	|Admin intervention	|Smart Contract logic + DAO voting|
-|Transparency Level	|High (source code open)	|Very High (code immutable on chain)|
+|Control Model	|Hybrid (community voting + admin execution)	|Decentralized (DAO with on-chain token voting)|
+|Rule Changes	|Community votes on proposals; admin implements changes (recorded on hash-chain)	|Community votes on proposals; smart contract executes automatically|
+|Voting Mechanism	|TimeCoin-weighted or one-member-one-vote; votes recorded on hash-chain with tamper-evident entries	|On-chain voting with gas fees; votes recorded immutably on blockchain|
+|Vote Integrity	|Hash-chain ensures tamper-evident votes; anyone can audit	|Blockchain consensus ensures tamper-proof votes|
+|Dispute Resolution	|Admin intervention + hash-chain audit trail (transparent, recorded)	|Smart Contract logic + DAO voting (automatic, no human intervention)|
+|Quorum & Majority	|Enforced by backend logic; results recorded on hash-chain	|Enforced by smart contract code; results recorded on blockchain|
+|Proposal Execution	|Admin executes passed proposals; execution recorded on hash-chain	|Smart contract executes automatically when vote passes|
+|Transparency Level	|High (source code open; votes publicly viewable in ledger viewer)	|Very High (code immutable on chain; votes viewable on block explorer)|
+|Voter Privacy	|Pseudonymous (user ID visible in ledger)	|Pseudonymous (wallet address visible)|
+|Gas Fees for Voting	|❌ None — free	|✅ Required (MATIC or ETH)|
+|Voting Speed	|Instant (database write)	|~5-30 seconds (block confirmation)|
 |**🔹 COMPLIANCE & LEGAL**		|||
 |KYC/AML Requirements	|Optional (community discretion)	|Required for regulated deployments|
 |Data Privacy	|GDPR compliance possible	|Harder (data permanently on-chain)|
