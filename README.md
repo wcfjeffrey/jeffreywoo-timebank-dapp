@@ -101,7 +101,7 @@ Members offer their skills and community care services — drawing on examples f
 > **Core Principle: 1 hour given = 1 hour earned — creating a continuous cycle of giving and receiving.**
 
 🗳️ **Community Governance & Voting on Hash-Chain**
-
+<pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────┐
 │                    COMMUNITY VOTING FLOW                        │
 ├─────────────────────────────────────────────────────────────────┤
@@ -136,7 +136,7 @@ Members offer their skills and community care services — drawing on examples f
 │  │  → Full transparency: anyone can audit                  │    │
 │  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────────────────┘</pre>
 
 Members govern the TimeBank collectively through a transparent, hash-chained voting system.
 
