@@ -1297,7 +1297,7 @@ If any provision of this Disclaimer is found to be unenforceable or invalid unde
 
 ### PART 7: GOVERNING LAW
 
-This Disclaimer shall be governed by the laws of Hong Kong Special Administrative Region, without regard to conflict of law principles. Any disputes arising from or relating to this Disclaimer or the Software shall be resolved exclusively in the courts of Hong Kong.
+This Disclaimer shall be governed by the laws of the **Hong Kong Special Administrative Region** for matters concerning Hong Kong, and by the laws of the **People's Republic of China** for matters concerning Mainland China. Any dispute arising from or relating to this Disclaimer or the Software shall be resolved exclusively in the courts of Hong Kong (for Hong Kong matters) or the courts of Guangdong Province, China (for Mainland China matters). If any provision is found unenforceable in one jurisdiction, it shall be severed only for that jurisdiction, and the remaining provisions shall remain in full force and effect. Nothing in this section waives the authority of any regulator in Hong Kong or Mainland China to enforce applicable laws.
 
 > **⚠️ COMPREHENSIVE LEGAL DISCLAIMER:** **JeffreyWoo TimeBank** is a conceptual, open-source project for educational purposes only. TimeCoins are service hour records with **no monetary value** — they are NOT currency, NOT investments, NOT securities, and NOT stablecoins. Deployment in Mainland China or Hong Kong carries significant regulatory risks (virtual currency prohibitions, **"Bank"** name restrictions, potential VASP/stablecoin licensing requirements). **The creator assumes NO liability for regulatory violations, fines, or legal consequences.** Users must consult qualified legal counsel before any deployment.
 
