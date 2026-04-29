@@ -230,7 +230,7 @@ Aligned with the principles established at the **UN Conference on Sustainable De
 |Impact Area|How This DApp Delivers	|UN SDG Alignment|
 |-----------|-----------------------|----------------|
 |**Empowering individuals**	|Every hour of community care is cryptographically recorded and publicly verifiable on an immutable ledger — valuing time equally regardless of profession or income.	|**SDG 1 (No Poverty)** – Enables access to care services without financial barriers|
-|**Building trust & social connection**	|Hash-chained records eliminate central authorities or intermediaries, enabling transparent, decentralized time exchange across neighborhoods.	|**SDG 3 (Good Health & Well-being)** – Fosters community-based mental and physical health support|
+|**Building trust & social connection**	|Hash-chained records eliminate central authorities or intermediaries, enabling transparent, decentralized-by-design time exchange across neighborhoods.	|**SDG 3 (Good Health & Well-being)** – Fosters community-based mental and physical health support|
 |**Encouraging volunteering & mutual aid**	|Tamper-evident blockchain-style audit trail ensures fairness and accountability for volunteer service exchanges, caregiving, and skills transfer.	|**SDG 3 (Good Health & Well-being)** – Supports elderly/disabled care<br>**SDG 4 (Quality Education)** – Enables lifelong learning and skills sharing|
 |**Promoting sustainable development**	|Every transaction is cryptographically linked, preventing fraud or manipulation of time credits — supporting equitable resource sharing.	|**SDG 1 (No Poverty)** – Enables community-supported food and care services<br>**SDG 2 (Zero Hunger)** – Supports meal programs for low-income individuals|
 |**Integrating AI**	|AI-powered skill matching (Gemini API, GPT-4o) optimizes time utilization and connects neighbors by skills and needs, while hash-chain ensures verifiable records.	|**SDG 3 (Good Health & Well-being)** – Efficiently matches care providers with those in need|
@@ -1084,7 +1084,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 #### 1.1 Project Status
 
-**JeffreyWoo TimeBank** (the "Software") is a conceptual, open-source decentralized application created exclusively for:
+**JeffreyWoo TimeBank** (the "Software") is a conceptual, open-source decentralized-by-design application created exclusively for:
 - Educational purposes
 - Academic research
 - Community development exploration
