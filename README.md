@@ -231,17 +231,12 @@ Aligned with the principles established at the **UN Conference on Sustainable De
 |-----------|-----------------------|----------------|
 |**Empowering individuals**	|Every hour of community care is cryptographically recorded and publicly verifiable on an immutable ledger — valuing time equally regardless of profession or income.	|**SDG 1 (No Poverty)** – Enables access to care services without financial barriers|
 |**Building trust & social connection**	|Hash-chained records eliminate central authorities or intermediaries, enabling transparent, decentralized time exchange across neighborhoods.	|**SDG 3 (Good Health & Well-being)** – Fosters community-based mental and physical health support|
-|**Encouraging volunteering & mutual aid**	|Tamper-evident blockchain-style audit trail ensures fairness and accountability for volunteer service exchanges, caregiving, and skills transfer.	|**SDG 3 (Good Health & Well-being)** – Supports elderly/disabled care
-**SDG 4 (Quality Education)** – Enables lifelong learning and skills sharing|
-|**Promoting sustainable development**	|Every transaction is cryptographically linked, preventing fraud or manipulation of time credits — supporting equitable resource sharing.	|**SDG 1 (No Poverty)** – Enables community-supported food and care services
-**SDG 2 (Zero Hunger)** – Supports meal programs for low-income individuals|
+|**Encouraging volunteering & mutual aid**	|Tamper-evident blockchain-style audit trail ensures fairness and accountability for volunteer service exchanges, caregiving, and skills transfer.	|**SDG 3 (Good Health & Well-being)** – Supports elderly/disabled care<br>**SDG 4 (Quality Education)** – Enables lifelong learning and skills sharing|
+|**Promoting sustainable development**	|Every transaction is cryptographically linked, preventing fraud or manipulation of time credits — supporting equitable resource sharing.	|**SDG 1 (No Poverty)** – Enables community-supported food and care services<br>**SDG 2 (Zero Hunger)** – Supports meal programs for low-income individuals|
 |**Integrating AI**	|AI-powered skill matching (Gemini API, GPT-4o) optimizes time utilization and connects neighbors by skills and needs, while hash-chain ensures verifiable records.	|**SDG 3 (Good Health & Well-being)** – Efficiently matches care providers with those in need|
-|**Enabling donations to vulnerable groups**	|Members can donate TimeCoins to community pools, charities, or individuals in need — with blockchain transparency ensuring donations reach intended recipients.	|**SDG 1 (No Poverty)** – Direct support for vulnerable populations
-**SDG 3 (Good Health & Well-being)** – Care for elderly, disabled, and caregivers|
-|**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women
-**SDG 1 (No Poverty)** – Fair allocation of community resources|
-|**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers
-**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
+|**Enabling donations to vulnerable groups**	|Members can donate TimeCoins to community pools, charities, or individuals in need — with blockchain transparency ensuring donations reach intended recipients.	|**SDG 1 (No Poverty)** – Direct support for vulnerable populations<br>**SDG 3 (Good Health & Well-being)** – Care for elderly, disabled, and caregivers|
+|**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women<br>**SDG 1 (No Poverty)** – Fair allocation of community resources|
+|**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers<br>**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
