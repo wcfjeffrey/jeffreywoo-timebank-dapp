@@ -203,7 +203,7 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 |**Reporting & Transparency**|	Month-end close cycles, static PDF reports, delayed stakeholder visibility	|**Live ledger viewer** with real-time updates, community impact dashboards, public transaction log. **Real-Time Verification:** exchanges instantly recorded, reducing reconciliation delays.	|Moves finance from periodic close to continuous close with real-time stakeholder dashboards.|
 |**Predictive Intelligence**|	Historical analysis only, unable to anticipate needs or optimize resource allocation	|**AI-driven demand forecasting** anticipates service needs (e.g., tutoring spikes, caregiving demand). **AI skill matching** optimizes TimeCoin circulation.	|Directly applicable to rolling forecasts, scenario planning, and dynamic budget reallocation.
 |**Programmable Finance**|	Manual execution of contracts, leases, and settlements	|**Conceptual development:** Solidity smart contracts (earn/spend/donate/poolPayout) + **ERC-20/ERC-721 tokenization** on Ethereum/Polygon.	|Provides strategic foresight in DeFi integration, automated treasury management, and digital asset accounting.|
-|**Governance & Internal Controls**|	Centralized decision-making, lack of audit trail for approvals, manual vote counting	|**Community voting on proposals** (pool payouts, rule changes) with **hash-chained vote records**. **Conceptual development:** DAO with automated on-chain token voting. Publicly verifiable records align with IFRS/GAAP transparency standards.	|Demonstrates decentralized governance with transparent audit trails, applicable to board voting, shareholder resolutions, and internal control approvals.|
+|**Governance & Internal Controls**|	Centralized decision-making, lack of audit trail for approvals, manual vote counting	|**Community voting on proposals** (pool payouts, rule changes) with **hash-chained vote records**. **Conceptual development:** Governance & Data Access Object (DAO) with automated on-chain token voting. Publicly verifiable records align with IFRS/GAAP transparency standards.	|Demonstrates decentralized governance with transparent audit trails, applicable to board voting, shareholder resolutions, and internal control approvals.|
 |**Strategic Roadmap**|	Siloed systems, resistance to emerging tech	|**Conceptual migration to Ethereum/Polygon** with **ERC-20/ERC-721** and **DAO governance**.	|Shows strategic foresight in DeFi integration, programmable money, and decentralized treasury management.|
 
 ### Note: 
@@ -698,7 +698,7 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
   - Connect multiple local timebanks into a global network  
   - Enable cross‑border exchanges of time credits/TimeCoins
 
-- **Governance & Data Access Object (DAO) Model**
+- **Governance & DAO Model**
 
   - Introduce community voting for rules, upgrades, and dispute resolution  
   - Ensure democratic participation in platform evolution
