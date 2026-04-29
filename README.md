@@ -225,14 +225,23 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 
 ## 🤝 Social Impact
 
-This project demonstrates how blockchain-inspired ledger technology can reshape community collaboration by:  
-- **Empowering individuals** to value time and care equally, regardless of profession or income — with every hour cryptographically recorded and publicly verifiable on an immutable ledger
-- **Building trust and social connection** across neighborhoods through transparent, decentralized time exchange — where hash-chained records eliminate the need for central authorities or intermediaries
-- **Encouraging volunteering, mutual aid, social inclusion, and intergenerational cooperation** — backed by a tamper-evident blockchain-style audit trail that ensures fairness and accountability
-- **Promoting sustainable community development** through equitable resource sharing — with every transaction cryptographically linked, preventing fraud or manipulation of time credits
-- **Integrating AI** to optimize skill matching and time utilization — while the underlying hash chain ensures all matches and exchanges are permanently recorded and verifiable
-- **Enabling members to donate time** to support vulnerable groups — with blockchain transparency ensuring donations reach intended recipients and can be audited by anyone
-- **Empowering democratic governance** — giving every member a voice through transparent, tamper-evident voting on community decisions (pool payouts, rule changes, dispute resolution), fostering a truly participatory ecosystem
+Aligned with the principles established at the **UN Conference on Sustainable Development (Rio+20)** and the **Sustainable Development Goals (SDGs)** adopted by all UN member states in 2015, this project demonstrates how blockchain-inspired ledger technology can reshape community collaboration and advance the 2030 Agenda for Sustainable Development — with a focused commitment to **SDG 1 through 5**.
+
+|Impact Area|How the DApp Delivers	|UN SDG Alignment|
+|-----------|-----------------------|----------------|
+|**Empowering individuals**	|Every hour of community care is cryptographically recorded and publicly verifiable on an immutable ledger — valuing time equally regardless of profession or income.	|**SDG 1 (No Poverty)** – Enables access to care services without financial barriers|
+|**Building trust & social connection**	|Hash-chained records eliminate central authorities or intermediaries, enabling transparent, decentralized time exchange across neighborhoods.	|**SDG 3 (Good Health & Well-being)** – Fosters community-based mental and physical health support|
+|**Encouraging volunteering & mutual aid**	|Tamper-evident blockchain-style audit trail ensures fairness and accountability for volunteer service exchanges, caregiving, and skills transfer.	|**SDG 3 (Good Health & Well-being)** – Supports elderly/disabled care
+**SDG 4 (Quality Education)** – Enables lifelong learning and skills sharing|
+|**Promoting sustainable development**	|Every transaction is cryptographically linked, preventing fraud or manipulation of time credits — supporting equitable resource sharing.	|**SDG 1 (No Poverty)** – Enables community-supported food and care services
+**SDG 2 (Zero Hunger)** – Supports meal programs for low-income individuals|
+|**Integrating AI**	|AI-powered skill matching (Gemini API, GPT-4o) optimizes time utilization and connects neighbors by skills and needs, while hash-chain ensures verifiable records.	|**SDG 3 (Good Health & Well-being)** – Efficiently matches care providers with those in need|
+|**Enabling donations to vulnerable groups**	|Members can donate TimeCoins to community pools, charities, or individuals in need — with blockchain transparency ensuring donations reach intended recipients.	|**SDG 1 (No Poverty)** – Direct support for vulnerable populations
+**SDG 3 (Good Health & Well-being)** – Care for elderly, disabled, and caregivers|
+|**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women
+**SDG 1 (No Poverty)** – Fair allocation of community resources|
+|**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers
+**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
 
 ## 🚀 Why Choose JeffreyWoo TimeBank
 
