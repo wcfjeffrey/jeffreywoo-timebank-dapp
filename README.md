@@ -1100,7 +1100,7 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 > **For regulators:** This repository is a **portfolio piece and learning resource**. It does not operate as a **"TimeBank"**, does not onboard users, and does not exchange real value.
 
-**The name "TimeBank" is used for conceptual alignment with academic literature on timebanking systems. No violation of Cap. 155 or PRC banking laws is intended.**
+**The name "TimeBank" is used for conceptual alignment with academic literature on timebanking systems. No violation of the Hong Kong Banking Ordinance (Cap. 155) or the PRC banking laws is intended.**
 
 #### 1.2 No Warranties
 
