@@ -227,7 +227,7 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 
 Aligned with the principles established at the **UN Conference on Sustainable Development (Rio+20)** and the **Sustainable Development Goals (SDGs)** adopted by all UN member states in 2015, this project demonstrates how blockchain-inspired ledger technology can reshape community collaboration and advance the 2030 Agenda for Sustainable Development — with a focused commitment to **SDG 1 through 5**.
 
-|Impact Area|How the DApp Delivers	|UN SDG Alignment|
+|Impact Area|How This DApp Delivers	|UN SDG Alignment|
 |-----------|-----------------------|----------------|
 |**Empowering individuals**	|Every hour of community care is cryptographically recorded and publicly verifiable on an immutable ledger — valuing time equally regardless of profession or income.	|**SDG 1 (No Poverty)** – Enables access to care services without financial barriers|
 |**Building trust & social connection**	|Hash-chained records eliminate central authorities or intermediaries, enabling transparent, decentralized time exchange across neighborhoods.	|**SDG 3 (Good Health & Well-being)** – Fosters community-based mental and physical health support|
