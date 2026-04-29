@@ -196,7 +196,6 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 
 |Transformation Area	|Traditional Finance Challenge	|How This DApp Demonstrates Transformation	|Finance Implication|
 |---------------------|-------------------------------|-------------------------------------------|-------------------|
-|**Transformation Area**|	Traditional Finance Challenge	|How This DApp Demonstrates Transformation	|Finance Implication|
 |**Trust & Intermediaries**|	Manual reconciliations, audit costs, reliance on banks/third parties	|Hash-chained ledger (**SHA-256**) with `prevHash`/`entryHash` enables public verifiability without intermediaries.	|Reduces audit fees, eliminates reconciliation overhead, automates trust for intercompany transactions.|
 |**Value Tokenization**|	Fiat-based incentives, delayed recognition, limited flexibility	|Tokenized time credits (1 hour = 1 TimeCoin) with Earn/Spend/Donate/Pool Payout mechanics. **Conceptual development:** **ERC-20/ERC-721** tokens on **Ethereum/Polygon**.	|Demonstrates tokenomics understanding for Web3 finance, employee rewards, and cross-border value transfer.|
 |**Financial FP&A**|	Reactive reporting, manual forecasting, static budgets	|AI-powered demand prediction and skill matching (**Gemini API / GPT-4o**) .	|Enables dynamic forecasting, working capital optimization, and data-driven strategic planning.|
