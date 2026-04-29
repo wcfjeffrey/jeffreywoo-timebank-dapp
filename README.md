@@ -1090,7 +1090,17 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 - Community development exploration
 - Technology demonstration
 
-The Software is NOT a commercial product, financial service, or regulated offering.
+**This project is a conceptual, open-source educational exercise.**
+
+- ✅ **No commercial use** — Not a product, service, business, or regulated offering
+- ✅ **No users** — Not deployed to the public; no live community
+- ✅ **No money** — TimeCoins are code variables, not real assets
+- ✅ **No blockchain** — Uses PostgreSQL, not Ethereum/Polygon
+- ✅ **No license required** — Educational demonstration exempt from financial regulation
+
+> **For regulators:** This repository is a **portfolio piece and learning resource**. It does not operate as a **"TimeBank"**, does not onboard users, and does not exchange real value.
+
+**The name "TimeBank" is used for conceptual alignment with academic literature on timebanking systems. No violation of Cap. 155 or PRC banking laws is intended.**
 
 #### 1.2 No Warranties
 
