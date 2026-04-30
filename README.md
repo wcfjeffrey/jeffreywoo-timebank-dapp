@@ -766,45 +766,38 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
-> **Cryptographic Linkage in This Conceptual Development System Architecture Diagram:**
+> **Cryptographic Linkage in The Above Conceptual Development:**
 > 
 > Unlike the Current State (which stores explicit `prevHash` and `entryHash` in each row), the Conceptual Development on Ethereum/Polygon relies on the blockchain's native cryptographic guarantees:
-> 
 > - **Transaction Hash** → Uniquely identifies each `earn`/`spend`/`donate`/`poolPayout` call
 > - **Block Header Hash Chain** → Links blocks immutably (prevents reordering/deletion)
 > - **Merkle Root** → Enables compact verification that a transaction belongs to a block
 > 
 > **Result:** No per-row `prevHash`/`entryHash` fields are needed — security is inherited from the underlying blockchain.
 
-**JeffreyWoo TimeBank** is currently a DApp built on a **blockchain‑inspired hash‑chained ledger**. Its conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
+**JeffreyWoo TimeBank** is currently a DApp built on a **blockchain‑inspired hash‑chained ledger**, but its conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
 
 - **Smart Contract Deployment**
-
   - Implement core time credit logic in Solidity  
   - Deploy contracts to Ethereum or Polygon for transparent, verifiable exchanges
 
 - **Tokenization of Time Credits**
-
   - Represent each hour of community care service as a transferable ERC‑20 or ERC‑721 token (1 hour = 1 TimeCoin)  
   - Enable interoperability with other decentralized applications
 
 - **Decentralized Identity (DID) Integration**
-
   - Support verifiable digital identities for participants  
   - Build reputation scoring based on contribution history
 
 - **AI‑Enhanced Matching Engine**
-
   - Expand skill‑matching algorithms with advanced AI APIs  
   - Optimize community exchanges by predicting demand and supply trends
 
 - **Cross‑Community Interoperability**
-
   - Connect multiple local timebanks into a global network  
   - Enable cross‑border exchanges of time credits/TimeCoins
 
 - **Governance & DAO Model**
-
   - Introduce community voting for rules, upgrades, and dispute resolution  
   - Ensure democratic participation in platform evolution
 
