@@ -386,6 +386,104 @@ This diagram shows the components and their relationships — a snapshot of what
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
+## 📐Data Flow and Logic Sequence
+
+This section shows how data moves through the system step-by-step for each core operation. Unlike the architecture diagram above (which shows what exists), these sequences show what happens when.
+
+```mermaid
+flowchart TD
+    subgraph PHASE1["Phase 1: Authentication"]
+        direction TB
+        A1["User Login Email/Password"] --> A2["JWT Token Issued"]
+        A2 --> A3["Role Dashboard Member/Admin"]
+    end
+
+    subgraph PHASE2["Phase 2: Service Exchange"]
+        direction TB
+        B1["Offer or Request Service"] --> B2["AI Matching Engine Gemini/GPT-4o"]
+        B2 --> B3["Match Found"]
+        B3 --> B4["Complete Service"]
+    end
+
+    subgraph PHASE3["Phase 3: Time Credit Transaction"]
+        direction TB
+        C1["Record Hours 1 hour = 1 TimeCoin"] --> C2["Select Transaction Type"]
+        C2 --> C3["Earn"]
+        C2 --> C4["Spend"]
+        C2 --> C5["Donate"]
+        C2 --> C6["Pool Payout"]
+        C3 --> C7["Insert into Hash-Chained Ledger"]
+        C4 --> C7
+        C5 --> C7
+        C6 --> C7
+    end
+
+    subgraph PHASE4["Phase 4: Cryptographic Linkage"]
+        direction TB
+        D1["Calculate prevHash from previous entryHash"] --> D2["Compute entryHash = SHA-256 all fields + prevHash"]
+        D2 --> D3["Store in PostgreSQL"]
+        D3 --> D4["Chain Verified"]
+    end
+
+    subgraph PHASE5["Phase 5: Community Governance"]
+        direction TB
+        E1["Member Submits Proposal"] --> E2["Voting Window 7 days"]
+        E2 --> E3["Votes Recorded on Hash-Chain"]
+        E3 --> E4{"Majority Met?"}
+        E4 -->|Yes| E5["Admin Executes"]
+        E4 -->|No| E6["Proposal Closed"]
+    end
+
+    subgraph PHASE6["Phase 6: Live Ledger Viewer"]
+        direction TB
+        F1["Anyone Can View"] --> F2["All Transactions Public"]
+        F2 --> F3["Verify Hash Chain Integrity"]
+        F3 --> F4["Audit Community Impact"]
+    end
+
+    A3 --> B1
+    B4 --> C1
+    C7 --> D1
+    D4 --> F1
+    A3 --> E1
+```
+
+### 1. Core Transaction Flows (Earn / Spend / Donate / Pool Payout)
+
+|Step	|Action (Earn)	|Action (Spend/Donate/Pool Payout)	|Component	|Data Output|
+|-----|---------------|-----------------------------------|-----------|-----------|
+|1	|Volunteer completes 1 hour of service	|Member requests service or donation	|React UI	|Service/donation request|
+|2	|Submit earning request with service details	|Backend verifies sufficient balance	|Express API/PostgreSQL	|Validated request / balance check|
+|3	|Retrieve previous transaction hash	|Same (retrieve previous hash)	|PostgreSQL query	|`prevHash` value|
+|4	|Compute `entryHash` = SHA-256(prevHash + fields)	|Same hash computation	|Node.js crypto	|64-character hex string|
+|5	|Insert record into `earn` table	|Insert into `spend`, `donate`, or `pool_payout`	|PostgreSQL INSERT	|New ledger entry|
+|6	|Update user's TimeCoin balance (increase)	|Update sender/recipient balances (decrease/increase)	|PostgreSQL transaction	|Updated balances (atomic)|
+|7	|Push real-time update via WebSocket	|Same	|Redis + WebSocket	|Live balance to dashboard|
+
+### 2. Audit & Integrity Verification Flow (Hash-Chain Validation)
+
+This flow is unique to your DApp — traditional systems cannot offer this level of transparency.
+
+|Step	|Action	|Data Required	|Outcome|
+|-----|-------|---------------|-------|
+|1	|User or auditor opens Live Ledger Viewer	|None — public access	|Full transaction log visible|
+|2	|System fetches all transactions in chronological order	|Complete ledger from PostgreSQL	|Transaction array|
+|3	|Starting from first record (`prevHash` = 0), recompute each `entryHash`	|Transaction fields + stored `prevHash`	|Calculated hash value|
+|4	|Compare recomputed hash with stored `entryHash`	|Both hash values	|Match or mismatch|
+|5	|Display verification status for each record	|Validation result	|✅ Valid chain or ⚠️ Broken chain (tamper detected)|
+|6	|If chain intact, ledger is fully auditable and tamper-evident	|Full verification report	|Confidence in data integrity|
+
+### 3. Governance Voting Flow (Proposal → Vote → Resolution)
+
+|Step	|Action	|Component	|Data Output|
+|-----|-------|-----------|-----------|
+|1	|Member creates proposal (e.g., pool payout, rule change)	|React UI → PostgreSQL	|Proposal record with hash-chain entry|
+|2	|Voting window opens (e.g., 7 days)	|Backend scheduler	|Voting active status|
+|3	|Members cast votes (FOR/AGAINST/ABSTAIN)	|React UI → API → PostgreSQL	|Each vote stored with `prevHash`/`entryHash`|
+|4	|Voting window closes; system tallies votes	|PostgreSQL aggregation	|Vote counts, quorum check|
+|5	|Outcome recorded on hash-chain	|`proposals` table update	|`outcome` and `resolved_at` fields|
+|6	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
+
 ## ⭐ Finance Skills Strengthened
 
 |Skill Category	|Specific Skill	|How the DApp Demonstrated It|
@@ -1058,104 +1156,6 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 └───────────────────────────────────────────────────────────────────┘</pre>
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
-
-## 📐Data Flow and Logic Sequence
-
-This section shows how data moves through the system step-by-step for each core operation. Unlike the architecture diagram above (which shows what exists), these sequences show what happens when.
-
-```mermaid
-flowchart TD
-    subgraph PHASE1["Phase 1: Authentication"]
-        direction TB
-        A1["User Login Email/Password"] --> A2["JWT Token Issued"]
-        A2 --> A3["Role Dashboard Member/Admin"]
-    end
-
-    subgraph PHASE2["Phase 2: Service Exchange"]
-        direction TB
-        B1["Offer or Request Service"] --> B2["AI Matching Engine Gemini/GPT-4o"]
-        B2 --> B3["Match Found"]
-        B3 --> B4["Complete Service"]
-    end
-
-    subgraph PHASE3["Phase 3: Time Credit Transaction"]
-        direction TB
-        C1["Record Hours 1 hour = 1 TimeCoin"] --> C2["Select Transaction Type"]
-        C2 --> C3["Earn"]
-        C2 --> C4["Spend"]
-        C2 --> C5["Donate"]
-        C2 --> C6["Pool Payout"]
-        C3 --> C7["Insert into Hash-Chained Ledger"]
-        C4 --> C7
-        C5 --> C7
-        C6 --> C7
-    end
-
-    subgraph PHASE4["Phase 4: Cryptographic Linkage"]
-        direction TB
-        D1["Calculate prevHash from previous entryHash"] --> D2["Compute entryHash = SHA-256 all fields + prevHash"]
-        D2 --> D3["Store in PostgreSQL"]
-        D3 --> D4["Chain Verified"]
-    end
-
-    subgraph PHASE5["Phase 5: Community Governance"]
-        direction TB
-        E1["Member Submits Proposal"] --> E2["Voting Window 7 days"]
-        E2 --> E3["Votes Recorded on Hash-Chain"]
-        E3 --> E4{"Majority Met?"}
-        E4 -->|Yes| E5["Admin Executes"]
-        E4 -->|No| E6["Proposal Closed"]
-    end
-
-    subgraph PHASE6["Phase 6: Live Ledger Viewer"]
-        direction TB
-        F1["Anyone Can View"] --> F2["All Transactions Public"]
-        F2 --> F3["Verify Hash Chain Integrity"]
-        F3 --> F4["Audit Community Impact"]
-    end
-
-    A3 --> B1
-    B4 --> C1
-    C7 --> D1
-    D4 --> F1
-    A3 --> E1
-```
-
-### 1. Core Transaction Flows (Earn / Spend / Donate / Pool Payout)
-
-|Step	|Action (Earn)	|Action (Spend/Donate/Pool Payout)	|Component	|Data Output|
-|-----|---------------|-----------------------------------|-----------|-----------|
-|1	|Volunteer completes 1 hour of service	|Member requests service or donation	|React UI	|Service/donation request|
-|2	|Submit earning request with service details	|Backend verifies sufficient balance	|Express API/PostgreSQL	|Validated request / balance check|
-|3	|Retrieve previous transaction hash	|Same (retrieve previous hash)	|PostgreSQL query	|`prevHash` value|
-|4	|Compute `entryHash` = SHA-256(prevHash + fields)	|Same hash computation	|Node.js crypto	|64-character hex string|
-|5	|Insert record into `earn` table	|Insert into `spend`, `donate`, or `pool_payout`	|PostgreSQL INSERT	|New ledger entry|
-|6	|Update user's TimeCoin balance (increase)	|Update sender/recipient balances (decrease/increase)	|PostgreSQL transaction	|Updated balances (atomic)|
-|7	|Push real-time update via WebSocket	|Same	|Redis + WebSocket	|Live balance to dashboard|
-
-### 2. Audit & Integrity Verification Flow (Hash-Chain Validation)
-
-This flow is unique to your DApp — traditional systems cannot offer this level of transparency.
-
-|Step	|Action	|Data Required	|Outcome|
-|-----|-------|---------------|-------|
-|1	|User or auditor opens Live Ledger Viewer	|None — public access	|Full transaction log visible|
-|2	|System fetches all transactions in chronological order	|Complete ledger from PostgreSQL	|Transaction array|
-|3	|Starting from first record (`prevHash` = 0), recompute each `entryHash`	|Transaction fields + stored `prevHash`	|Calculated hash value|
-|4	|Compare recomputed hash with stored `entryHash`	|Both hash values	|Match or mismatch|
-|5	|Display verification status for each record	|Validation result	|✅ Valid chain or ⚠️ Broken chain (tamper detected)|
-|6	|If chain intact, ledger is fully auditable and tamper-evident	|Full verification report	|Confidence in data integrity|
-
-### 3. Governance Voting Flow (Proposal → Vote → Resolution)
-
-|Step	|Action	|Component	|Data Output|
-|-----|-------|-----------|-----------|
-|1	|Member creates proposal (e.g., pool payout, rule change)	|React UI → PostgreSQL	Proposal record with hash-chain entry|
-|2	|Voting window opens (e.g., 7 days)	|Backend scheduler	|Voting active status|
-|3	|Members cast votes (FOR/AGAINST/ABSTAIN)	|React UI → API → PostgreSQL	|Each vote stored with `prevHash`/`entryHash`|
-|4	|Voting window closes; system tallies votes	|PostgreSQL aggregation	|Vote counts, quorum check|
-|5	|Outcome recorded on hash-chain	|`proposals` table update	|`outcome` and `resolved_at` fields|
-|6	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
 
 ## ⚖️ Legal & Regulatory Disclaimer (Mainland China & Hong Kong)
 
