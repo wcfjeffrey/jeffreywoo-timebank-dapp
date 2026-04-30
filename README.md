@@ -394,7 +394,7 @@ This section shows how data moves through the system step-by-step for each core 
 flowchart TD
     subgraph PHASE1["Phase 1: Authentication"]
         direction TB
-        A1["User Login Email/Password"] --> A2["JWT Token Issued"]
+        A1["User Login Email/Password"] --> A2["JSON Web Token (JWT) Token Issued"]
         A2 --> A3["Role Dashboard Member/Admin"]
     end
 
