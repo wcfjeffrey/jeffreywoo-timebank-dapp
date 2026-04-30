@@ -336,7 +336,17 @@ This diagram shows the components and their relationships — a snapshot of what
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐   │  │
 │  │  │    EARN     │  │    SPEND    │  │   DONATE    │  │    POOL PAYOUT      │   │  │
 │  │  │   Table     │  │   Table     │  │   Table     │  │      Table          │   │  │
-│  │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────┘   │  │
+│  │  ├─────────────┤  ├─────────────┤  ├─────────────┤  ├─────────────────────┤   │  │
+│  │  │ • id        │  │ • id        │  │ • id        │  │ • id                │   │  │
+│  │  │ • user_id   │  │ • from_id   │  │ • from_id   │  │ • pool_id           │   │  │
+│  │  │ • minutes   │  │ • to_id     │  │ • to_id     │  │ • recipient_id      │   │  │
+│  │  │ • timestamp │  │ • minutes   │  │ • minutes   │  │ • minutes           │   │  │
+│  │  │ • service_id│  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
+│  │  │ • memo      │  │ • service_id│  │ • pool_id   │  │ • reason            │   │  │  
+│  │  │ • prevHash  │  │ • memo      │  │ • memo      │  │ • approved_by       │   │  │    
+│  │  │ • entryHash │  │ • prevHash  │  │ • prevHash  │  │ • prevHash          │   │  │
+│  │  │             │  │ • entryHash │  │ • entryHash │  │ • entryHash         │   │  │    
+│  │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────┘   │  │  
 │  │                                                                               │  │
 │  │  Each table includes: `prevHash`, `entryHash`, and cryptographic linkage      │  │
 │  │                                                                               │  │  
@@ -652,11 +662,15 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  │  │    EARN     │  │    SPEND    │  │   DONATE    │  │    POOL PAYOUT      │   │  │
 │  │  │  Table      │  │   Table     │  │   Table     │  │      Table          │   │  │
 │  │  ├─────────────┤  ├─────────────┤  ├─────────────┤  ├─────────────────────┤   │  │
+│  │  │ • id        │  │ • id        │  │ • id        │  │ • id                │   │  │
 │  │  │ • user_id   │  │ • from_id   │  │ • from_id   │  │ • pool_id           │   │  │
 │  │  │ • minutes   │  │ • to_id     │  │ • to_id     │  │ • recipient_id      │   │  │
 │  │  │ • timestamp │  │ • minutes   │  │ • minutes   │  │ • minutes           │   │  │
-│  │  │ • service   │  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
-│  │  │   details   │  │ • service   │  │ • pool_id   │  │ • approval_hash     │   │  │
+│  │  │ • service_id│  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
+│  │  │ • memo      │  │ • service_id│  │ • pool_id   │  │ • reason            │   │  │  
+│  │  │ • prevHash  │  │ • memo      │  │ • memo      │  │ • approved_by       │   │  │    
+│  │  │ • entryHash │  │ • prevHash  │  │ • prevHash  │  │ • prevHash          │   │  │
+│  │  │             │  │ • entryHash │  │ • entryHash │  │ • entryHash         │   │  │  
 │  │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────┘   │  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘
