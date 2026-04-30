@@ -1078,6 +1078,66 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
  
 *Note: Both earn and spend/donate time credits transparently through the DApp. AI recommends future matches based on skill compatibility and community needs.*
 
+## 📐Data Flow and Logic Sequence
+
+```mermaid
+flowchart TD
+    subgraph PHASE1["Phase 1: Authentication"]
+        direction TB
+        A1["User Login Email/Password"] --> A2["JWT Token Issued"]
+        A2 --> A3["Role Dashboard Member/Admin"]
+    end
+
+    subgraph PHASE2["Phase 2: Service Exchange"]
+        direction TB
+        B1["Offer or Request Service"] --> B2["AI Matching Engine Gemini/GPT-4o"]
+        B2 --> B3["Match Found"]
+        B3 --> B4["Complete Service"]
+    end
+
+    subgraph PHASE3["Phase 3: Time Credit Transaction"]
+        direction TB
+        C1["Record Hours 1 hour = 1 TimeCoin"] --> C2["Select Transaction Type"]
+        C2 --> C3["Earn"]
+        C2 --> C4["Spend"]
+        C2 --> C5["Donate"]
+        C2 --> C6["Pool Payout"]
+        C3 --> C7["Insert into Hash-Chained Ledger"]
+        C4 --> C7
+        C5 --> C7
+        C6 --> C7
+    end
+
+    subgraph PHASE4["Phase 4: Cryptographic Linkage"]
+        direction TB
+        D1["Calculate prevHash from previous entryHash"] --> D2["Compute entryHash = SHA-256 all fields + prevHash"]
+        D2 --> D3["Store in PostgreSQL"]
+        D3 --> D4["Chain Verified"]
+    end
+
+    subgraph PHASE5["Phase 5: Community Governance"]
+        direction TB
+        E1["Member Submits Proposal"] --> E2["Voting Window 7 days"]
+        E2 --> E3["Votes Recorded on Hash-Chain"]
+        E3 --> E4{"Majority Met?"}
+        E4 -->|Yes| E5["Admin Executes"]
+        E4 -->|No| E6["Proposal Closed"]
+    end
+
+    subgraph PHASE6["Phase 6: Live Ledger Viewer"]
+        direction TB
+        F1["Anyone Can View"] --> F2["All Transactions Public"]
+        F2 --> F3["Verify Hash Chain Integrity"]
+        F3 --> F4["Audit Community Impact"]
+    end
+
+    A3 --> B1
+    B4 --> C1
+    C7 --> D1
+    D4 --> F1
+    A3 --> E1
+```
+
 ## ⚖️ Legal & Regulatory Disclaimer (Mainland China & Hong Kong)
 
 ### PART 1: GENERAL DISCLAIMER
