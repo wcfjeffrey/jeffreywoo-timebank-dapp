@@ -662,15 +662,13 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  │  │    EARN     │  │    SPEND    │  │   DONATE    │  │    POOL PAYOUT      │   │  │
 │  │  │  Table      │  │   Table     │  │   Table     │  │      Table          │   │  │
 │  │  ├─────────────┤  ├─────────────┤  ├─────────────┤  ├─────────────────────┤   │  │
-│  │  │ • id        │  │ • id        │  │ • id        │  │ • id                │   │  │
-│  │  │ • user_id   │  │ • from_id   │  │ • from_id   │  │ • pool_id           │   │  │
-│  │  │ • minutes   │  │ • to_id     │  │ • to_id     │  │ • recipient_id      │   │  │
+│  │  │ • recipient │  │ • from      │  │ • from      │  │ • poolId            │   │  │
+│  │  │ • minutes   │  │ • to        │  │ • to        │  │ • recipient         │   │  │
 │  │  │ • timestamp │  │ • minutes   │  │ • minutes   │  │ • minutes           │   │  │
-│  │  │ • service_id│  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
-│  │  │ • memo      │  │ • service_id│  │ • pool_id   │  │ • reason            │   │  │  
-│  │  │ • prevHash  │  │ • memo      │  │ • memo      │  │ • approved_by       │   │  │    
-│  │  │ • entryHash │  │ • prevHash  │  │ • prevHash  │  │ • prevHash          │   │  │
-│  │  │             │  │ • entryHash │  │ • entryHash │  │ • entryHash         │   │  │  
+│  │  │ • serviceId │  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
+│  │  │ • memo      │  │ • serviceId │  │ • poolId    │  │ • reason            │   │  │  
+│  │  │             │  │ • memo      │  │ • memo      │  │ • approvedBy        │   │  │    
+│  │  │             │  │             │  │             │  │ • proposalId        │   │  │
 │  │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────┘   │  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘
