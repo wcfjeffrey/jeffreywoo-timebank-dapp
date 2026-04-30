@@ -259,6 +259,9 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 |**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 🏗️ System Architecture Overview — Current State
+
+This diagram shows the components and their relationships — a snapshot of what the system is made of, not how data flows through it.
+
 <pre lang="markdown">
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │                              PRESENTATION LAYER                                     │
@@ -333,27 +336,10 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐   │  │
 │  │  │    EARN     │  │    SPEND    │  │   DONATE    │  │    POOL PAYOUT      │   │  │
 │  │  │   Table     │  │   Table     │  │   Table     │  │      Table          │   │  │
-│  │  ├─────────────┤  ├─────────────┤  ├─────────────┤  ├─────────────────────┤   │  │
-│  │  │ • id        │  │ • id        │  │ • id        │  │ • id                │   │  │
-│  │  │ • user_id   │  │ • from_id   │  │ • from_id   │  │ • pool_id           │   │  │
-│  │  │ • minutes   │  │ • to_id     │  │ • to_id     │  │ • recipient_id      │   │  │
-│  │  │ • timestamp │  │ • minutes   │  │ • minutes   │  │ • minutes           │   │  │
-│  │  │ • service   │  │ • timestamp │  │ • timestamp │  │ • timestamp         │   │  │
-│  │  │   id        │  │ • service   │  │ • pool_id   │  │ • reason            │   │  │
-│  │  │ • memo      │  │   id        │  │ • memo      │  │ • approved_by       │   │  │
-│  │  └─────────────┘  │ • memo      │  └─────────────┘  └─────────────────────┘   │  │
-│  │                   └─────────────┘                                             │  │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────┘   │  │
 │  │                                                                               │  │
-│  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
-│  │  │              Hash-Chained Linkage (Cryptographic Integrity)             │  │  │
-│  │  │                                                                         │  │  │
-│  │  │   Each transaction stores:                                              │  │  │
-│  │  │   • prevHash  → Hash of the previous transaction's entryHash            │  │  │
-│  │  │   • entryHash → SHA-256(concatenated transaction fields + prevHash)     │  │  │
-│  │  │                                                                         │  │  │
-│  │  │   [Record 1] ──hash──→ [Record 2] ──hash──→ [Record 3] ──hash──→ ...    │  │  │
-│  │  │   (prevHash=0)         (prevHash=H1)        (prevHash=H2)               │  │  │
-│  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
+│  │  Each table includes: `prevHash`, `entryHash`, and cryptographic linkage      │  │
+│  │                                                                               │  │  
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                               │
@@ -372,11 +358,6 @@ It merges AI intelligence with blockchain fairness, creating a new way to exchan
 │  │  │   • Public verifiability                                                │  │  │
 │  │  │   • No external blockchain required                                     │  │  │
 │  │  │   • Trust without intermediaries                                        │  │  │
-│  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
-│  │                                                                               │  │
-│  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
-│  │  │                    1 Hour Given = 1 Hour Earned                         │  │  │
-│  │  │                    (Time Credit/Time Coin Rule)                         │  │  │
 │  │  └─────────────────────────────────────────────────────────────────────────┘  │  │
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘
@@ -1080,6 +1061,8 @@ This demonstrates how Priya Iyer’s **30‑minute video call review** is crypto
 
 ## 📐Data Flow and Logic Sequence
 
+This section shows how data moves through the system step-by-step for each core operation. Unlike the architecture diagram above (which shows what exists), these sequences show what happens when.
+
 ```mermaid
 flowchart TD
     subgraph PHASE1["Phase 1: Authentication"]
@@ -1137,6 +1120,42 @@ flowchart TD
     D4 --> F1
     A3 --> E1
 ```
+
+### 1. Core Transaction Flows (Earn / Spend / Donate / Pool Payout)
+
+|Step	|Action (Earn)	|Action (Spend/Donate/Pool Payout)	|Component	|Data Output|
+|-----|---------------|-----------------------------------|-----------|-----------|
+|1	|Volunteer completes 1 hour of service	|Member requests service or donation	|React UI	|Service/donation request|
+|2	|Submit earning request with service details	|Backend verifies sufficient balance	|Express API/PostgreSQL	|Validated request / balance check|
+|3	|Retrieve previous transaction hash	|Same (retrieve previous hash)	|PostgreSQL query	|`prevHash` value|
+|4	|Compute `entryHash` = SHA-256(prevHash + fields)	|Same hash computation	|Node.js crypto	|64-character hex string|
+|5	|Insert record into `earn` table	|Insert into `spend`, `donate`, or `pool_payout`	|PostgreSQL INSERT	|New ledger entry|
+|6	|Update user's TimeCoin balance (increase)	|Update sender/recipient balances (decrease/increase)	|PostgreSQL transaction	|Updated balances (atomic)|
+|7	|Push real-time update via WebSocket	|Same	|Redis + WebSocket	|Live balance to dashboard|
+
+### 2. Audit & Integrity Verification Flow (Hash-Chain Validation)
+
+This flow is unique to your DApp — traditional systems cannot offer this level of transparency.
+
+|Step	|Action	|Data Required	|Outcome|
+|-----|-------|---------------|-------|
+|1	|User or auditor opens Live Ledger Viewer	|None — public access	|Full transaction log visible|
+|2	|System fetches all transactions in chronological order	|Complete ledger from PostgreSQL	|Transaction array|
+|3	|Starting from first record (`prevHash` = 0), recompute each `entryHash`	|Transaction fields + stored `prevHash`	|Calculated hash value|
+|4	|Compare recomputed hash with stored `entryHash`	|Both hash values	|Match or mismatch|
+|5	|Display verification status for each record	|Validation result	|✅ Valid chain or ⚠️ Broken chain (tamper detected)|
+|6	|If chain intact, ledger is fully auditable and tamper-evident	|Full verification report	|Confidence in data integrity|
+
+### 3. Governance Voting Flow (Proposal → Vote → Resolution)
+
+|Step	|Action	|Component	|Data Output|
+|-----|-------|-----------|-----------|
+|1	|Member creates proposal (e.g., pool payout, rule change)	|React UI → PostgreSQL	Proposal record with hash-chain entry|
+|2	|Voting window opens (e.g., 7 days)	|Backend scheduler	|Voting active status|
+|3	|Members cast votes (FOR/AGAINST/ABSTAIN)	|React UI → API → PostgreSQL	|Each vote stored with `prevHash`/`entryHash`|
+|4	|Voting window closes; system tallies votes	|PostgreSQL aggregation	|Vote counts, quorum check|
+|5	|Outcome recorded on hash-chain	|`proposals` table update	|`outcome` and `resolved_at` fields|
+|6	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
 
 ## ⚖️ Legal & Regulatory Disclaimer (Mainland China & Hong Kong)
 
