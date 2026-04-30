@@ -455,7 +455,7 @@ flowchart TD
 |1	|Volunteer completes 1 hour of service	|Member requests service or donation	|React UI	|Service/donation request|
 |2	|Submit earning request with service details	|Backend verifies sufficient balance	|Express API/PostgreSQL	|Validated request / balance check|
 |3	|Retrieve previous transaction hash	|Same (retrieve previous hash)	|PostgreSQL query	|`prevHash` value|
-|4	|Compute `entryHash` = SHA-256(prevHash + fields)	|Same hash computation	|Node.js crypto	|64-character hex string|
+|4	|Compute `entryHash` = SHA-256 (`prevHash` + fields)	|Same hash computation	|Node.js crypto	|64-character hex string|
 |5	|Insert record into `earn` table	|Insert into `spend`, `donate`, or `pool_payout`	|PostgreSQL INSERT	|New ledger entry|
 |6	|Update user's TimeCoin balance (increase)	|Update sender/recipient balances (decrease/increase)	|PostgreSQL transaction	|Updated balances (atomic)|
 |7	|Push real-time update via WebSocket	|Same	|Redis + WebSocket	|Live balance to dashboard|
