@@ -766,6 +766,16 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 │  └───────────────────────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────────────┘</pre>
 
+> **Cryptographic Linkage in This Conceptual Development System Architecture Diagram:**
+> 
+> Unlike the Current State (which stores explicit `prevHash` and `entryHash` in each row), the Conceptual Development on Ethereum/Polygon relies on the blockchain's native cryptographic guarantees:
+> 
+> - **Transaction Hash** → Uniquely identifies each `earn`/`spend`/`donate`/`poolPayout` call
+> - **Block Header Hash Chain** → Links blocks immutably (prevents reordering/deletion)
+> - **Merkle Root** → Enables compact verification that a transaction belongs to a block
+> 
+> **Result:** No per-row `prevHash`/`entryHash` fields are needed — security is inherited from the underlying blockchain.
+
 **JeffreyWoo TimeBank** is currently a DApp built on a **blockchain‑inspired hash‑chained ledger**. Its conceptual development may extend this foundation into a fully deployed **Smart Contract** ecosystem. Development directions include:
 
 - **Smart Contract Deployment**
