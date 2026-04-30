@@ -354,7 +354,7 @@ This diagram shows the components and their relationships — a snapshot of what
 │  │  ┌─────────────────────────────────────────────────────────────────────────┐  │  │
 │  │  │                      Cryptographic Verification                         │  │  │
 │  │  │                                                                         │  │  │
-│  │  │   • Tamper-evident chain                                                │  │  │
+│  │  │   • Tamper-evident chain (SHA-256)                                      │  │  │
 │  │  │   • Public verifiability                                                │  │  │
 │  │  │   • No external blockchain required                                     │  │  │
 │  │  │   • Trust without intermediaries                                        │  │  │
