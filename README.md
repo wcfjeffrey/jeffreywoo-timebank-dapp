@@ -400,6 +400,17 @@ This diagram shows the components and their relationships — a snapshot of what
 
 This section shows how data moves through the system step-by-step for each core operation. Unlike the architecture diagram above (which shows what exists), these sequences show what happens when.
 
+> **How to read this diagram:** The system follows 6 sequential phases:
+>
+> | Phase | Name | Key Activities | Data / Tech Component |
+> |-------|------|----------------|-----------------------|
+> | **1** | **Authentication** | User login (email/password) → JWT token issued → role-based dashboard (Member/Admin) | JWT, Role-based Access Control |
+> | **2** | **Service Exchange** | Offer/request service → AI matching (Gemini/GPT-4o) → match found → service completed | Gemini API, GPT-4o, React UI |
+> | **3** | **Time Credit Transaction** | Record hours (1 hour = 1 TimeCoin) → select type (Earn/Spend/Donate/Pool Payout) → insert into hash-chained ledger | PostgreSQL, 4 transaction tables |
+> | **4** | **Cryptographic Linkage** | Retrieve `prevHash` from previous transaction → compute `entryHash` = SHA-256(all fields + `prevHash`) → store in PostgreSQL → chain verified | SHA-256, Node.js crypto, `prevHash`/`entryHash` fields |
+> | **5** | **Community Governance** | Member submits proposal → voting window (7 days) → votes recorded on hash-chain → majority check → admin executes (if passed) | Proposal table, Vote table, hash-chain integrity |
+> | **6** | **Live Ledger Viewer** | Anyone can view all transactions publicly → verify hash chain integrity → audit community impact | Public ledger viewer, real-time updates |
+
 ```mermaid
 flowchart TD
     subgraph PHASE1["Phase 1: Authentication"]
