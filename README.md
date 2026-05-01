@@ -33,50 +33,6 @@ AI-driven matching, powered by **Gemini API and GPT-4o**, intelligently connects
 
 By combining a decentralized, tamper-proof ledger with adaptive AI, JeffreyWoo TimeBank transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value — creating a transparent record of care that anyone can audit, verify, and trust.
 
-## ❤️ United Nations (UN) Sustainable Development Goals (SDGs)
-
-The UN Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
-
-One of the major global social development challenges today is the "aging society." JeffreyWoo TimeBank aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
-
-The SDGs were officially adopted by all member states in 2015. The 17 SDGs are linked to five critical areas: People, Planet, Prosperity, Peace, and Partnership.
-
-Among them, the following SDGs are relevant to individuals with disabilities in this project:  
-
-| SDG | UN Link | Focus | Activities |
-|-----|------|-------|------------|
-| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as medical escort support, and peer companionship. |
-| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gathering assistant. |
-| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits. |
-| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
-| SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
-
-## 🤝 Example: Main Community Care Services of Association of Rehabilitation and Mutual Support (ARMS) — SDG Alignment Matrix
-
-| Main Community Care Services | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
-|---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
-| Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
-| Peer Companionship | ✓ | | | ✓ | ✓ |
-| Medical Escort Support | ✓ | | | ✓ | ✓ |
-| Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
-| Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
-| Travel Assistance | | | ✓ | ✓ | ✓ |
-| Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
-| Painting Class Assistance | | | ✓ | ✓ | ✓ |
-| Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
-| Art Class Assistance | | | ✓ | ✓ | ✓ |
-| Singing Class Assistance | | | ✓ | ✓ | ✓ |
-| Exercise Class Assistance | | | ✓ | ✓ | ✓ |
-| Gardening Class Assistance | | | ✓ | ✓ | ✓ |
-| IT Class Assistance | | | ✓ | ✓ | ✓ |
-| Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
-| Sharing Sessions | | | ✓ | ✓ | ✓ |
-| Volunteer Training | | | ✓ | ✓ | ✓ |
-| Community Outreach Activities | | | | ✓ | ✓ |
-| Helping Members | | | ✓ | ✓ | ✓ |
-| Helping Patients | | | ✓ | ✓ | ✓ |
-| Rehabilitation Internship | | | | ✓ | ✓ |
-
 ## ⏰ Timebanking System
 
 <img src="assets/JeffreyWooTimeBank16.png" alt="JeffreyWooTimeBank16" width="1200" height="800" />
@@ -99,6 +55,21 @@ Members offer their skills and community care services — drawing on examples f
 |Pool Payout	|Facilitate payouts from community pools to support vulnerable members.|
 
 > **Core Principle: 1 hour given = 1 hour earned — creating a continuous cycle of giving and receiving.**
+
+## 🧩 Core Concepts
+
+|Concept	| Description|
+|---------|------------|
+|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type. Time is the most universal and equitable currency.|
+|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
+|**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
+|**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
+|**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
+| **Community Governance** | Members can submit proposals and cast votes on community decisions (pool payouts, rule changes, dispute resolution). Each vote is recorded on the hash-chain with `prevHash`/`entryHash` linkage — ensuring tamper-evident, publicly verifiable governance without smart contracts. Supports TimeCoin-weighted or one-member-one-vote models. |
+|**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
+|**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
+|**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
+|**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 🗳️ **Community Governance & Voting on Hash-Chain**
 <pre lang="markdown">
@@ -237,26 +208,6 @@ Aligned with the principles established at the **UN Conference on Sustainable De
 |**Enabling donations to vulnerable groups**	|Members can donate TimeCoins to community pools, charities, or individuals in need — with blockchain transparency ensuring donations reach intended recipients.	|**SDG 1 (No Poverty)** – Direct support for vulnerable populations<br>**SDG 3 (Good Health & Well-being)** – Care for elderly, disabled, and caregivers|
 |**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women<br>**SDG 1 (No Poverty)** – Fair allocation of community resources|
 |**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers<br>**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
-
-## 🚀 Why Choose JeffreyWoo TimeBank
-
-Most apps focus on money. **JeffreyWoo TimeBank** focuses on time — the most universal currency.
-It merges AI intelligence with blockchain fairness, creating a new way to exchange value that’s human-centered, transparent, and future-ready.
-
-## 🧩 Core Concepts
-
-|Concept	| Description|
-|---------|------------|
-|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type. Time is the most universal and equitable currency.|
-|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
-|**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
-|**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
-|**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
-| **Community Governance** | Members can submit proposals and cast votes on community decisions (pool payouts, rule changes, dispute resolution). Each vote is recorded on the hash-chain with `prevHash`/`entryHash` linkage — ensuring tamper-evident, publicly verifiable governance without smart contracts. Supports TimeCoin-weighted or one-member-one-vote models. |
-|**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
-|**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
-|**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
-|**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 🏗️ System Architecture Overview — Current State
 
@@ -505,61 +456,6 @@ This flow is unique to your DApp — traditional systems cannot offer this level
 |5	|Outcome recorded on hash-chain	|`proposals` table update	|`outcome` and `resolved_at` fields|
 |6	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
 
-## ⭐ Finance Skills Strengthened
-
-|Skill Category	|Specific Skill	|How the DApp Demonstrated It|
-|---------------|---------------|----------------------------|
-|**Financial Systems**	|General Ledger Architecture	|Designed Earn/Spend/Donate/Pool Payout tables — analogous to GL, sub-ledgers, and contra accounts|
-|**Internal Controls**	|Audit Trail Design	|Implemented cryptographic `prevHash` → `entryHash` linkage making tampering immediately detectable|
-|**Tokenomics**	|Digital Asset Economics	|Created time-based token economy with issuance, circulation, donation, and pool payout mechanics (1 hour = 1 TimeCoin)|
-|**FP&A**	|Predictive Forecasting	|Integrated AI demand forecasting to anticipate service needs — directly applicable to rolling forecasts and scenario planning|
-|**Process Automation**	|Workflow Automation	|Automated time credit issuance, transfer, verification, and balance updates — similar to invoice processing or payroll accruals|
-|**Data Integrity**	|Reconciliation Design	|Hash chain ensures altering any transaction breaks all subsequent links — analogous to bank reconciliation and intercompany matching|
-|**Stakeholder Reporting**	|Dashboard Design	|Built live ledger viewer with community impact metrics — equivalent to board-level KPIs and balanced scorecards|
-|**Digital Transformation**	|Process Re-engineering	|Reimagined traditional timebanking with blockchain-inspired + AI layers — showing ability to lead finance tech transformation|
-|**Project Management**	|Cross-Functional Integration	|Project spans React frontend, Node.js backend, Gemini AI, PostgreSQL database — mirroring ERP implementation leadership|
-|**Risk Management**	|Control Design	|Built tamper-evident ledger to prevent fraud without central authority — analogous to designing fraud prevention frameworks|
-|**Change Management**	|Adoption Strategy	|Designed public verifiable ledger to build community trust without mandatory central control — applicable to ERP or new system rollout|
-| **Corporate Governance** | Shareholder Voting & Resolution Tracking | Implemented proposal-vote-execute workflow with hash-chained vote records — analogous to board resolutions, shareholder voting, and audit committee approvals with immutable audit trails |
-|**Smart Contracts (Conceptual Development)**	|Programmable Finance	|Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
-
-## 🤖 Tech Stack
-
-- **Language:** TypeScript, HTML
-- **Framework:** React
-- **Runtime:** Node.js
-- **Framework:** Express (REST API)
-- **Validation:**	Zod (with drizzle-zod)
-- **Database ORM:**	Drizzle ORM
-- **Database:** PostgreSQL
-- **Cache:** Redis
-- **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
-- **API Codegen:** Orval
-- **UI:** Tailwind CSS + Recharts + Framer Motion
-- **Blockchain:**	Ethereum / Polygon (conceptual development)
-- **Smart Contracts:** Solidity (conceptual development)
-
-## 🔍 Data Validation with Zod
-
-| Function | How Zod Works in This DApp |
-|----------|---------------------------|
-| **Define data shapes** | Schemas define exact API requirements: Service Title ≥ 3 characters, Estimated Minutes 15-1440, Donation Minutes ≥ 15, Query Limit ≤ 200 |
-| **Validate API requests** | Automatically checks request bodies against schemas — rejects invalid inputs before any business logic runs |
-| **Validate API responses** | Ensures the backend never returns malformed or unexpected data to the frontend |
-| **Ensure data integrity** | Prevents corrupt transaction data (negative minutes, invalid categories, malformed hashes) from entering the time credit ledger |
-
-## 🧠 AI Techniques Applied
-
-Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time exchanges smarter, fairer, and more efficient. While the ledger ensures transparency and trust, AI adds intelligence to the way communities connect and collaborate.
-
-|Key Application|Description|
-|----------------|-----------|
-|**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credit (TimeCoin) flow where they are most valuable.|
-|**Community Insights**|Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).|
-|**Personalized Recommendations**|AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.|
-|**Trust & Reputation Scoring**|AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.|
-|**Scalability Across Communities**|AI enables interoperability between local timebanks, predicting cross‑community exchanges and fostering global collaboration.|
-
 ## 🔗 Blockchain & Ledger Techniques Applied
 
 **JeffreyWoo TimeBank** leverages a **blockchain‑inspired, hash-chained ledger** architecture inside its PostgreSQL database to ensure trust, transparency, accountability, immutability, and verifiability in time credit (TimeCoin) exchanges — all within a traditional database. This design makes it ideal for community adoption while demonstrating core Web3 principles.
@@ -615,6 +511,110 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 |**Public Verifiability**	|Anyone can audit the full transaction history without permission	|Open-book accounting — stakeholders verify independently|
 |**Trust Without Intermediaries**	|No bank, broker, or central authority needed to validate transactions	|Trustless reconciliation — counterparties don't need to trust each other|
 |**Immutable Audit Trail**	|Complete, unalterable history of every time credit exchange	|Forensic accounting ready — perfect for regulatory review|
+
+## 🧠 AI Techniques Applied
+
+Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time exchanges smarter, fairer, and more efficient. While the ledger ensures transparency and trust, AI adds intelligence to the way communities connect and collaborate.
+
+|Key Application|Description|
+|----------------|-----------|
+|**Skill & Need Matching**|AI analyzes participant profiles, skills, and availability to recommend optimal exchanges — ensuring that time credit (TimeCoin) flow where they are most valuable.|
+|**Community Insights**|Machine learning models detect patterns in service demand and supply, helping communities anticipate needs (e.g., tutoring spikes before exams, caregiving demand during holidays).|
+|**Personalized Recommendations**|AI suggests opportunities for participants based on their past contributions, reputation, and preferences — encouraging ongoing engagement.|
+|**Trust & Reputation Scoring**|AI evaluates contribution history and feedback to generate reputation scores, strengthening accountability and reducing the risk of misuse.|
+|**Scalability Across Communities**|AI enables interoperability between local timebanks, predicting cross‑community exchanges and fostering global collaboration.|
+
+## 🔍 Data Validation with Zod
+
+| Function | How Zod Works in This DApp |
+|----------|---------------------------|
+| **Define data shapes** | Schemas define exact API requirements: Service Title ≥ 3 characters, Estimated Minutes 15-1440, Donation Minutes ≥ 15, Query Limit ≤ 200 |
+| **Validate API requests** | Automatically checks request bodies against schemas — rejects invalid inputs before any business logic runs |
+| **Validate API responses** | Ensures the backend never returns malformed or unexpected data to the frontend |
+| **Ensure data integrity** | Prevents corrupt transaction data (negative minutes, invalid categories, malformed hashes) from entering the time credit ledger |
+
+## 🚀 Why Choose JeffreyWoo TimeBank
+
+Most apps focus on money. **JeffreyWoo TimeBank** focuses on time — the most universal currency.
+It merges AI intelligence with blockchain fairness, creating a new way to exchange value that’s human-centered, transparent, and future-ready.
+
+## ❤️ United Nations (UN) Sustainable Development Goals (SDGs)
+
+The UN Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
+
+One of the major global social development challenges today is the "aging society." JeffreyWoo TimeBank aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
+
+The SDGs were officially adopted by all member states in 2015. The 17 SDGs are linked to five critical areas: People, Planet, Prosperity, Peace, and Partnership.
+
+Among them, the following SDGs are relevant to individuals with disabilities in this project:  
+
+| SDG | UN Link | Focus | Activities |
+|-----|------|-------|------------|
+| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as medical escort support, and peer companionship. |
+| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gathering assistant. |
+| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits. |
+| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
+| SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
+
+## 🤝 Example: Main Community Care Services of Association of Rehabilitation and Mutual Support (ARMS) — SDG Alignment Matrix
+
+| Main Community Care Services | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+|---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
+| Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
+| Peer Companionship | ✓ | | | ✓ | ✓ |
+| Medical Escort Support | ✓ | | | ✓ | ✓ |
+| Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
+| Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
+| Travel Assistance | | | ✓ | ✓ | ✓ |
+| Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
+| Painting Class Assistance | | | ✓ | ✓ | ✓ |
+| Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
+| Art Class Assistance | | | ✓ | ✓ | ✓ |
+| Singing Class Assistance | | | ✓ | ✓ | ✓ |
+| Exercise Class Assistance | | | ✓ | ✓ | ✓ |
+| Gardening Class Assistance | | | ✓ | ✓ | ✓ |
+| IT Class Assistance | | | ✓ | ✓ | ✓ |
+| Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
+| Sharing Sessions | | | ✓ | ✓ | ✓ |
+| Volunteer Training | | | ✓ | ✓ | ✓ |
+| Community Outreach Activities | | | | ✓ | ✓ |
+| Helping Members | | | ✓ | ✓ | ✓ |
+| Helping Patients | | | ✓ | ✓ | ✓ |
+| Rehabilitation Internship | | | | ✓ | ✓ |
+
+## ⭐ Finance Skills Strengthened
+
+|Skill Category	|Specific Skill	|How the DApp Demonstrated It|
+|---------------|---------------|----------------------------|
+|**Financial Systems**	|General Ledger Architecture	|Designed Earn/Spend/Donate/Pool Payout tables — analogous to GL, sub-ledgers, and contra accounts|
+|**Internal Controls**	|Audit Trail Design	|Implemented cryptographic `prevHash` → `entryHash` linkage making tampering immediately detectable|
+|**Tokenomics**	|Digital Asset Economics	|Created time-based token economy with issuance, circulation, donation, and pool payout mechanics (1 hour = 1 TimeCoin)|
+|**FP&A**	|Predictive Forecasting	|Integrated AI demand forecasting to anticipate service needs — directly applicable to rolling forecasts and scenario planning|
+|**Process Automation**	|Workflow Automation	|Automated time credit issuance, transfer, verification, and balance updates — similar to invoice processing or payroll accruals|
+|**Data Integrity**	|Reconciliation Design	|Hash chain ensures altering any transaction breaks all subsequent links — analogous to bank reconciliation and intercompany matching|
+|**Stakeholder Reporting**	|Dashboard Design	|Built live ledger viewer with community impact metrics — equivalent to board-level KPIs and balanced scorecards|
+|**Digital Transformation**	|Process Re-engineering	|Reimagined traditional timebanking with blockchain-inspired + AI layers — showing ability to lead finance tech transformation|
+|**Project Management**	|Cross-Functional Integration	|Project spans React frontend, Node.js backend, Gemini AI, PostgreSQL database — mirroring ERP implementation leadership|
+|**Risk Management**	|Control Design	|Built tamper-evident ledger to prevent fraud without central authority — analogous to designing fraud prevention frameworks|
+|**Change Management**	|Adoption Strategy	|Designed public verifiable ledger to build community trust without mandatory central control — applicable to ERP or new system rollout|
+| **Corporate Governance** | Shareholder Voting & Resolution Tracking | Implemented proposal-vote-execute workflow with hash-chained vote records — analogous to board resolutions, shareholder voting, and audit committee approvals with immutable audit trails |
+|**Smart Contracts (Conceptual Development)**	|Programmable Finance	|Solidity functions (earn/spend/donate/poolPayout) demonstrate understanding of automated treasury and DeFi protocols|
+
+## 🤖 Tech Stack
+
+- **Language:** TypeScript, HTML
+- **Framework:** React
+- **Runtime:** Node.js
+- **Framework:** Express (REST API)
+- **Validation:**	Zod (with drizzle-zod)
+- **Database ORM:**	Drizzle ORM
+- **Database:** PostgreSQL
+- **Cache:** Redis
+- **AI Models:** Gemini API, ChatAnywhere GPT 4o ca
+- **API Codegen:** Orval
+- **UI:** Tailwind CSS + Recharts + Framer Motion
+- **Blockchain:**	Ethereum / Polygon (conceptual development)
+- **Smart Contracts:** Solidity (conceptual development)
 
 ## 🪙 System Architecture Overview — Conceptual Development (with Roadmap Integration)
 <pre lang="markdown">
