@@ -69,58 +69,6 @@ Members offer their skills and community care services — drawing on examples f
 |**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
 |**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
-🗳️ **Community Governance & Voting on Hash-Chain**
-<pre lang="markdown">
-┌─────────────────────────────────────────────────────────────────┐
-│                    COMMUNITY VOTING FLOW                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  STEP 1: PROPOSAL CREATION                                      │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  Any member submits proposal                            │    │
-│  │  → Recorded on hash-chain with entry_hash               │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                              │                                  │
-│                              ▼                                  │
-│  STEP 2: VOTING WINDOW                                          │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  Members cast votes: FOR / AGAINST / ABSTAIN            │    │
-│  │  → Each vote recorded with prev_hash/entry_hash         │    │
-│  │  → Chain ensures no vote can be altered/deleted         │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                              │                                  │
-│                              ▼                                  │
-│  STEP 3: VOTING CLOSES & RESOLUTION                             │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  System tallies votes (FOR > AGAINST? Quorum met?)      │    │
-│  │  → Outcome recorded on hash-chain                       │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                              │                                  │
-│                              ▼                                  │
-│  STEP 4: EXECUTION (IF PASSED)                                  │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  Admin executes passed proposal                         │    │
-│  │  → Execution recorded on hash-chain                     │    │
-│  │  → Full transparency: anyone can audit                  │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘</pre>
-
-| Governance Feature | How It Works |
-|--------------------|--------------|
-| **Proposal Creation** | Any member can submit a proposal (pool payouts, rule changes, dispute resolution, community initiatives) |
-| **Voting Window** | Time-bound voting period (e.g., 7 days) with clear start/end timestamps |
-| **Vote Weighting** | Optional: 1 TimeCoin = 1 vote, or one-member-one-vote |
-| **Tamper-Evident Votes** | Each vote is recorded on the hash-chain with `prevHash`/`entryHash` — altering any vote breaks the chain |
-| **Quorum & Majority** | Configurable thresholds (e.g., 10% quorum, >50% majority to pass) |
-| **Automatic Tallying** | Votes are counted automatically when window closes |
-| **Execution** | Passed proposals are executed by admin (recorded on hash-chain) with full transparency |
-| **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
-
-Members govern **JeffreyWoo TimeBank** collectively through a transparent, hash-chained voting system. All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
-
-**Note:** For a detailed walkthrough of the voting system, see the below *Voting + Resolution Mechanism*.
-
 ♻️ **Flexible Reciprocity**
 
 Exchanges don't need to be one‑to‑one. Members can give help to one person and receive help from another, fostering community collaboration and a continuous cycle of goodwill.
@@ -487,16 +435,65 @@ This flow is unique to your DApp — traditional systems cannot offer this level
 |5	|Display verification status for each record	|Validation result	|✅ Valid chain or ⚠️ Broken chain (tamper detected)|
 |6	|If chain intact, ledger is fully auditable and tamper-evident	|Full verification report	|Confidence in data integrity|
 
-### 3. Governance Voting Flow (Proposal → Vote → Resolution)
+### 3. Governance Voting Flow on Hash-Chain (Proposal → Vote → Resolution)
 
 |Step	|Action	|Component	|Data Output|
 |-----|-------|-----------|-----------|
 |1	|Member creates proposal (e.g., pool payout, rule change)	|React UI → PostgreSQL	|Proposal record with hash-chain entry|
-|2	|Voting window opens (e.g., 7 days)	|Backend scheduler	|Voting active status|
-|3	|Members cast votes (FOR/AGAINST/ABSTAIN)	|React UI → API → PostgreSQL	|Each vote stored with `prevHash`/`entryHash`|
-|4	|Voting window closes; system tallies votes	|PostgreSQL aggregation	|Vote counts, quorum check|
-|5	|Outcome recorded on hash-chain	|`proposals` table update	|`outcome` and `resolved_at` fields|
-|6	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
+|2	|Voting window opens (e.g., 7 days), members cast votes (FOR/AGAINST/ABSTAIN)	| React UI → API → PostgreSQL, with backend scheduler	|Each vote stored with `prevHash`/`entryHash`, with voting active status|
+|3	|Voting window closes; system tallies votes; outcome recorded on hash-chain	|PostgreSQL aggregation, `proposals` table update	|Vote counts, quorum check, `outcome` and `resolved_at` fields|
+|4	|Admin executes passed proposal (if applicable)	|Admin UI → Backend	|Execution recorded in respective table|
+
+<pre lang="markdown">
+┌─────────────────────────────────────────────────────────────────┐
+│                    COMMUNITY VOTING FLOW                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  STEP 1: PROPOSAL CREATION                                      │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Any member submits proposal                            │    │
+│  │  → Recorded on hash-chain with entry_hash               │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 2: VOTING WINDOW                                          │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Members cast votes: FOR / AGAINST / ABSTAIN            │    │
+│  │  → Each vote recorded with prev_hash/entry_hash         │    │
+│  │  → Chain ensures no vote can be altered/deleted         │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 3: VOTING CLOSES & RESOLUTION                             │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  System tallies votes (FOR > AGAINST? Quorum met?)      │    │
+│  │  → Outcome recorded on hash-chain                       │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                              │                                  │
+│                              ▼                                  │
+│  STEP 4: EXECUTION (IF PASSED)                                  │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │  Admin executes passed proposal                         │    │
+│  │  → Execution recorded on hash-chain                     │    │
+│  │  → Full transparency: anyone can audit                  │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘</pre>
+
+| Governance Feature | How It Works |
+|--------------------|--------------|
+| **Proposal Creation** | Any member can submit a proposal (pool payouts, rule changes, dispute resolution, community initiatives) |
+| **Voting Window** | Time-bound voting period (e.g., 7 days) with clear start/end timestamps |
+| **Vote Weighting** | Optional: 1 TimeCoin = 1 vote, or one-member-one-vote |
+| **Tamper-Evident Votes** | Each vote is recorded on the hash-chain with `prevHash`/`entryHash` — altering any vote breaks the chain |
+| **Quorum & Majority** | Configurable thresholds (e.g., 10% quorum, >50% majority to pass) |
+| **Automatic Tallying** | Votes are counted automatically when window closes |
+| **Execution** | Passed proposals are executed by admin (recorded on hash-chain) with full transparency |
+| **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
+
+Members govern **JeffreyWoo TimeBank** collectively through a transparent, hash-chained voting system. All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
+
+**Note:** For a detailed walkthrough of the voting system, see the below *Voting + Resolution Mechanism*.
 
 ## 🔗 Blockchain & Ledger Techniques Applied
 
