@@ -39,35 +39,30 @@ By combining a decentralized, tamper-proof ledger with adaptive AI, **JeffreyWoo
 
 ✨ **What It Does**
 
-**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin). Members earn time credits (TimeCoins) by providing community care services, and spend or donate those credits to receive help or support others.
-
-⏰ **Community Care Service Exchange**
-
-Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
+**JeffreyWoo TimeBank** is built on the principle that everyone’s time has equal value. It transforms community service into a transparent, trust‑based exchange system where time itself becomes the currency (TimeCoin). Members **earn** time credits (TimeCoins) by providing community care services, and **spend** or **donate** those credits to receive help or support others.
 
 🤝	**Four Core Actions**
 
 |Action	|Description|
 |-------|-----------|
-|Earn	|Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the hash-chained ledger.|
-|Spend	|Use earned TimeCoins to request services from other members.|
-|Donate	|Contribute TimeCoins to community pools, charities, or individuals in need.|
-|Pool Payout	|Facilitate payouts from community pools to support vulnerable members.|
+|**Earn**	|Each hour of community care service generates a one-time credit (1 hour = 1 TimeCoin) stored securely in the hash-chained ledger.|
+|**Spend**	|Use earned TimeCoins to request services from other members.|
+|**Donate**	|Contribute TimeCoins to community pools, charities, or individuals in need.|
+|**Pool Payout**	|Facilitate payouts from community pools to support vulnerable members.|
 
-## 🧩 Core Concepts
+📊	**Live Ledger Viewer**
 
-|Concept	| Description|
-|---------|------------|
-|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin) — creating a continuous cycle of giving and receiving, regardless of skill type. Time is the most universal and equitable currency.|
-|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
-|**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
-|**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
-|**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
-| **Community Governance** | Members can submit proposals and cast votes on community decisions (pool payouts, rule changes, dispute resolution). Each vote is recorded on the hash-chain with `prevHash`/`entryHash` linkage — ensuring tamper-evident, publicly verifiable governance without smart contracts. Supports TimeCoin-weighted or one-member-one-vote models. |
-|**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
-|**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
-|**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
-|**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
+Anyone can view all transactions in real-time — see who **earned, spent, or donated** TimeCoins, verify hash chain integrity, and audit community impact transparently. No login required.
+
+💰 **Time Credit Balances & Transaction History**
+
+For time credit management, each member has a personal dashboard "Wallet" showing real-time TimeCoin balance, complete **earn/spend/donate/pool payout** history, and cryptographic transaction receipts including `entryHash` for personal audit verification.
+
+>**Note:** This is a time credit dashboard, not a cryptocurrency wallet. No crypto, gas fees, or private keys required — simply log in with email/password.
+
+⏰ **Community Care Service Exchange**
+
+Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
 
 ♻️ **Flexible Reciprocity**
 
@@ -88,16 +83,6 @@ Intelligently connects users based on skill profiles, availability, service hist
 
 **Note:** For conceptual development (educational vision only), Smart Contracts can be migrated to Ethereum/Polygon. Currently, no public blockchain, gas fees, cryptocurrency wallets, or smart contracts.
 
-📊	**Live Ledger Viewer**
-
-Anyone can view all transactions in real-time — see who earned, spent, or donated TimeCoins, verify hash chain integrity, and audit community impact transparently. No login required.
-
-💰 **Time Credit Balances & Transaction History**
-
-For time credit management, each member has a personal dashboard "Wallet" showing real-time TimeCoin balance, complete earn/spend/donate/pool payout history, and cryptographic transaction receipts including `entryHash` for personal audit verification.
-
->**Note:** This is a time credit dashboard, not a cryptocurrency wallet. No crypto, gas fees, or private keys required — simply log in with email/password.
-
 🔒 **Digital Identity & Trust**
 
 |Aspect	|Current	|Conceptual Development|
@@ -108,6 +93,21 @@ For time credit management, each member has a personal dashboard "Wallet" showin
 🌍 **Local & Global Integration**
 
 Currently supports community exchanges with a focus on Hong Kong's social care needs (aligned with UN SDGs). Conceptual development includes connecting to global timebank networks and enabling cross-community interoperability.
+
+## 🧩 Core Concepts
+
+|Concept	| Description|
+|---------|------------|
+|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin) — creating a continuous cycle of giving and receiving, regardless of skill type. Time is the most universal and equitable currency.|
+|**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
+|**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
+|**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
+|**Cryptographic Integrity**	|Each transaction stores a `prevHash` (hash of the previous transaction) and an entryHash (hash of its own data + `prevHash`). Any alteration to past records breaks the chain, enabling tamper detection without central oversight.|
+| **Community Governance** | Members can submit proposals and cast votes on community decisions (pool payouts, rule changes, dispute resolution). Each vote is recorded on the hash-chain with `prevHash`/`entryHash` linkage — ensuring tamper-evident, publicly verifiable governance without smart contracts. Supports TimeCoin-weighted or one-member-one-vote models. |
+|**Community Analytics**	|Tracks engagement metrics, time credit circulation, service supply/demand patterns, and social impact — with AI-powered insights to help communities optimize resource allocation.|
+|**Personal Time Ledger**	|Each member has a private dashboard "Wallet" showing real-time TimeCoin balance, full earn/spend/donate/pool payout history, and cryptographic transaction hashes — enabling personal financial accountability.|
+|**Decentralized Identity (DID) — Conceptual Development**	|Conceptual integration of verifiable digital identities and reputation scoring to build trust across communities without central authority.|
+|**Smart Contracts — Conceptual Development**	|Conceptual migration to Solidity on Ethereum/Polygon will automate time transactions, enable ERC-20/ERC-721 TimeCoin tokens, and support DAO-based governance for community rules and dispute resolution.|
 
 ## 💡Finance Transformation Impact
 
