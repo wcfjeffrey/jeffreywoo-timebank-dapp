@@ -62,7 +62,7 @@ For time credit management, each member has a personal dashboard "Wallet" showin
 
 ⏰ **Community Care Service Exchange**
 
-Members offer their skills and community care services — drawing on examples from the SDG Alignment Matrix — and record the time spent helping others.
+Members offer their skills and community care services — drawing on examples from the below Sustainable Development Goals (SDG) Alignment Matrix — and record the time spent helping others.
 
 ♻️ **Flexible Reciprocity**
 
@@ -167,7 +167,7 @@ One of the major global social development challenges today is the "aging societ
 |**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women<br>**SDG 1 (No Poverty)** – Fair allocation of community resources|
 |**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers<br>**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
 
-## 🤝 Example: Detailed SDG Alignment Matrix (Hong Kong Community Care Context)
+## 🤝 SDG Alignment Matrix: Hong Kong Community Care Example
 
 The following table maps specific community care services to SDG 1–5, based on the work of **Association of Rehabilitation and Mutual Support (ARMS)** and similar mutual aid organizations.
 
