@@ -31,7 +31,7 @@ Decentralization is achieved through: the cryptographic hash chain itself. No si
 
 AI-driven matching, powered by **Gemini API and GPT-4o**, intelligently connects neighbors by skills and needs, fostering collaboration across generations and professions. The principle is simple yet powerful: **1 hour given = 1 hour earned**.
 
-By combining a decentralized, tamper-proof ledger with adaptive AI, JeffreyWoo TimeBank transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value — creating a transparent record of care that anyone can audit, verify, and trust.
+By combining a decentralized, tamper-proof ledger with adaptive AI, **JeffreyWoo TimeBank** transforms volunteering into a sustainable, equitable ecosystem where time itself becomes the foundation of community value — creating a transparent record of care that anyone can audit, verify, and trust.
 
 ## ⏰ Timebanking System
 
@@ -117,7 +117,7 @@ Members offer their skills and community care services — drawing on examples f
 | **Execution** | Passed proposals are executed by admin (recorded on hash-chain) with full transparency |
 | **Auditability** | Anyone can view all proposals, votes, and outcomes in the live ledger viewer |
 
-Members govern JeffreyWoo TimeBank collectively through a transparent, hash-chained voting system. All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
+Members govern **JeffreyWoo TimeBank** collectively through a transparent, hash-chained voting system. All votes are cryptographically linked, publicly verifiable, and permanently recorded — ensuring trustworthy community governance without requiring smart contracts or gas fees.
 
 **Note:** For a detailed walkthrough of the voting system, see the below *Voting + Resolution Mechanism*.
 
@@ -194,7 +194,19 @@ Currently supports community exchanges with a focus on Hong Kong's social care n
 
 ## 🤝 Social Impact
 
-Aligned with the principles established at the **UN Conference on Sustainable Development (Rio+20)** and the **Sustainable Development Goals (SDGs)** adopted by all UN member states in 2015, this project demonstrates how blockchain-inspired ledger technology can reshape community collaboration and advance the 2030 Agenda for Sustainable Development — with a focused commitment to **SDG 1 through 5**.
+Aligned with the principles established at the **UN Conference on Sustainable Development (Rio+20)** and the **Sustainable Development Goals (SDGs)** adopted by all UN member states in 2015, this project demonstrates how blockchain-inspired ledger technology can reshape community collaboration and advance the 2030 Agenda for Sustainable Development — with a focused commitment to **SDG 1-5** out of the 17 SDGs, linking to 5 critical areas: People, Planet, Prosperity, Peace, and Partnership:  
+
+| SDG | UN Link | Focus | Activities |
+|-----|------|-------|------------|
+| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as medical escort support, and peer companionship. |
+| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gathering assistant. |
+| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits. |
+| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
+| SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
+
+One of the major global social development challenges today is the "aging society." **JeffreyWoo TimeBank** aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
+
+🎯 **How This DApp Delivers on SDG 1–5**
 
 |Impact Area|How This DApp Delivers	|UN SDG Alignment|
 |-----------|-----------------------|----------------|
@@ -206,6 +218,38 @@ Aligned with the principles established at the **UN Conference on Sustainable De
 |**Enabling donations to vulnerable groups**	|Members can donate TimeCoins to community pools, charities, or individuals in need — with blockchain transparency ensuring donations reach intended recipients.	|**SDG 1 (No Poverty)** – Direct support for vulnerable populations<br>**SDG 3 (Good Health & Well-being)** – Care for elderly, disabled, and caregivers|
 |**Empowering democratic governance**	|Community voting on proposals (pool payouts, rule changes, dispute resolution) with hash-chained vote records — giving every member a voice.	|**SDG 5 (Gender Equality)** – Recognizes and values unpaid care work, often performed by women<br>**SDG 1 (No Poverty)** – Fair allocation of community resources|
 |**Supporting caregivers**	|The timebanking model recognizes and rewards unpaid care work, reducing the burden on primary caregivers in disabled individuals' families.	|**SDG 5 (Gender Equality)** – Reduces burden on women as primary caregivers<br>**SDG 3 (Good Health & Well-being)** – Supports caregiver mental health|
+
+## 🤝 Example: Detailed SDG Alignment Matrix (Hong Kong Community Care Context)
+
+The following table maps specific community care services to SDG 1–5, based on the work of **Association of Rehabilitation and Mutual Support (ARMS)** and similar mutual aid organizations.
+
+| Main Community Care Services | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
+|---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
+| Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
+| Peer Companionship | ✓ | | | ✓ | ✓ |
+| Medical Escort Support | ✓ | | | ✓ | ✓ |
+| Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
+| Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
+| Travel Assistance | | | ✓ | ✓ | ✓ |
+| Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
+| Painting Class Assistance | | | ✓ | ✓ | ✓ |
+| Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
+| Art Class Assistance | | | ✓ | ✓ | ✓ |
+| Singing Class Assistance | | | ✓ | ✓ | ✓ |
+| Exercise Class Assistance | | | ✓ | ✓ | ✓ |
+| Gardening Class Assistance | | | ✓ | ✓ | ✓ |
+| IT Class Assistance | | | ✓ | ✓ | ✓ |
+| Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
+| Sharing Sessions | | | ✓ | ✓ | ✓ |
+| Volunteer Training | | | ✓ | ✓ | ✓ |
+| Community Outreach Activities | | | | ✓ | ✓ |
+| Helping Members | | | ✓ | ✓ | ✓ |
+| Helping Patients | | | ✓ | ✓ | ✓ |
+| Rehabilitation Internship | | | | ✓ | ✓ |
+
+📝 **Summary**
+
+This project operationalizes the Rio+20 vision of **"people at the core of sustainable development"** — transforming volunteering into a sustainable, equitable ecosystem where **time itself becomes the foundation of community value**. By combining transparent ledger technology, AI‑driven matching, and democratic governance, **JeffreyWoo TimeBank** creates a transparent record of care that anyone can audit, verify, and trust, while directly advancing measurable SDG targets.
 
 ## 🏗️ System Architecture Overview — Current State
 
@@ -535,50 +579,6 @@ Artificial Intelligence is integrated into **JeffreyWoo TimeBank** to make time 
 
 Most apps focus on money. **JeffreyWoo TimeBank** focuses on time — the most universal currency.
 It merges AI intelligence with blockchain fairness, creating a new way to exchange value that’s human-centered, transparent, and future-ready.
-
-## ❤️ United Nations (UN) Sustainable Development Goals (SDGs)
-
-The UN Conference on Sustainable Development (Rio+20) developed a series of Sustainable Development Goals (SDGs), emphasizing that people are at the core of sustainable development. It is committed to promoting sustainable and inclusive economic growth, social development, and environmental protection for the benefit of all humanity.
-
-One of the major global social development challenges today is the "aging society." JeffreyWoo TimeBank aims to enhance the health and well-being of elderly and disabled individuals, reduce the burden on young caregivers, and support sustainable social development.
-
-The SDGs were officially adopted by all member states in 2015. The 17 SDGs are linked to five critical areas: People, Planet, Prosperity, Peace, and Partnership.
-
-Among them, the following SDGs are relevant to individuals with disabilities in this project:  
-
-| SDG | UN Link | Focus | Activities |
-|-----|------|-------|------------|
-| SDG 1 | <a href="https://sdgs.un.org/goals/goal1"><img src="./assets/JeffreyWooTimeBank17.png" alt="No Poverty" width="100" height="100"></a> | No Poverty | Assist in caring for the health of disabled individuals through activities such as medical escort support, and peer companionship. |
-| SDG 2 | <a href="https://sdgs.un.org/goals/goal2"><img src="./assets/JeffreyWooTimeBank18.png" alt="Zero Hunger" width="100" height="100"></a> | Zero Hunger | Provide daily meals and support for low-income disabled individuals through activities such as caregiver tea gathering assistant. |
-| SDG 3 | <a href="https://sdgs.un.org/goals/goal3"><img src="./assets/JeffreyWooTimeBank19.png" alt="Good Health and Well-being" width="100" height="100"></a> | Good Health and Well-being | Provide physical and mental health care services for disabled individuals through activities such as accompanied medical visits. |
-| SDG 4 | <a href="https://sdgs.un.org/goals/goal4"><img src="./assets/JeffreyWooTimeBank20.png" alt="Quality Education" width="100" height="100"></a> | Quality Education (Lifelong Learning) | Train volunteers in various disability care skills through activities such as sharing sessions, volunteer training, and interest/exercise class assistant. |
-| SDG 5 | <a href="https://sdgs.un.org/goals/goal5"><img src="./assets/JeffreyWooTimeBank21.png" alt="Gender Equality" width="100" height="100"></a> | Gender Equality | Reduce the burden on primary caregivers in disabled individuals' families (often women) and recognize their contributions to caring for disabled family members. |
-
-## 🤝 Example: Main Community Care Services of Association of Rehabilitation and Mutual Support (ARMS) — SDG Alignment Matrix
-
-| Main Community Care Services | SDG 1<br/>No Poverty | SDG 2<br/>Zero Hunger | SDG 3<br/>Good Health and<br/>Well-being | SDG 4<br/>Quality Education<br/>(Lifelong Learning) | SDG 5<br/>Gender Equality |
-|---------------------------------|----------------------|-----------------------|----------------------------------------|--------------------------------------------------------------|---------------------------|
-| Care & Concern Home Visits | | | ✓ | ✓ | ✓ |
-| Peer Companionship | ✓ | | | ✓ | ✓ |
-| Medical Escort Support | ✓ | | | ✓ | ✓ |
-| Accompanied Medical Visits | ✓ | | ✓ | ✓ | ✓ |
-| Caregiver Tea Gathering Assistance| ✓ | ✓ | ✓ | ✓ | ✓ |
-| Travel Assistance | | | ✓ | ✓ | ✓ |
-| Calligraphy Class Assistance | | | ✓ | ✓ | ✓ |
-| Painting Class Assistance | | | ✓ | ✓ | ✓ |
-| Handicraft Class Assistance | | | ✓ | ✓ | ✓ |
-| Art Class Assistance | | | ✓ | ✓ | ✓ |
-| Singing Class Assistance | | | ✓ | ✓ | ✓ |
-| Exercise Class Assistance | | | ✓ | ✓ | ✓ |
-| Gardening Class Assistance | | | ✓ | ✓ | ✓ |
-| IT Class Assistance | | | ✓ | ✓ | ✓ |
-| Wellness Healthy Steps | | | ✓ | ✓ | ✓ |
-| Sharing Sessions | | | ✓ | ✓ | ✓ |
-| Volunteer Training | | | ✓ | ✓ | ✓ |
-| Community Outreach Activities | | | | ✓ | ✓ |
-| Helping Members | | | ✓ | ✓ | ✓ |
-| Helping Patients | | | ✓ | ✓ | ✓ |
-| Rehabilitation Internship | | | | ✓ | ✓ |
 
 ## ⭐ Finance Skills Strengthened
 
