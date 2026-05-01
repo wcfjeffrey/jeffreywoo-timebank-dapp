@@ -54,13 +54,11 @@ Members offer their skills and community care services — drawing on examples f
 |Donate	|Contribute TimeCoins to community pools, charities, or individuals in need.|
 |Pool Payout	|Facilitate payouts from community pools to support vulnerable members.|
 
-> **Core Principle: 1 hour given = 1 hour earned — creating a continuous cycle of giving and receiving.**
-
 ## 🧩 Core Concepts
 
 |Concept	| Description|
 |---------|------------|
-|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin), regardless of skill type. Time is the most universal and equitable currency.|
+|**Time as Currency**	|Every hour of community care service equals one hour of time credit (1 hour = 1 TimeCoin) — creating a continuous cycle of giving and receiving, regardless of skill type. Time is the most universal and equitable currency.|
 |**Hash-Chained Ledger**	|Transactions are cryptographically linked using SHA-256 hashes (`prevHash` → `entryHash`), creating an immutable, tamper-evident chain without requiring a public blockchain. Every record is publicly verifiable.|
 |**AI Skill Matching**	|Leverages Gemini API and GPT-4o to intelligently connect community members based on their skills, availability, service history, and community demand — optimizing time credit circulation.|
 |**Four Transaction Types**	|The ledger supports four core operations: Earn (receive credits for service), Spend (use credits to receive help), Donate (contribute credits to community pools), and Pool Payout (distribute pooled credits to those in need).|
