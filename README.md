@@ -1399,7 +1399,7 @@ This Disclaimer shall be governed by the laws of the **Hong Kong Special Adminis
 
 > **⚠️ COMPREHENSIVE LEGAL DISCLAIMER:** **JeffreyWoo TimeBank** is a conceptual, open-source project for educational purposes only. TimeCoins are service hour records with **no monetary value** — they are NOT currency, NOT investments, NOT securities, and NOT stablecoins. Deployment in Mainland China or Hong Kong carries significant regulatory risks (virtual currency prohibitions, **"Bank"** name restrictions, potential VASP/stablecoin licensing requirements). **The creator assumes NO liability for regulatory violations, fines, or legal consequences.** Users must consult qualified legal counsel before any deployment.
 
-## 📚 Reference Resources
+## 📚 References
 
 1. [Zhang, C., Yu, W., Suo, H., & Chen, G. (2021). Blockchain in the 'Time Bank': Toward a community-oriented public interest technology. IEEE Transactions on Technology and Society.](https://ieeexplore.ieee.org/document/9431189)
 2. [Lin, J.-J., Lee, Y.-T., & Wu, J.-L. (2021). The effect of thickness-based dynamic matching mechanism on a Hyperledger Fabric-based timebank system. Future Internet, *13*(3).](https://www.mdpi.com/1999-5903/13/3/65)
